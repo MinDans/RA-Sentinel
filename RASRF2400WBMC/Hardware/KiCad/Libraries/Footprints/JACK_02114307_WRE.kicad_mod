@@ -1,0 +1,219 @@
+(footprint "JACK_02114307_WRE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "60312202114307 ")
+	(property "Reference" "REF**"
+		(at 5.45 -1.35 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e7c45f8f-6ea9-4bfa-91b9-9289b9a58aff")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "60312202111527"
+		(at 0 5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5a98ae6-7935-476f-910b-ba005a2adba1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fd071f7-f705-4af7-940d-1e78597653a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Conn, WR-MPC3 Power, Male Header, 2-pos, 3.81mm Pitch, SMD, 12A, 250V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3d1ed19-72f8-4f2e-a0b7-ee0947a66df2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Würth Elektronik"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "845c46c8-c34c-45f8-b42b-db24a4968e1e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "60312202111527"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f80b26e-46ea-40df-a832-18f06b1f7899")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(component_classes
+		(class "2nd Stage")
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.778 -4.064)
+		(end -0.762 -4.064)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5617fc2b-e4a1-4139-920f-152d1fbbbbd3")
+	)
+	(fp_line
+		(start 0.762 -4.064)
+		(end 1.778 -4.064)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "77ee5585-2068-4d0e-a9af-1415cab1c2ec")
+	)
+	(fp_rect
+		(start 3.55 -4.2)
+		(end -3.55 4.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8e70288c-e2db-4440-b671-f523bfadc709")
+	)
+	(fp_line
+		(start -4.191 0)
+		(end -0.889 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e2930c9f-8940-472c-9b4c-f2e2d37ddb04")
+	)
+	(fp_line
+		(start 0.762 0)
+		(end 4.064 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "dc4a98c4-8339-4736-9b3f-378555877bc5")
+	)
+	(fp_rect
+		(start -3.175 -3.81)
+		(end 3.175 3.81)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "61f780a1-5e73-4789-94a9-a39cf17739e5")
+	)
+	(fp_text user "PCB END"
+		(at -7.112 0.762 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "175a09ed-9047-42d1-8def-cbc617e75f23")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.05 1.8 180)
+		(layer "F.Fab")
+		(uuid "a5b83076-8352-4a4b-8e7d-077144fb6e76")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -2.05)
+		(size 0.9 4.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.2)
+		(uuid "3d885646-a8a1-4528-bce6-35e5cfe79306")
+	)
+	(pad "2" smd rect
+		(at -2.775 -2.05)
+		(size 1.25 4.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.2)
+		(uuid "b1bbfda8-9142-42f6-b0ce-45075c8127dd")
+	)
+	(pad "3" smd rect
+		(at 2.775 -2.05)
+		(size 1.25 4.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.2)
+		(uuid "621bfecc-751f-4ef7-a204-4ceef57ec60c")
+	)
+	(pad "4" smd rect
+		(at -2.775 -2.05)
+		(size 1.25 4.1)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(solder_mask_margin 0.2)
+		(uuid "6a1bde9f-c1a8-4e82-be6e-43755107f817")
+	)
+	(pad "5" smd rect
+		(at 2.775 -2.05)
+		(size 1.25 4.1)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(solder_mask_margin 0.2)
+		(uuid "7e9757e8-929c-4500-ac7e-54b29f71938c")
+	)
+	(embedded_fonts no)
+	(model "${RASRD2400WMC2}/Download_STP_60312202111527 (rev1).stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 -180)
+		)
+	)
+)

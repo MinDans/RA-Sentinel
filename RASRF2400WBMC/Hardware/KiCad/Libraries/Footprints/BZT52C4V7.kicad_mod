@@ -1,0 +1,332 @@
+(footprint "BZT52C4V7"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "BZT52C4V7-1")
+	(tags "Zener Diode")
+	(property "Reference" "REF**"
+		(at 0 2.15 0)
+		(layer "F.SilkS")
+		(uuid "464ad679-9bf0-408e-9580-7399d670434e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "BZT52C4V7"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6f4344ba-c928-4d1c-91e7-1ecd461cabaa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds18004.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f0af9de-70db-40d1-a981-ee12c6fe6000")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Zener Diode, 4.7V, ±5%, 200mW, SOD-123, T&R"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6f1fbf3-2a99-4f58-8e67-475ca80f61b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "Zener Diodes Zener Diode, SOD-123F, 4.7V, 0.5W, 5%"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43bf9fc9-f263-473f-b421-95378a16cf78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.35"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b9634f5-82c1-4a4a-babf-2741951d51bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "637-BZT52C4V7"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d173097-351c-4b75-a56a-7cfc4c603ef7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diotec-Semiconductor/BZT52C4V7?qs=OlC7AqGiEDnKHszikXcSEg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6c88b3f-65ea-414c-bd41-fa3e00e44eaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Diotec"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48ccb7b2-88a4-425a-bfec-0a844c7f2eae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "BZT52C4V7"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34b32021-101a-404f-a4da-633504618f90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.600001 0)
+		(end -2.600001 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "043dd7ce-8a93-42f8-afad-12c0689585b7")
+	)
+	(fp_line
+		(start -2.600001 0)
+		(end -2.600001 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61a3a7b8-6bef-44fb-a525-06443252b82e")
+	)
+	(fp_line
+		(start -2.5 0)
+		(end -2.5 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f082276-9476-4448-b25d-a37565af9e20")
+	)
+	(fp_line
+		(start -1.325 -0.775)
+		(end 1.325 -0.775)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ebb65ed0-3536-440a-a586-07a8ab328940")
+	)
+	(fp_line
+		(start -1.325 0.775)
+		(end 1.325 0.775)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "42dac811-6677-4f15-85f5-5dca254affb0")
+	)
+	(fp_arc
+		(start -2.600001 0)
+		(mid -2.55 -0.05)
+		(end -2.5 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d35f68a-05a5-4cbe-a6cf-4de33c26ac67")
+	)
+	(fp_arc
+		(start -2.5 0)
+		(mid -2.55 0.05)
+		(end -2.600001 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "666a99f7-7484-482c-9ca8-48441156f450")
+	)
+	(fp_arc
+		(start -2.5 0)
+		(mid -2.55 0.05)
+		(end -2.600001 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0d9f85e-590e-4b8f-a70c-a31fe2d8d1ab")
+	)
+	(fp_line
+		(start -3.025 -1.775001)
+		(end 3.025 -1.775001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ebcac0b8-621b-40cf-a7fb-de9716a6e79d")
+	)
+	(fp_line
+		(start -3.025 1.775001)
+		(end -3.025 -1.775001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a1da46e5-a823-4d3f-bf02-53b281418e26")
+	)
+	(fp_line
+		(start 3.025 -1.775001)
+		(end 3.025 1.775001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "93720244-5fd6-408b-b162-b815e0310720")
+	)
+	(fp_line
+		(start 3.025 1.775001)
+		(end -3.025 1.775001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d13c98e4-ad01-4154-a109-51d93302578e")
+	)
+	(fp_line
+		(start -1.325 -0.775)
+		(end -1.325 0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "670b18db-7f48-4f2c-8d5d-f57f5485b5bb")
+	)
+	(fp_line
+		(start -1.325 0.775)
+		(end 1.325 0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5798728d-282b-4065-9dab-93dcebff04cc")
+	)
+	(fp_line
+		(start 1.325 -0.775)
+		(end -1.325 -0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "866ab80c-6e34-4ecf-b106-ba99f086fbed")
+	)
+	(fp_line
+		(start 1.325 0.775)
+		(end 1.325 -0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b85bab8-51f6-4db3-b67a-6a74cf217819")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "571d62e7-4327-4052-82e6-8180f2b2e364")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.575 0)
+		(size 0.9 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b9f3c8b2-fc46-4e04-9baa-fbfd99c208c3")
+	)
+	(pad "2" smd rect
+		(at 1.575 0)
+		(size 0.9 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f12d43d3-071e-408b-9a5f-42bee768a326")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/LIB_BZT52C4V7/BZT52C4V7/3D/BZT52C4V7.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

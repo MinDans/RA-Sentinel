@@ -1,0 +1,240 @@
+(footprint "CONSMA001SMDGT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CONSMA001-SMD-G-T-2")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 3.75 6.45 0)
+		(layer "F.SilkS")
+		(uuid "8c552c4a-d5fd-4cab-aa95-3e499561da72")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CONSMA001SMDGT"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bcd6cabc-0363-4bcd-b7f6-5fc3bc5649da")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00aea627-89e4-4fda-914f-1925e904a7ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ecb18c4f-2dd8-4d27-ad28-a81299d13ab4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.5 0)
+		(end -4.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74751263-ecb2-4a61-9f9c-463aae1e89cb")
+	)
+	(fp_line
+		(start -4.4 0)
+		(end -4.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27c96bbb-9b0c-4ea4-85ad-4158070dc2a5")
+	)
+	(fp_line
+		(start -1 -3.5)
+		(end 1 -3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4bb936e-b810-4b01-a754-a87ca6015c19")
+	)
+	(fp_line
+		(start -1 3.5)
+		(end 1 3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3379990-a282-4063-a197-aa9d4a634784")
+	)
+	(fp_arc
+		(start -4.5 0)
+		(mid -4.45 -0.05)
+		(end -4.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0fc3dce2-9235-4b16-b383-921388222241")
+	)
+	(fp_arc
+		(start -4.4 0)
+		(mid -4.45 0.05)
+		(end -4.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e183eba-195b-4335-a9cb-b09e5f6f7543")
+	)
+	(fp_line
+		(start -4.88 -4.88)
+		(end 4.88 -4.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b9183ee-39d5-4282-a96c-b130ff4b389f")
+	)
+	(fp_line
+		(start -4.88 4.88)
+		(end -4.88 -4.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eb8340aa-7b46-44ff-b8b0-b421f472fbf2")
+	)
+	(fp_line
+		(start 4.88 -4.88)
+		(end 4.88 4.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d6b4184a-aef7-4ecf-9f04-cc1f39c97f33")
+	)
+	(fp_line
+		(start 4.88 4.88)
+		(end -4.88 4.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5ea7fddc-1e7d-4620-aed7-504b128a8774")
+	)
+	(fp_line
+		(start -3.5 -3.5)
+		(end 3.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc9a2daf-3644-43ad-b24f-c03f93da5537")
+	)
+	(fp_line
+		(start -3.5 3.5)
+		(end -3.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b9e5c33f-d6a2-432b-a2af-bc25d6c3ce3c")
+	)
+	(fp_line
+		(start 3.5 -3.5)
+		(end 3.5 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "24a62319-e0f5-406b-947a-0e9b2ea3fd49")
+	)
+	(fp_line
+		(start 3.5 3.5)
+		(end -3.5 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7cc6b680-2dc3-44d3-8fed-d3a78c560a27")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "dc31478b-1f39-426b-9287-0d7f6a101d65")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2.05 2.05)
+		(drill 2.05)
+		(layers "*.Cu" "*.Mask")
+		(uuid "fbbef13c-1e3a-4a58-a745-96541e063b51")
+	)
+	(pad "1" smd rect
+		(at -2.66 0)
+		(size 2.44 7.76)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "367337f9-5236-4f3e-bf03-41ada423982d")
+	)
+	(pad "2" smd rect
+		(at 2.66 0)
+		(size 2.44 7.76)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "75fcdaab-1d49-468a-bc8c-d9e0c5ccddff")
+	)
+	(embedded_fonts no)
+	(model "CONSMA001-SMD-G-T.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
