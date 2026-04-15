@@ -93,5 +93,5 @@ This project was funded through the **NGI0 Commons Fund**, a fund established by
 
 ## Project Maintainer
 
-**MinDans** - in collaboration with Tobias-DG3YEV
+**Mina Daneshpajouh** - in collaboration with Tobias Weber
 
