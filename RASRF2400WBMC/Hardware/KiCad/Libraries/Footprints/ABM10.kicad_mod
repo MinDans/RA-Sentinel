@@ -1,0 +1,261 @@
+(footprint "ABM10"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ABM10")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "REF**"
+		(at 1.18 3.5 0)
+		(layer "F.SilkS")
+		(uuid "b8b7fb0c-9c66-4b97-bbdc-aa80ac37af58")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ABM10-166-12.000MHZ-T3"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "66598594-3af3-4791-80a7-84c57247748b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://abracon.com/Resonators/ABM10.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6576fc0a-e4a0-4e6e-bb14-d748caa59ca4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Crystal, 12MHz, 8pF, ±10ppm, 125Ω ESR, SMD 2.5x2.0mm, T&R"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d08f6eee-e659-485c-9195-102dd90a1eb1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.7"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddffb0ed-002c-457a-82c5-4c7124868491")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "815-ABM10-166-12T"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ffc6871e-4cc6-4473-b5b8-d88448ad28b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ABM10-166-12000MHZ-T3?qs=AZxAKFb3YN%252BAX9KW5C28Tw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38b177ff-e024-486d-b7bf-e27116ce1df6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Abracon"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d23dde4-c6a6-4878-a222-22a1e6a68b78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "ABM10-166-12.000MHZ-T3"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2578ecf2-e302-4604-b95f-d73a252dec5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.825 1.4)
+		(end -0.825 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "098d6bb1-d335-4f49-9d68-dc4db91cfbae")
+	)
+	(fp_line
+		(start -0.825 1.5)
+		(end -0.825 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27ecda5a-f98b-4f1a-ab45-5b9ac6913dca")
+	)
+	(fp_arc
+		(start -0.825 1.4)
+		(mid -0.775 1.45)
+		(end -0.825 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70b14c73-a662-45d0-ae61-3796632c1f03")
+	)
+	(fp_arc
+		(start -0.825 1.5)
+		(mid -0.875 1.45)
+		(end -0.825 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "90de9584-e0db-4472-8ec4-a31535bbf4f2")
+	)
+	(fp_rect
+		(start -1.3 -1.05)
+		(end 1.3 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a6ff6b60-3f70-41bc-bc68-75e126b7c268")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d9346de0-0546-45b1-8de3-28466fc49d3e")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end -1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "299dbb32-9429-4bce-99c2-2f38efbdc816")
+	)
+	(fp_line
+		(start 1.25 -1)
+		(end 1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f7bb5141-784e-423b-9a10-f1dfb4fbffd7")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end -1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d3a30d9-252d-459f-a0d0-70c21d46d89b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "dc206b74-7c81-4db1-ae58-715d56e711f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.825 0.625 90)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8d1834a4-10f2-4947-b72e-23716fb49a1d")
+	)
+	(pad "2" smd rect
+		(at 0.825 0.625 90)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c76b325c-19b4-48fb-b42d-cf6624fd945f")
+	)
+	(pad "3" smd rect
+		(at 0.825 -0.625 90)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "efbb257e-efc9-4708-b1bb-83627f02d41a")
+	)
+	(pad "4" smd rect
+		(at -0.825 -0.625 90)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d1f5e3ea-88aa-419e-943a-c46ed163acf8")
+	)
+	(embedded_fonts no)
+	(model "ABM10-166-12.000MHZ-T3.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

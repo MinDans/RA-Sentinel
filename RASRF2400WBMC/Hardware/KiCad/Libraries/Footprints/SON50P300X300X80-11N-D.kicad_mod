@@ -1,0 +1,324 @@
+(footprint "SON50P300X300X80-11N-D"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ADP7156ACPZ-3.0-R7")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 1.05 2.95 0)
+		(layer "F.SilkS")
+		(uuid "6ed6bb6d-e5ca-46aa-926a-8cf873d52442")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ADP7156ACPZ-3.0-R7"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cff0dee9-a7b2-4d66-99f2-fd542eaf5066")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.analog.com/ADP7156/datasheet"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9fd0b6d9-b310-4e51-a452-9f605a4e9d07")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "1.2 A, Ultralow Noise, High PSRR, Fixed Output, RF Linear Regulator"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e4ce1d5-a126-4e87-bda1-71e1d01db5ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "1.2 A, Ultralow Noise, High PSRR, Fixed Output, RF Linear Regulator"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e53b838-bf75-4fd2-9d3f-add16462e50b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9511376b-0c17-421c-98df-c177b9c7740c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "584-ADP7156ACPZ3.0R7"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec171bc5-5115-4a31-89fe-906a8e971d6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADP7156ACPZ-3.0-R7?qs=JeIcUl65ClBScQT6%2FKEVbA%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3a0a7c8-5fe6-4262-ade5-159104ff1abf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Analog Devices"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9ecf225-867f-472e-b647-8c686021197f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "ADP7156ACPZ-3.0-R7"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5af26c01-07f9-4841-9d7f-554a44059476")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.85 -1.65)
+		(end -1.85 -1.525)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "223eff72-032f-45c4-81b2-080dc3db5529")
+	)
+	(fp_line
+		(start -2.125 -1.8)
+		(end 2.125 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fdfa1c62-31c9-40a4-9d7f-2ebd0f62cd61")
+	)
+	(fp_line
+		(start -2.125 1.8)
+		(end -2.125 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ad5c0699-18ab-4f46-8335-9d85d7d4830e")
+	)
+	(fp_line
+		(start 2.125 -1.8)
+		(end 2.125 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f0dc1ba4-ea75-4f3a-8dab-7a7f40e17843")
+	)
+	(fp_line
+		(start 2.125 1.8)
+		(end -2.125 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2cf5cf55-febd-4a9b-bb7a-45d0765a0df7")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c787405f-fd46-4577-9506-2d5870ebfd2b")
+	)
+	(fp_line
+		(start -1.5 -0.75)
+		(end -0.75 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "28c51e6e-7298-47aa-95b6-402e31b435e3")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0711e261-cb2c-4a3e-b2c9-33b7086ada2b")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cbeb6881-8f2e-4ca2-9bee-fa0d49ed429e")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0c67272c-ecac-4abd-99bd-c8c53595e487")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "78b048b1-38ea-4831-b884-083150657f8f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.45 -1 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f175d9b3-e340-40b3-9ad2-ef7e206a6476")
+	)
+	(pad "2" smd rect
+		(at -1.45 -0.5 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "63d4c2ce-5e85-42bf-8717-0f55a42962b5")
+	)
+	(pad "3" smd rect
+		(at -1.45 0 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fe4c1de4-76c6-4f66-b0dd-e089d8b3098e")
+	)
+	(pad "4" smd rect
+		(at -1.45 0.5 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e4754d05-9531-44a6-bc36-c7a937e2ff78")
+	)
+	(pad "5" smd rect
+		(at -1.45 1 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "71afe59f-7e4c-43b1-9bfc-0173cb2d6033")
+	)
+	(pad "6" smd rect
+		(at 1.45 1 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f307089a-902f-428e-b6bf-0f7d319f4077")
+	)
+	(pad "7" smd rect
+		(at 1.45 0.5 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f70725f2-0e0b-4918-bfd4-8f5c61eb62e9")
+	)
+	(pad "8" smd rect
+		(at 1.45 0 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "514b20b2-1278-492e-91a1-66dc7f30aec0")
+	)
+	(pad "9" smd rect
+		(at 1.45 -0.5 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "476193e2-3686-47d0-be8a-9618c148c045")
+	)
+	(pad "10" smd rect
+		(at 1.45 -1 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "da2d206e-ff1c-43da-b4f4-830aa9968d75")
+	)
+	(pad "11" smd rect
+		(at 0 0)
+		(size 1.74 2.48)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c7831541-7923-4254-b6a5-be2d3b32407d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/LIB_ADP7156ACPZ-3.0-R7/ADP7156ACPZ-3.0-R7/3D/ADP7156ACPZ-3.0-R7.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

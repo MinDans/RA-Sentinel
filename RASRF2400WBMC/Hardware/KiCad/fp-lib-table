@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Libraries")(type "KiCad")(uri "C:/Users/minad/HW-Designs/RA-Sentinel_Front-End_EVM/RASRF2400WBMC/Libraries.pretty")(options "")(descr ""))
+  (lib (name "RASRF2400WBMC-FPs")(type "KiCad")(uri "${KICAD_RASRF2400WBMC}/RASRF2400WBMC-FPs.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,252 @@
+(footprint "RSV0016A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "SN74AXC4T774RSVR ")
+	(property "Reference" "REF**"
+		(at 0.1 2.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a246bce3-bb78-4266-a3cc-97d51729f67b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SN74AXC4T774RSVR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "03890b7a-3e08-4ed8-b026-12c335e7a110")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "SN74AXC4T774RSVR"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b952fc3c-8199-4a7d-9aa3-da1b0e511256")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "IC, Level Shifter, 4-bit Dual-Supply Bus Transceiver, Bidirectional, Independent Dir Control, Tri-State, 16-UQFN (1.8x2.6mm), T&R"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43438686-4bae-4ec8-8ebf-f7e4ee86ee81")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4a5b0ce-c77a-4771-abbe-830bfddd1777")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "SN74AXC4T774RSVR"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "967afee4-ca2a-4487-8010-2a826c405922")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.074999 -0.950001)
+		(end -1.074999 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7bb9209b-ab3d-4bb4-9fca-33893996d037")
+	)
+	(fp_line
+		(start -0.924999 -1.325001)
+		(end 0.924999 -1.325001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "83246e89-7a22-407c-858b-b395675dafbd")
+	)
+	(fp_line
+		(start -0.924999 1.324999)
+		(end -0.924999 -1.325001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "18bddc0a-3c12-4ac2-843e-43bca78a2a89")
+	)
+	(fp_line
+		(start -0.924999 1.324999)
+		(end 0.924999 1.324999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "13278331-2bd1-4334-991e-ae063af456d3")
+	)
+	(fp_line
+		(start 0.924999 1.324999)
+		(end 0.924999 -1.325001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c7dfeac-b960-44e2-ae7a-47201fc1a1cb")
+	)
+	(fp_circle
+		(center -0.549999 -0.599999)
+		(end -0.349999 -0.599999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0c554b6a-1ed5-4324-94b4-9a7777017198")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "039d740b-4715-4074-b2f0-dd359ccc5ca9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.750001 -0.600001 90)
+		(size 0.2 0.700001)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "46af4b23-64c8-41c8-a9a8-d3e2319f04f6")
+	)
+	(pad "2" smd rect
+		(at -0.800001 -0.200002 90)
+		(size 0.2 0.599999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0a8c087e-f712-4453-8b11-f33876f842ff")
+	)
+	(pad "3" smd rect
+		(at -0.800001 0.2 90)
+		(size 0.2 0.599999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e6457289-dd64-4207-b81e-4a5a394c4dfa")
+	)
+	(pad "4" smd rect
+		(at -0.800001 0.599999 90)
+		(size 0.2 0.599999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "640e3650-634d-4e20-8ef2-9e26908e179d")
+	)
+	(pad "5" smd rect
+		(at -0.599999 1.2)
+		(size 0.2 0.599999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "609974ba-8428-4a56-ad5d-6e69b8922221")
+	)
+	(pad "6" smd rect
+		(at -0.2 1.2)
+		(size 0.2 0.599999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cee58e57-6238-489b-8ac6-410e5897c363")
+	)
+	(pad "7" smd rect
+		(at 0.2 1.2)
+		(size 0.2 0.599999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6bd9489c-cc7b-4f3e-9b59-801eea39e347")
+	)
+	(pad "8" smd rect
+		(at 0.600001 1.2)
+		(size 0.2 0.599999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e6b4dae2-e620-4196-9019-c6dec8c93ae6")
+	)
+	(pad "9" smd rect
+		(at 0.800001 0.599999 90)
+		(size 0.2 0.599999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8bc3f11c-1909-46f7-a384-fbfc6575e02e")
+	)
+	(pad "10" smd rect
+		(at 0.800001 0.2 90)
+		(size 0.2 0.599999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "50ddb1bc-f650-46e8-8d4a-90c175dc5f81")
+	)
+	(pad "11" smd rect
+		(at 0.800001 -0.200002 90)
+		(size 0.2 0.599999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7745b23c-c45d-4b3e-afa9-b5b08de9ba5d")
+	)
+	(pad "12" smd rect
+		(at 0.800001 -0.600001 90)
+		(size 0.2 0.599999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8d7370a3-3bb7-4196-9038-4c945a9505c2")
+	)
+	(pad "13" smd rect
+		(at 0.600001 -1.2)
+		(size 0.2 0.599999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a087e15a-3c7d-4aab-9f30-70be56022141")
+	)
+	(pad "14" smd rect
+		(at 0.2 -1.2)
+		(size 0.2 0.599999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9e900458-450b-4e36-a584-6ed8d1ea025b")
+	)
+	(pad "15" smd rect
+		(at -0.2 -1.2)
+		(size 0.2 0.599999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8d9b8d9b-6643-432d-aac5-ccb647088e86")
+	)
+	(pad "16" smd rect
+		(at -0.599999 -1.2)
+		(size 0.2 0.599999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "babd4fb8-4f63-4707-ab1d-27d178e1be1f")
+	)
+	(embedded_fonts no)
+)

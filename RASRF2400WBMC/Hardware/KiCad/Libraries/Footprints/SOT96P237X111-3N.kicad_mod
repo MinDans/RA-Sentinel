@@ -1,0 +1,276 @@
+(footprint "SOT96P237X111-3N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOT−23 (TO−236)++")
+	(tags "Transistor BJT NPN")
+	(property "Reference" "REF**"
+		(at -3 -0.6 270)
+		(layer "F.SilkS")
+		(uuid "fe11f082-371c-4884-895e-0806c975ea92")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MMBT3904LT1G"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "12900b8c-713e-4a68-a1b1-078780ba3947")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBT3904LT1-D.PDF"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba583d67-5510-4f5b-8852-4df411ade826")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "These Devices are Pb-Free, Halogen Free/BFR Free and are RoHS Compliant; S Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AEC-Q101 Qualified and PPAP Capable"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26df61d4-5c85-4a70-a941-4e01f5050853")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "These Devices are Pb-Free, Halogen Free/BFR Free and are RoHS Compliant; S Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AEC-Q101 Qualified and PPAP Capable"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6f9d5e3-2227-4c78-a700-e2ade1b1b53c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.11"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97050d67-806a-426a-99a8-3c11adf58203")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "863-MMBT3904LT1G"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72b41056-1946-44cb-860d-ee69b2ca3496")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MMBT3904LT1G?qs=HVbQlW5zcXUYZ2Fy0YF3FQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c2bdcea-5174-4f50-bf7a-1bcb2c57720d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Onsemi"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ac658bc-8509-402c-89bd-5d231530b83b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "MMBT3904LT1G"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2738ec8d-fdf3-43f8-854a-785d30ccfc32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.5 -1.65)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "13994d0f-6487-43a5-8e34-16cd12508ec6")
+	)
+	(fp_line
+		(start -1.925 -1.77)
+		(end 1.925 -1.77)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0cecee54-4737-4527-b219-cb18ceb57d4c")
+	)
+	(fp_line
+		(start -1.925 1.77)
+		(end -1.925 -1.77)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b228c7a1-3c5f-43fa-8cc0-96eb7aabae6e")
+	)
+	(fp_line
+		(start 1.925 -1.77)
+		(end 1.925 1.77)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4d378e12-e647-47ec-84cd-0d21acac28dd")
+	)
+	(fp_line
+		(start 1.925 1.77)
+		(end -1.925 1.77)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b611219-04c1-49f4-b844-0df06a64037f")
+	)
+	(fp_line
+		(start -0.65 -1.46)
+		(end 0.65 -1.46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1f14d6ce-04dd-456f-83b8-c06da281f914")
+	)
+	(fp_line
+		(start -0.65 -0.505)
+		(end 0.305 -1.46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "253e98f4-6cce-439d-945e-42826e6f1904")
+	)
+	(fp_line
+		(start -0.65 1.46)
+		(end -0.65 -1.46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e733e2e-e5a9-48bc-865e-b4ffb437dd1d")
+	)
+	(fp_line
+		(start 0.65 -1.46)
+		(end 0.65 1.46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "004b298d-e1bc-4a29-99f1-8837b3377e74")
+	)
+	(fp_line
+		(start 0.65 1.46)
+		(end -0.65 1.46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "98f3308d-7e20-4886-86ce-265ae0fa7ef3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.075 3.7 0)
+		(layer "F.Fab")
+		(uuid "3e9a2b62-264f-4f5a-847e-32812a030fa8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.05 -0.955 90)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "77d64518-39ca-4c4d-b05a-87ece97f3653")
+	)
+	(pad "2" smd rect
+		(at -1.05 0.955 90)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f68eff15-13d8-4f29-a482-4be96664b114")
+	)
+	(pad "3" smd rect
+		(at 1.05 0 90)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9bea914d-6b19-4790-af26-9856a07fb6a3")
+	)
+	(embedded_fonts no)
+	(model "MMBT3904LT1G.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

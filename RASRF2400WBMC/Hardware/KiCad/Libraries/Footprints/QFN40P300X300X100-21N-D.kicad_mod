@@ -1,0 +1,384 @@
+(footprint "QFN40P300X300X100-21N-D"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "20-pin VFQFPN *-1")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0.3 3.65 0)
+		(layer "F.SilkS")
+		(uuid "27fc3222-c443-47d1-9420-395e5f2305fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "5PB1206NDGK8"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "eec04f81-5d42-4eb4-9338-5bbe221467d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/5PB1206NDGK8.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e63cdd09-2188-4a00-9a7d-bbdbee741e66")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "IC, Clock Buffer, 1:6 TCXO/LVCMOS, 1.8V, 200MHz, Individual OE, 20-VFQFPN, T&R"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef80749a-2561-4af7-94ed-5d2199ebacec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "The 5PB1206is a high-performance TCXO / LVCMOS clock fanout bufferwith individual OE pin for each output. The CLKIN pin can accept either a square wave (LVCMOS) or clipped sine wave (such as TCXO clipped sine wave output) as input.The 5PB1206has industry-leading low jitter and extremely low current consumption, making it ideal for smart mobile devices."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fbaffc3-6dcd-4b2e-992a-1fce673d8b1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7231e855-8c41-44ef-bad7-74fddcdcc53a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "972-5PB1206NDGK8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f6fdad8-3667-4e72-933b-635a4e70b6d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=972-5PB1206NDGK8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "873f07eb-ed3a-4480-b5b8-e60a7f20fc5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Renesas Electronics"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0638127-82a3-43ab-a1c7-b7b14fc34dcb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "5PB1206NDGK8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1784df5-4611-4cc2-b7c7-954617662358")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.9 -1.4)
+		(end -1.9 -1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4477b4d9-c1f3-4828-887f-6137989d96a6")
+	)
+	(fp_line
+		(start -2.125 -2.125)
+		(end 2.125 -2.125)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "adfb7080-888b-4fb1-aa2f-681b5533fb84")
+	)
+	(fp_line
+		(start -2.125 2.125)
+		(end -2.125 -2.125)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a06d661d-d81c-4421-9270-cb5688069338")
+	)
+	(fp_line
+		(start 2.125 -2.125)
+		(end 2.125 2.125)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "608cbfa8-eb92-4b32-8b0c-541a1e48992b")
+	)
+	(fp_line
+		(start 2.125 2.125)
+		(end -2.125 2.125)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c311f2ae-23e7-4e63-98b0-e1a9f0c83a03")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a5bf21cd-258c-43c5-95cf-a76894e785ea")
+	)
+	(fp_line
+		(start -1.5 -1.1)
+		(end -1.1 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "400f8031-d395-4512-b0c3-02c0dad67172")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16f3461c-9776-4adc-b831-205402737b1b")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1e2d48ef-d500-42b6-b172-0111f839aa9e")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "871c7fa9-d45a-48dd-8d23-fce6b9e1ca55")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ac3bda72-68da-4920-a368-316a33ff916a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 -0.8 90)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e900b33e-68b4-472f-9abc-ad3543fadf91")
+	)
+	(pad "2" smd rect
+		(at -1.5 -0.4 90)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "093ec48c-7b7a-43b6-9534-ccdd8fe46acf")
+	)
+	(pad "3" smd rect
+		(at -1.5 0 90)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1d4b8ecb-340e-4e6e-a1f5-29a03c4621c8")
+	)
+	(pad "4" smd rect
+		(at -1.5 0.4 90)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cb944792-c983-43c3-89a1-301b2e22dda2")
+	)
+	(pad "5" smd rect
+		(at -1.5 0.8 90)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c61dcb78-56be-4ae8-909e-345b94d4108d")
+	)
+	(pad "6" smd rect
+		(at -0.8 1.5)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "96db82d0-4ac7-49bc-99d8-82e6935b020c")
+	)
+	(pad "7" smd rect
+		(at -0.4 1.5)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5f4a2159-2e37-407d-b924-f5b4c96e7ad1")
+	)
+	(pad "8" smd rect
+		(at 0 1.5)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "66158aaa-a7a9-400d-9908-2b25439bc643")
+	)
+	(pad "9" smd rect
+		(at 0.4 1.5)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "53ecc051-8638-42db-bc17-a6746da7872c")
+	)
+	(pad "10" smd rect
+		(at 0.8 1.5)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "291c42ac-ed2f-420e-99fc-bc97856959d2")
+	)
+	(pad "11" smd rect
+		(at 1.5 0.8 90)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "54a76e38-79ee-40e6-a3df-b0e98a65e4eb")
+	)
+	(pad "12" smd rect
+		(at 1.5 0.4 90)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1d770765-0138-4ce8-beac-3af7703c0d62")
+	)
+	(pad "13" smd rect
+		(at 1.5 0 90)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8dbc6789-e7d0-4169-a478-5e0e47ce40be")
+	)
+	(pad "14" smd rect
+		(at 1.5 -0.4 90)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e38c699e-1821-4ab3-946b-59fef91166f5")
+	)
+	(pad "15" smd rect
+		(at 1.5 -0.8 90)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "79c32c48-4e6b-4bd6-9a17-de44e9629de3")
+	)
+	(pad "16" smd rect
+		(at 0.8 -1.5)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "580338b2-dcc8-47d4-a633-f3c92fbb9652")
+	)
+	(pad "17" smd rect
+		(at 0.4 -1.5)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7fdd69eb-6cca-42c0-9380-80716046eb98")
+	)
+	(pad "18" smd rect
+		(at 0 -1.5)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c84f5866-d905-40b4-b852-5895f7b4bdee")
+	)
+	(pad "19" smd rect
+		(at -0.4 -1.5)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b0cbd30c-b8d4-45bc-a936-627b99d17e6f")
+	)
+	(pad "20" smd rect
+		(at -0.8 -1.5)
+		(size 0.2 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "42fb91dc-b22f-468c-9d83-14e4f7ee0ced")
+	)
+	(pad "21" smd rect
+		(at 0 0)
+		(size 1.75 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ca7cf140-c7d1-4028-aec2-4cc698cf7c49")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Libraries/LIB_5PB1206NDGK8/5PB1206NDGK8/3D/5PB1206NDGK8.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
