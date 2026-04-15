@@ -6,9 +6,9 @@
 
 ## 1. Motivation and Design Goals
 
-The single-channel RASRF_2400WB board can detect the presence a WiFi attack (e.g. jamming, spoofing), but cannot determine where the attacker is physically located. In dense environments - offices, apartment buildings, public venues - this limits the usefulness of the detection: an alert without a direction is difficult to act on.
+The single-channel RASRF2400WB board can detect the presence a WiFi attack (e.g. jamming, spoofing), but cannot determine where the attacker is physically located. In dense environments - offices, apartment buildings, public venues - this limits the usefulness of the detection: an alert without a direction is difficult to act on.
 
-The RASRF_2400_Directional adds a spatial dimension to RA-Sentinel's detection capability by implementing a 4-element antenna array with phase-coherent reception. From the phase differences measured across channels, the RASBB FPGA can compute the Angle of Arrival (AoA) of any detected transmission.
+The RASRF2400WBMC adds a spatial dimension to RA-Sentinel's detection capability by implementing a 4-element antenna array with phase-coherent reception. From the phase differences measured across channels, the RASBB FPGA can compute the Angle of Arrival (AoA) of any detected transmission.
 
 ---
 
@@ -55,6 +55,7 @@ The RASRF_2400_Directional PCB will use a **6-layer stack-up**:
 |-------|------------------------------|
 | Top   | RF and signal routing        |
 | L2    | Ground plane                 |
-| L3    | Power plane/signal Routing   |
-| L4    | Power plane/signal Routing   |
+| L3    | Power plane/signal routing   |
+| L4    | Power plane/signal routing   |
 | L5    | Ground plane                 |
+| L6    | Signal routing               |
