@@ -31,7 +31,7 @@ Testing and bringing up is now ongoing. First results and findings can be found 
 
 ### Design files
 
-**/RFFE2400_PCB** in this folder of this repository you find the PCB design files in KiCAD format and gerbers for the 2.4GHz 2x PMOD connected RF frontend evaluation/test board.
+**/RFFE2400WB** in this folder of this repository you find the PCB design files in KiCAD format and gerbers for the 2.4GHz 2x PMOD connected RF frontend evaluation/test board.
 
 Link to the FPGA dev. board
 [https://de.aliexpress.com/item/1005006473783593.html]
@@ -60,9 +60,8 @@ A suspected WiFi node can be
 To ease the installation process, the RAS can be connected to any ethernet based LAN that provides an IPv4 DHCP server. Through the UPNP support, the RAS is easy to find in any network browser of Windows, Linux and Mac etc. 
 ![UPNP Screenshot](https://github.com/Tobias-DG3YEV/RA-Sentinel/blob/main/Images/UPNP.png?raw=true)
 
-<<<<<<< HEAD
-=======
-## Sub project: RASRF2400WBMC — Directional RF Front End
+---
+## Sub project: RASRF2400WBMC - Directional RF Front End
 
 The **RASRF2400WBMC** is a 4-channel, phase-coherent 2.4 GHz RF front-end board that extends RA-Sentinel with **Angle of Arrival (AoA)** estimation. By receiving the same signal across four spatially separated antennas, the system can estimate the physical direction of a detected attack - enabling threat localization for jamming, spoofing and unauthorized events.
 
@@ -76,7 +75,6 @@ See [RASRF2400WBMC/README.md](RASRF2400WBMC/README.md) for full details.
 
 ---
 
->>>>>>> ec26e421e20472ac65419166f5ddcd8ad9c17ed2
 ### Sub Projects / Project steps
 
 The first step on this project was to have a reliable hardware basis. Initially I planned to have at least 40 Megasamples and with this 20 MHz bandwidth which is sufficient to capture the headers and the most common bandwitdhs used on 2.4GHz WiFi (802.11a,b,g) communications channel. But because 802.11n also defines the possibility to use 40MHz bandwith, I wanted the possibility to cover the complete possible channel bandwidth. This has been achieved with the first prototype hardware and prooved with the sub-project RASM2400, Radio Access Spectrum Monitor for 2400MHz. You can find all project details below.
