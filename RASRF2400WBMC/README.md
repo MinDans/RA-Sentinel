@@ -2,11 +2,11 @@
 
 ## Overview
 
-The **RASRF2400WBMC** is a 4-channel, 2.4 GHz RF front-end board designed as a directional extension to the RA-Sentinel WiFi intrusion detection system. While the single-channel RASRF_2400WB board can detect malicious WiFi attacks, this board adds the ability to determine the **direction from which an attack originates**.
+The **RASRF2400WBMC** is a 4-channel, 2.4 GHz RF front-end board designed as a directional extension to the RA-Sentinel WiFi intrusion detection system. While the single-channel RASRF2400WB board can detect malicious WiFi attacks, this board adds the ability to determine the **direction from which an attack originates**.
 
 By receiving the same signal across four spatially separated antennas in a phase-coherent manner, the system can estimate the **Angle of Arrival (AoA)** of incoming RF signals. This enables **threat localization** - helping to physically identify and locate sources of jamming, spoofing, Man-in-the-Middle, or Denial of Service attacks.
 
-This board connects to the existing [RASBB](../RASBB/README.md) (RA-Sentinel Base Band Board) via a PCIe connector, making use of its multiple ADC input lines without requiring any changes to the base band hardware.
+This board connects to the existing [RASBB](https://github.com/MinDans/RA-Sentinel/tree/main/RASBB) (RA-Sentinel Base Band Board) via a PCIe connector, making use of its multiple ADC input lines without requiring any changes to the base band hardware.
 
 > This project was funded by NLnet: https://nlnet.nl/project/RA-Sentinel-directional/
 
