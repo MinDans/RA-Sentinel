@@ -68,7 +68,7 @@ RASRF2400WBMC/
 
 | Board                | Antennas | Purpose                       | Interface        |
 |----------------------|----------|-------------------------------|------------------|
-| RASRF_2400WB         | 1        | Wideband detection            | PCIe -> RASBB    |
+| RASRF2400WB          | 1        | Wideband detection            | PCIe -> RASBB    |
 | RASRF2400WBMC        | 4        | Detection + direction finding | PCIe -> RASBB    |
 | RASBB                | -        | Base band processing (shared) | -                |
 
