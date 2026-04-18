@@ -19,13 +19,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="1.8234375"
-     inkscape:cx="490.00857"
-     inkscape:cy="372.64781"
-     inkscape:window-width="2560"
-     inkscape:window-height="1369"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
+     inkscape:zoom="0.91171875"
+     inkscape:cx="347.69494"
+     inkscape:cy="404.18166"
+     inkscape:window-width="1920"
+     inkscape:window-height="1111"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg115" />
   <defs
@@ -207,10 +207,10 @@
      x="229"
      y="79"
      text-anchor="middle"
-     font-size="11"
+     font-size="11px"
      font-weight="bold"
      fill="#835900"
-     id="text13">SP9120640K8</text>
+     id="text13">5PB1206NDGK8</text>
   <text
      x="229"
      y="95"
@@ -901,10 +901,10 @@
      x="105"
      y="478"
      text-anchor="middle"
-     font-size="11"
+     font-size="11px"
      font-weight="bold"
      fill="#880e4f"
-     id="text79">STM32C031</text>
+     id="text79">STM32C031K6U6</text>
   <text
      x="105"
      y="494"
@@ -985,9 +985,9 @@
      x="292"
      y="485"
      text-anchor="middle"
-     font-size="9"
+     font-size="9px"
      fill="#9c36b5"
-     id="text86">SN74AVC4T774</text>
+     id="text86">SN74AXC4T774RSVR</text>
   <text
      x="292"
      y="498"
@@ -1440,6 +1440,6 @@
      x="820"
      y="544"
      font-size="8.5"
-      fill="#c2255c"
+     fill="#c2255c"
      id="text115">SPI / I²C control</text>
 </svg>
