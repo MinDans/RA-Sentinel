@@ -8,8 +8,6 @@ By receiving the same signal across four spatially separated antennas in a phase
 
 This board connects to the existing [RASBB](https://github.com/MinDans/RA-Sentinel/tree/main/RASBB) (RA-Sentinel Base Band Board) via a PCIe connector, making use of its multiple ADC input lines without requiring any changes to the base band hardware.
 
-> This project was funded by NLnet: https://nlnet.nl/project/RA-Sentinel-directional/
-
 ---
 
 ## System Architecture
