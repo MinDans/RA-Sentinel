@@ -33,7 +33,7 @@ All 4 MAX2831 transceivers must share a single reference clock to ensure phase c
 - Use matched-length PCB traces from the clock source to each transceiver
 - Use matched-length traces from ADC outputs to the PCIe connector
 
-The MAX2831 requires a 40 MHz reference clock. This is consistent with the 40 MHz TCXO already used on the RASRF_2400WB board.
+The MAX2831 requires a 40 MHz reference clock. This is consistent with the 40 MHz TCXO already used on the RASRF2400WB board.
 
 ---
 
