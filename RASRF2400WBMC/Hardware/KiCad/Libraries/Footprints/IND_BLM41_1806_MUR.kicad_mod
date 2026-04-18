@@ -1,0 +1,325 @@
+(footprint "IND_BLM41_1806_MUR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "BLM41PG102SN1L ")
+	(property "Reference" "REF**"
+		(at 0 2.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "95134bd7-7ce5-49fc-9a51-4dfbac1dfc3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BLM41PG102SN1L"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "48bf420c-1db2-4073-9f3f-258d280783e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53305bd1-1957-4ea8-a64c-2f7a38f756db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Ferrite Bead, 1kΩ @100MHz, ±25%, 1.5A, 90mΩ DCR, 1806 (4516 Metric), T&R"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e454eee9-ef8e-44c7-9db7-bed99b5ac2ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Murata"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc78e7f0-ec65-4432-9f82-6a73236c3130")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "BLM41PG102SN1L"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e89fc14a-9837-452e-98b6-319b215680d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(component_classes
+		(class "2nd Stage")
+		(class "ADC")
+	)
+	(attr smd)
+	(fp_circle
+		(center -3.5377 0)
+		(end -3.4615 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "71341c8b-dbdf-45ae-a707-2f8e363c3782")
+	)
+	(fp_line
+		(start -2.953499 -1.1557)
+		(end 2.953499 -1.1557)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4a5c52c6-db17-4d7c-acc6-8fea0731661b")
+	)
+	(fp_line
+		(start -2.953499 1.1557)
+		(end -2.953499 -1.1557)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "99f159e2-433e-4bf0-b13b-37cdc3e3f9f3")
+	)
+	(fp_line
+		(start 2.953499 -1.1557)
+		(end 2.953499 1.1557)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2b184831-c304-4e44-a6df-51440ac941a2")
+	)
+	(fp_line
+		(start 2.953499 1.1557)
+		(end -2.953499 1.1557)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "abd1a288-3827-4ffd-a633-2c3e4fd6264c")
+	)
+	(fp_line
+		(start -2.3495 -0.9017)
+		(end -2.3495 0.9017)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "666b0b6c-1940-421b-9ca5-2d87c8444815")
+	)
+	(fp_line
+		(start -2.3495 -0.9017)
+		(end -2.3495 0.9017)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b7d1dcb1-26a6-4020-8529-dbdde3e403eb")
+	)
+	(fp_line
+		(start -2.3495 0.9017)
+		(end -1.3589 0.9017)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f772d45a-35c1-4f97-a20a-3625e5a266b7")
+	)
+	(fp_line
+		(start -2.3495 0.9017)
+		(end 2.3495 0.9017)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e0799afb-defd-4a95-b3d5-3e1bb5680e46")
+	)
+	(fp_line
+		(start -1.3589 -0.9017)
+		(end -2.3495 -0.9017)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "29034683-d6ab-464c-974f-6e1be36d1c71")
+	)
+	(fp_line
+		(start -1.3589 0.9017)
+		(end -1.3589 -0.9017)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f05356c-fd3f-4bd7-99c8-53966abd5b0c")
+	)
+	(fp_line
+		(start 1.3589 -0.9017)
+		(end 1.3589 0.9017)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b6e4e93-4bb3-442f-8a1a-8ed11b0df7e8")
+	)
+	(fp_line
+		(start 1.3589 0.9017)
+		(end 2.3495 0.9017)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1c73962f-eda7-4c8a-a27f-4eee6d362dae")
+	)
+	(fp_line
+		(start 2.3495 -0.9017)
+		(end -2.3495 -0.9017)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "444b5e90-82cf-4648-ae95-e4273ea382a7")
+	)
+	(fp_line
+		(start 2.3495 -0.9017)
+		(end 1.3589 -0.9017)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6a41c355-10f0-47a4-ab39-e303516dc7f8")
+	)
+	(fp_line
+		(start 2.3495 0.9017)
+		(end 2.3495 -0.9017)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3118f58c-fedf-4ff7-8701-609d248df1dc")
+	)
+	(fp_line
+		(start 2.3495 0.9017)
+		(end 2.3495 -0.9017)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9442c5a2-b320-4c6e-9202-832be1b7a2f9")
+	)
+	(fp_circle
+		(center -1.9022 0)
+		(end -1.826 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e66b39de-d126-4502-aa17-e2c96b45a248")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8dcbc543-53cc-4b46-9992-44fd68a77c88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.0292 0)
+		(size 1.3406 1.8034)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fa68f2cb-3b9d-4a21-b279-855efa8e04a8")
+	)
+	(pad "2" smd rect
+		(at 2.0292 0)
+		(size 1.3406 1.8034)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d20f2e86-21c0-41c9-95f8-1ff7771f9791")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "71f83686-0e80-4284-8be2-d26c6291724a")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy 30.548989 248.242015) (xy 33.165189 248.242015) (xy 33.165189 249.943815) (xy 30.548989 249.943815)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

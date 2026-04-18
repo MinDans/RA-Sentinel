@@ -1,0 +1,1445 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 980 640"
+   font-family="'Segoe UI', Arial, sans-serif"
+   version="1.1"
+   id="svg115"
+   sodipodi:docname="RASRF2400WBMC_BlockDiagram.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview115"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.289365"
+     inkscape:cx="441.69028"
+     inkscape:cy="371.88848"
+     inkscape:window-width="1920"
+     inkscape:window-height="1111"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg115" />
+  <defs
+     id="defs5">
+    <marker
+       id="arr"
+       markerWidth="7"
+       markerHeight="5"
+       refX="6"
+       refY="2.5"
+       orient="auto">
+      <polygon
+         points="0 0,7 2.5,0 5"
+         fill="#495057"
+         id="polygon1" />
+    </marker>
+    <marker
+       id="arrO"
+       markerWidth="7"
+       markerHeight="5"
+       refX="6"
+       refY="2.5"
+       orient="auto">
+      <polygon
+         points="0 0,7 2.5,0 5"
+         fill="#e67700"
+         id="polygon2" />
+    </marker>
+    <marker
+       id="arrB"
+       markerWidth="7"
+       markerHeight="5"
+       refX="6"
+       refY="2.5"
+       orient="auto">
+      <polygon
+         points="0 0,7 2.5,0 5"
+         fill="#1864ab"
+         id="polygon3" />
+    </marker>
+    <marker
+       id="arrR"
+       markerWidth="7"
+       markerHeight="5"
+       refX="6"
+       refY="2.5"
+       orient="auto">
+      <polygon
+         points="0 0,7 2.5,0 5"
+         fill="#c92a2a"
+         id="polygon4" />
+    </marker>
+    <marker
+       id="arrPk"
+       markerWidth="7"
+       markerHeight="5"
+       refX="6"
+       refY="2.5"
+       orient="auto">
+      <polygon
+         points="0 0,7 2.5,0 5"
+         fill="#c2255c"
+         id="polygon5" />
+    </marker>
+    <marker
+       id="arrPk-8"
+       markerWidth="7"
+       markerHeight="5"
+       refX="6"
+       refY="2.5"
+       orient="auto">
+      <polygon
+         points="7,2.5 0,5 0,0 "
+         fill="#c2255c"
+         id="polygon5-2" />
+    </marker>
+  </defs>
+  <!-- ── Background ── -->
+  <rect
+     width="980"
+     height="640"
+     fill="#ffffff"
+     rx="6"
+     id="rect5"
+     x="-1.6452442"
+     y="0.54841477" />
+  <rect
+     width="980"
+     height="640"
+     fill="none"
+     stroke="#ced4da"
+     stroke-width="1.5"
+     rx="6"
+     id="rect6" />
+  <!-- ── Title strip ── -->
+  <rect
+     width="980"
+     height="48"
+     fill="#212529"
+     rx="6"
+     id="rect7" />
+  <rect
+     y="42"
+     width="980"
+     height="6"
+     fill="#212529"
+     id="rect8" />
+  <text
+     x="490"
+     y="22"
+     text-anchor="middle"
+     font-size="14px"
+     font-weight="bold"
+     fill="#ffffff"
+     id="text8">RASRF2400WBMC Block Diagram</text>
+  <text
+     x="490"
+     y="38"
+     text-anchor="middle"
+     font-size="10px"
+     fill="#adb5bd"
+     id="text9">RASentinel Radio Frontend 2400 MHz Wideband Multi-Channel · Rev A</text>
+  <!-- ════════════════════════════════════════════════════════
+       CLOCK SECTION
+  ════════════════════════════════════════════════════════ -->
+  <rect
+     x="18"
+     y="60"
+     width="105"
+     height="46"
+     rx="4"
+     fill="#fff9db"
+     stroke="#f59f00"
+     stroke-width="1.5"
+     id="rect9" />
+  <text
+     x="70"
+     y="79"
+     text-anchor="middle"
+     font-size="11"
+     font-weight="bold"
+     fill="#835900"
+     id="text10">TCXO</text>
+  <text
+     x="70"
+     y="95"
+     text-anchor="middle"
+     font-size="9.5"
+     fill="#835900"
+     id="text11">7L · 40 MHz ref</text>
+  <text
+     x="70"
+     y="118"
+     text-anchor="middle"
+     font-size="8.5"
+     fill="#adb5bd"
+     font-style="italic"
+     id="text12">(pin 1: Vtune · ext. PLL lock, not pop.)</text>
+  <line
+     x1="123"
+     y1="83"
+     x2="148"
+     y2="83"
+     stroke="#f59f00"
+     stroke-width="1.5"
+     marker-end="url(#arrO)"
+     id="line12" />
+  <rect
+     x="148"
+     y="60"
+     width="162"
+     height="46"
+     rx="4"
+     fill="#fff9db"
+     stroke="#f59f00"
+     stroke-width="1.5"
+     id="rect12" />
+  <text
+     x="229"
+     y="79"
+     text-anchor="middle"
+     font-size="11px"
+     font-weight="bold"
+     fill="#835900"
+     id="text13">5PB1206NDGK8</text>
+  <text
+     x="229"
+     y="95"
+     text-anchor="middle"
+     font-size="9.5"
+     fill="#835900"
+     id="text14">Clock Fanout · 6 outputs</text>
+  <!-- Clock distribution bus -->
+  <line
+     x1="229"
+     y1="106"
+     x2="229"
+     y2="124"
+     stroke="#f59f00"
+     stroke-width="1"
+     stroke-dasharray="4,3"
+     id="line14" />
+  <line
+     x1="190.61096"
+     y1="124"
+     x2="639.9657"
+     y2="124"
+     stroke="#f59f00"
+     stroke-width="0.998174"
+     stroke-dasharray="4, 3"
+     id="line15" />
+  <text
+     x="440"
+     y="121"
+     text-anchor="middle"
+     font-size="9"
+     fill="#835900"
+     id="text15">40 MHz ref clock</text>
+  <!-- Drops to MAX2831 CH1..4 -->
+  <line
+     x1="190"
+     y1="124"
+     x2="190"
+     y2="145"
+     stroke="#f59f00"
+     stroke-width="1"
+     stroke-dasharray="3,3"
+     marker-end="url(#arrO)"
+     id="line16" />
+  <line
+     x1="229"
+     y1="124"
+     x2="229"
+     y2="215"
+     stroke="#f59f00"
+     stroke-width="1"
+     stroke-dasharray="3,3"
+     marker-end="url(#arrO)"
+     id="line17" />
+  <line
+     x1="270"
+     y1="124"
+     x2="270"
+     y2="285"
+     stroke="#f59f00"
+     stroke-width="1"
+     stroke-dasharray="3,3"
+     marker-end="url(#arrO)"
+     id="line18" />
+  <line
+     x1="310"
+     y1="124"
+     x2="310"
+     y2="355"
+     stroke="#f59f00"
+     stroke-width="1"
+     stroke-dasharray="3,3"
+     marker-end="url(#arrO)"
+     id="line19" />
+  <!-- Drops to ADC #1 and #2 -->
+  <line
+     x1="600"
+     y1="124"
+     x2="600"
+     y2="175"
+     stroke="#f59f00"
+     stroke-width="1"
+     stroke-dasharray="3,3"
+     marker-end="url(#arrO)"
+     id="line20" />
+  <line
+     x1="640"
+     y1="124"
+     x2="640"
+     y2="335"
+     stroke="#f59f00"
+     stroke-width="1"
+     stroke-dasharray="3,3"
+     marker-end="url(#arrO)"
+     id="line21" />
+  <!-- ════════════════════════════════════════════════════════
+       MAIN RF BAND BACKGROUND
+  ════════════════════════════════════════════════════════ -->
+  <rect
+     x="14"
+     y="135"
+     width="820"
+     height="268"
+     rx="5"
+     fill="#f8f9fa"
+     stroke="#dee2e6"
+     stroke-width="1"
+     id="rect21" />
+  <text
+     x="424"
+     y="152"
+     text-anchor="middle"
+     font-size="9.5"
+     fill="#868e96"
+     font-style="italic"
+     id="text21">phase-coherent · 4-channel · 2.4 GHz ISM band</text>
+  <!-- ════════════════════════════════════════════════════════
+       ANTENNA SYMBOLS
+  ════════════════════════════════════════════════════════ -->
+  <line
+     x1="35"
+     y1="175"
+     x2="35"
+     y2="157"
+     stroke="#495057"
+     stroke-width="1.5"
+     id="line22" />
+  <line
+     x1="35"
+     y1="157"
+     x2="26"
+     y2="148"
+     stroke="#495057"
+     stroke-width="1.5"
+     id="line23" />
+  <line
+     x1="35"
+     y1="157"
+     x2="44"
+     y2="148"
+     stroke="#495057"
+     stroke-width="1.5"
+     id="line24" />
+  <text
+     x="35"
+     y="190"
+     text-anchor="middle"
+     font-size="9"
+     fill="#495057"
+     id="text24">ANT 1</text>
+  <line
+     x1="35"
+     y1="245"
+     x2="35"
+     y2="227"
+     stroke="#495057"
+     stroke-width="1.5"
+     id="line25" />
+  <line
+     x1="35"
+     y1="227"
+     x2="26"
+     y2="218"
+     stroke="#495057"
+     stroke-width="1.5"
+     id="line26" />
+  <line
+     x1="35"
+     y1="227"
+     x2="44"
+     y2="218"
+     stroke="#495057"
+     stroke-width="1.5"
+     id="line27" />
+  <text
+     x="35"
+     y="260"
+     text-anchor="middle"
+     font-size="9"
+     fill="#495057"
+     id="text27">ANT 2</text>
+  <line
+     x1="35"
+     y1="315"
+     x2="35"
+     y2="297"
+     stroke="#495057"
+     stroke-width="1.5"
+     id="line28" />
+  <line
+     x1="35"
+     y1="297"
+     x2="26"
+     y2="288"
+     stroke="#495057"
+     stroke-width="1.5"
+     id="line29" />
+  <line
+     x1="35"
+     y1="297"
+     x2="44"
+     y2="288"
+     stroke="#495057"
+     stroke-width="1.5"
+     id="line30" />
+  <text
+     x="35"
+     y="330"
+     text-anchor="middle"
+     font-size="9"
+     fill="#495057"
+     id="text30">ANT 3</text>
+  <line
+     x1="35"
+     y1="385"
+     x2="35"
+     y2="367"
+     stroke="#495057"
+     stroke-width="1.5"
+     id="line31" />
+  <line
+     x1="35"
+     y1="367"
+     x2="26"
+     y2="358"
+     stroke="#495057"
+     stroke-width="1.5"
+     id="line32" />
+  <line
+     x1="35"
+     y1="367"
+     x2="44"
+     y2="358"
+     stroke="#495057"
+     stroke-width="1.5"
+     id="line33" />
+  <text
+     x="35"
+     y="400"
+     text-anchor="middle"
+     font-size="9"
+     fill="#495057"
+     id="text33">ANT 4</text>
+  <line
+     x1="48"
+     y1="175"
+     x2="85"
+     y2="175"
+     stroke="#495057"
+     stroke-width="1.5"
+     marker-end="url(#arr)"
+     id="line34" />
+  <line
+     x1="48"
+     y1="245"
+     x2="85"
+     y2="245"
+     stroke="#495057"
+     stroke-width="1.5"
+     marker-end="url(#arr)"
+     id="line35" />
+  <line
+     x1="48"
+     y1="315"
+     x2="85"
+     y2="315"
+     stroke="#495057"
+     stroke-width="1.5"
+     marker-end="url(#arr)"
+     id="line36" />
+  <line
+     x1="48"
+     y1="375"
+     x2="85"
+     y2="375"
+     stroke="#495057"
+     stroke-width="1.5"
+     marker-end="url(#arr)"
+     id="line37" />
+  <!-- ════════════════════════════════════════════════════════
+       MAX2831 BLOCKS
+  ════════════════════════════════════════════════════════ -->
+  <rect
+     x="85"
+     y="155"
+     width="140"
+     height="42"
+     rx="4"
+     fill="#d3f9d8"
+     stroke="#2f9e44"
+     stroke-width="1.5"
+     id="rect37" />
+  <text
+     x="155"
+     y="173"
+     text-anchor="middle"
+     font-size="11"
+     font-weight="bold"
+     fill="#1a4731"
+     id="text37">MAX2831</text>
+  <text
+     x="155"
+     y="189"
+     text-anchor="middle"
+     font-size="9"
+     fill="#2b8a3e"
+     id="text38">CH1 · 2.4 GHz downconverter</text>
+  <rect
+     x="85"
+     y="225"
+     width="140"
+     height="42"
+     rx="4"
+     fill="#d3f9d8"
+     stroke="#2f9e44"
+     stroke-width="1.5"
+     id="rect38" />
+  <text
+     x="155"
+     y="243"
+     text-anchor="middle"
+     font-size="11"
+     font-weight="bold"
+     fill="#1a4731"
+     id="text39">MAX2831</text>
+  <text
+     x="155"
+     y="259"
+     text-anchor="middle"
+     font-size="9"
+     fill="#2b8a3e"
+     id="text40">CH2 · 2.4 GHz downconverter</text>
+  <rect
+     x="85"
+     y="295"
+     width="140"
+     height="42"
+     rx="4"
+     fill="#d3f9d8"
+     stroke="#2f9e44"
+     stroke-width="1.5"
+     id="rect40" />
+  <text
+     x="155"
+     y="313"
+     text-anchor="middle"
+     font-size="11"
+     font-weight="bold"
+     fill="#1a4731"
+     id="text41">MAX2831</text>
+  <text
+     x="155"
+     y="329"
+     text-anchor="middle"
+     font-size="9"
+     fill="#2b8a3e"
+     id="text42">CH3 · 2.4 GHz downconverter</text>
+  <rect
+     x="85"
+     y="355"
+     width="140"
+     height="42"
+     rx="4"
+     fill="#d3f9d8"
+     stroke="#2f9e44"
+     stroke-width="1.5"
+     id="rect42" />
+  <text
+     x="155"
+     y="373"
+     text-anchor="middle"
+     font-size="11"
+     font-weight="bold"
+     fill="#1a4731"
+     id="text43">MAX2831</text>
+  <text
+     x="155"
+     y="389"
+     text-anchor="middle"
+     font-size="9"
+     fill="#2b8a3e"
+     id="text44">CH4 · 2.4 GHz downconverter</text>
+  <!-- ════════════════════════════════════════════════════════
+       I/Q ANALOG LINES  MAX2831 → ADC
+  ════════════════════════════════════════════════════════ -->
+  <line
+     x1="225"
+     y1="176"
+     x2="430"
+     y2="200"
+     stroke="#1864ab"
+     stroke-width="1.5"
+     marker-end="url(#arrB)"
+     id="line44" />
+  <line
+     x1="225"
+     y1="246"
+     x2="430"
+     y2="236"
+     stroke="#1864ab"
+     stroke-width="1.5"
+     marker-end="url(#arrB)"
+     id="line45" />
+  <line
+     x1="225"
+     y1="316"
+     x2="430"
+     y2="340"
+     stroke="#1864ab"
+     stroke-width="1.5"
+     marker-end="url(#arrB)"
+     id="line46" />
+  <line
+     x1="225"
+     y1="376"
+     x2="430"
+     y2="370"
+     stroke="#1864ab"
+     stroke-width="1.5"
+     marker-end="url(#arrB)"
+     id="line47" />
+  <text
+     x="320"
+     y="196"
+     text-anchor="middle"
+     font-size="8.5"
+     fill="#1864ab"
+     id="text47">I/Q analog</text>
+  <text
+     x="320"
+     y="256"
+     text-anchor="middle"
+     font-size="8.5"
+     fill="#1864ab"
+     id="text48">I/Q analog</text>
+  <text
+     x="320"
+     y="326"
+     text-anchor="middle"
+     font-size="8.5"
+     fill="#1864ab"
+     id="text49">I/Q analog</text>
+  <text
+     x="320"
+     y="382"
+     text-anchor="middle"
+     font-size="8.5"
+     fill="#1864ab"
+     id="text50">I/Q analog</text>
+  <!-- ════════════════════════════════════════════════════════
+       ADC BLOCKS
+  ════════════════════════════════════════════════════════ -->
+  <rect
+     x="430"
+     y="165"
+     width="145"
+     height="100"
+     rx="4"
+     fill="#d0ebff"
+     stroke="#1971c2"
+     stroke-width="1.5"
+     id="rect50" />
+  <text
+     x="502"
+     y="187"
+     text-anchor="middle"
+     font-size="11"
+     font-weight="bold"
+     fill="#0c3966"
+     id="text51">ADC3424  #1</text>
+  <text
+     x="502"
+     y="203"
+     text-anchor="middle"
+     font-size="9.5"
+     fill="#1864ab"
+     id="text52">CH1 + CH2</text>
+  <text
+     x="502"
+     y="219"
+     text-anchor="middle"
+     font-size="9"
+     fill="#1864ab"
+     id="text53">6-bit · 40 MSPS</text>
+  <text
+     x="502"
+     y="234"
+     text-anchor="middle"
+     font-size="9"
+     fill="#1864ab"
+     id="text54">4× LVDS · D0 only</text>
+  <text
+     x="502"
+     y="249"
+     text-anchor="middle"
+     font-size="9"
+     fill="#1864ab"
+     id="text55">480 Mbit/s per channel</text>
+  <text
+     x="502"
+     y="259"
+     text-anchor="middle"
+     font-size="8.5"
+     fill="#74c0fc"
+     font-style="italic"
+     id="text56">Texas Instruments</text>
+  <rect
+     x="430"
+     y="315"
+     width="145"
+     height="100"
+     rx="4"
+     fill="#d0ebff"
+     stroke="#1971c2"
+     stroke-width="1.5"
+     id="rect56" />
+  <text
+     x="502"
+     y="337"
+     text-anchor="middle"
+     font-size="11"
+     font-weight="bold"
+     fill="#0c3966"
+     id="text57">ADC3424  #2</text>
+  <text
+     x="502"
+     y="353"
+     text-anchor="middle"
+     font-size="9.5"
+     fill="#1864ab"
+     id="text58">CH3 + CH4</text>
+  <text
+     x="502"
+     y="369"
+     text-anchor="middle"
+     font-size="9"
+     fill="#1864ab"
+     id="text59">6-bit · 40 MSPS</text>
+  <text
+     x="502"
+     y="384"
+     text-anchor="middle"
+     font-size="9"
+     fill="#1864ab"
+     id="text60">4× LVDS · D0 only</text>
+  <text
+     x="502"
+     y="399"
+     text-anchor="middle"
+     font-size="9"
+     fill="#1864ab"
+     id="text61">480 Mbit/s per channel</text>
+  <text
+     x="502"
+     y="409"
+     text-anchor="middle"
+     font-size="8.5"
+     fill="#74c0fc"
+     font-style="italic"
+     id="text62">Texas Instruments</text>
+  <!-- ════════════════════════════════════════════════════════
+       ADC → PCIe  LVDS
+  ════════════════════════════════════════════════════════ -->
+  <line
+     x1="575"
+     y1="215"
+     x2="655"
+     y2="270"
+     stroke="#1864ab"
+     stroke-width="1.5"
+     marker-end="url(#arrB)"
+     id="line62" />
+  <line
+     x1="575"
+     y1="365"
+     x2="655"
+     y2="316"
+     stroke="#1864ab"
+     stroke-width="1.5"
+     marker-end="url(#arrB)"
+     id="line63" />
+  <text
+     x="622"
+     y="247"
+     font-size="8.5"
+     fill="#1864ab"
+     id="text63">LVDS</text>
+  <text
+     x="622"
+     y="360"
+     font-size="8.5"
+     fill="#1864ab"
+     id="text64">LVDS</text>
+  <!-- ════════════════════════════════════════════════════════
+       PCIe CONNECTOR
+  ════════════════════════════════════════════════════════ -->
+  <rect
+     x="655"
+     y="260"
+     width="90"
+     height="68"
+     rx="4"
+     fill="#e9ecef"
+     stroke="#495057"
+     stroke-width="1.5"
+     id="rect64" />
+  <text
+     x="700"
+     y="284"
+     text-anchor="middle"
+     font-size="11"
+     font-weight="bold"
+     fill="#212529"
+     id="text65">PCIe</text>
+  <text
+     x="700"
+     y="300"
+     text-anchor="middle"
+     font-size="9.5"
+     fill="#495057"
+     id="text66">x8 connector</text>
+  <text
+     x="700"
+     y="315"
+     text-anchor="middle"
+     font-size="9"
+     fill="#495057"
+     id="text67">→ RASBB</text>
+  <line
+     x1="745"
+     y1="294"
+     x2="796"
+     y2="294"
+     stroke="#495057"
+     stroke-width="2"
+     marker-end="url(#arr)"
+     id="line67" />
+  <!-- ════════════════════════════════════════════════════════
+       RASBB BOX
+  ════════════════════════════════════════════════════════ -->
+  <rect
+     x="796"
+     y="175"
+     width="162"
+     height="238"
+     rx="5"
+     fill="#f3f0ff"
+     stroke="#6741d9"
+     stroke-width="2"
+     id="rect67" />
+  <text
+     x="877"
+     y="201"
+     text-anchor="middle"
+     font-size="13"
+     font-weight="bold"
+     fill="#3b0764"
+     id="text68">RASBB</text>
+  <text
+     x="877"
+     y="219"
+     text-anchor="middle"
+     font-size="9.5"
+     fill="#6741d9"
+     id="text69">Baseband Board</text>
+  <line
+     x1="806"
+     y1="226"
+     x2="948"
+     y2="226"
+     stroke="#e9ecef"
+     stroke-width="1"
+     id="line69" />
+  <!-- ════════════════════════════════════════════════════════
+       STM32 HOUSEKEEPING MCU
+  ════════════════════════════════════════════════════════ -->
+  <rect
+     x="18"
+     y="458"
+     width="175"
+     height="58"
+     rx="4"
+     fill="#fff0f6"
+     stroke="#c2255c"
+     stroke-width="1.5"
+     id="rect78" />
+  <text
+     x="105"
+     y="478"
+     text-anchor="middle"
+     font-size="11px"
+     font-weight="bold"
+     fill="#880e4f"
+     id="text79">STM32C031K6U6</text>
+  <text
+     x="105"
+     y="494"
+     text-anchor="middle"
+     font-size="9.5"
+     fill="#c2255c"
+     id="text80">Housekeeping MCU</text>
+  <text
+     x="105"
+     y="509"
+     text-anchor="middle"
+     font-size="9"
+     fill="#c2255c"
+     id="text81">I²C PMOD → RASBB</text>
+  <!-- SPI direct 3V3: STM32 → MAX2831 (no level shifter) -->
+  <line
+     x1="105"
+     y1="458"
+     x2="105"
+     y2="430"
+     stroke="#c2255c"
+     stroke-width="1"
+     stroke-dasharray="4,3"
+     id="line81" />
+  <line
+     x1="105"
+     y1="430"
+     x2="150"
+     y2="430"
+     stroke="#c2255c"
+     stroke-width="1"
+     stroke-dasharray="4,3"
+     id="line82" />
+  <line
+     x1="150"
+     y1="430"
+     x2="150"
+     y2="397"
+     stroke="#c2255c"
+     stroke-width="1"
+     stroke-dasharray="4,3"
+     marker-end="url(#arrPk)"
+     id="line83" />
+  <text
+     x="43.741215"
+     y="441.06512"
+     font-size="8.5px"
+     fill="#c2255c"
+     id="text83">SPI</text>
+  <text
+     x="56.354755"
+     y="441.5484"
+     font-size="8px"
+     fill="#c2255c"
+     id="text84">(CS×4, direct)</text>
+  <!-- ════════════════════════════════════════════════════════
+       LEVEL SHIFTER  3V3 → 1.8V  (for ADC SPI)
+  ════════════════════════════════════════════════════════ -->
+  <rect
+     x="218"
+     y="452"
+     width="148"
+     height="50"
+     rx="4"
+     fill="#ffe8f7"
+     stroke="#9c36b5"
+     stroke-width="1.5"
+     id="rect84" />
+  <text
+     x="292"
+     y="470"
+     text-anchor="middle"
+     font-size="10.5"
+     font-weight="bold"
+     fill="#6a0080"
+     id="text85">Level Shifter</text>
+  <text
+     x="292"
+     y="485"
+     text-anchor="middle"
+     font-size="9px"
+     fill="#9c36b5"
+     id="text86">SN74AXC4T774RSVR</text>
+  <text
+     x="292"
+     y="498"
+     text-anchor="middle"
+     font-size="9"
+     fill="#9c36b5"
+     id="text87">3V3 ↔ 1.8V (VCCB_LLS)</text>
+  <!-- STM32 SPI → Level Shifter (3V3 side) -->
+  <line
+     x1="193"
+     y1="484"
+     x2="218"
+     y2="484"
+     stroke="#c2255c"
+     stroke-width="1"
+     stroke-dasharray="4,3"
+     marker-end="url(#arrPk)"
+     id="line87" />
+  <text
+     x="204"
+     y="479"
+     text-anchor="middle"
+     font-size="8"
+     fill="#c2255c"
+     id="text88">SPI</text>
+  <text
+     x="204"
+     y="491"
+     text-anchor="middle"
+     font-size="8"
+     fill="#c2255c"
+     id="text89">3V3</text>
+  <!-- Level Shifter → ADC #1 and #2 (1.8V SPI, separate CS) -->
+  <!-- horizontal line from level shifter right side -->
+  <line
+     x1="366"
+     y1="484"
+     x2="404.03171"
+     y2="484"
+     stroke="#9c36b5"
+     stroke-width="0.880998"
+     stroke-dasharray="4, 3"
+     id="line89" />
+  <line
+     x1="404.03168"
+     y1="484.54843"
+     x2="404.03168"
+     y2="216.09683"
+     stroke="#9c36b5"
+     stroke-width="0.99898"
+     stroke-dasharray="4, 3"
+     id="line90" />
+  <line
+     x1="404.58011"
+     y1="350"
+     x2="429.34875"
+     y2="350"
+     stroke="#9c36b5"
+     stroke-width="1.28501"
+     stroke-dasharray="4, 3"
+     marker-end="url(#arrPk)"
+     id="line91" />
+  <line
+     x1="405.67694"
+     y1="215"
+     x2="429.4173"
+     y2="215"
+     stroke="#9c36b5"
+     stroke-width="1.25805"
+     stroke-dasharray="4, 3"
+     marker-end="url(#arrPk)"
+     id="line92" />
+  <text
+     x="385.3222"
+     y="480"
+     font-size="8px"
+     fill="#9c36b5"
+     id="text92">SPI</text>
+  <text
+     x="383.67694"
+     y="491.5484"
+     font-size="8px"
+     fill="#9c36b5"
+     id="text93">1.8V</text>
+  <text
+     x="408.67694"
+     y="226.96487"
+     font-size="8px"
+     fill="#9c36b5"
+     id="text94">CS#1</text>
+  <text
+     x="431.19284"
+     y="342.26651"
+     font-size="7.61343px"
+     fill="#9c36b5"
+     id="text95"
+     transform="scale(0.95167817,1.0507754)"
+     style="stroke-width:0.951678">CS#2</text>
+  <!-- I2C line STM32 → RASBB (straight horizontal stub from STM32 right edge) -->
+  <line
+     x1="193"
+     y1="506"
+     x2="308"
+     y2="506"
+     stroke="#c2255c"
+     stroke-width="1.5"
+     stroke-dasharray="4,3"
+     marker-end="url(#arrPk)"
+     id="line_i2c_rasbb" />
+  <text
+     x="313"
+     y="510"
+     font-size="8.5"
+     fill="#c2255c"
+     id="text96">I²C to RASBB</text>
+  <!-- ════════════════════════════════════════════════════════
+       POWER SUPPLY SECTION
+       3V3 from RASBB/PCIe → direct use + LDO regulators
+  ════════════════════════════════════════════════════════ -->
+  <!-- 3V3 source — prominent box -->
+  <rect
+     x="18"
+     y="535"
+     width="210"
+     height="56"
+     rx="5"
+     fill="#f8d7da"
+     stroke="#c0392b"
+     stroke-width="2.5"
+     id="rect96" />
+  <text
+     x="123"
+     y="557"
+     text-anchor="middle"
+     font-size="13"
+     font-weight="bold"
+     fill="#7b0000"
+     id="text97">3V3 Power Rail</text>
+  <text
+     x="123"
+     y="574"
+     text-anchor="middle"
+     font-size="10.5px"
+     font-weight="bold"
+     fill="#c0392b"
+     id="text98">from RASBB</text>
+  <!-- 3V3 horizontal rail running right -->
+  <line
+     x1="228"
+     y1="562"
+     x2="750"
+     y2="562"
+     stroke="#c0392b"
+     stroke-width="2.5"
+     id="line98" />
+  <!-- Branch: 3V3 direct consumers (tap at x=310) -->
+  <line
+     x1="310"
+     y1="562"
+     x2="310"
+     y2="535"
+     stroke="#c0392b"
+     stroke-width="1.5"
+     stroke-dasharray="4,3"
+     marker-end="url(#arrR)"
+     id="line99" />
+  <rect
+     x="241.09309"
+     y="514.0614"
+     width="147.13686"
+     height="19.87722"
+     rx="3.8052635"
+     fill="#fff5f5"
+     stroke="#c92a2a"
+     stroke-width="1.12278"
+     id="rect99" />
+  <text
+     x="310"
+     y="528"
+     text-anchor="middle"
+     font-size="8.5px"
+     fill="#c92a2a"
+     id="text99">Clock fanout</text>
+  <!-- LD regulator → 1.8V (tap at x=450) -->
+  <line
+     x1="450"
+     y1="562"
+     x2="450"
+     y2="610"
+     stroke="#c0392b"
+     stroke-width="1.5"
+     marker-end="url(#arrR)"
+     id="line100" />
+  <rect
+     x="398"
+     y="610"
+     width="104"
+     height="28"
+     rx="3"
+     fill="#fff5f5"
+     stroke="#c92a2a"
+     stroke-width="1.5"
+     id="rect100" />
+  <text
+     x="450"
+     y="624"
+     text-anchor="middle"
+     font-size="10"
+     font-weight="bold"
+     fill="#c92a2a"
+     id="text100">LD → 1.8 V</text>
+  <text
+     x="450"
+     y="634"
+     text-anchor="middle"
+     font-size="8"
+     fill="#9c36b5"
+     id="text101">ADC DVDD · VCCB_LLS</text>
+  <!-- 1.8V line going up to level shifter VCCB -->
+  <line
+     x1="450"
+     y1="610"
+     x2="450"
+     y2="505"
+     stroke="#9c36b5"
+     stroke-width="1"
+     stroke-dasharray="3,3"
+     marker-end="url(#arrPk)"
+     id="line101" />
+  <text
+     x="456"
+     y="552"
+     font-size="8"
+     fill="#9c36b5"
+     id="text102">1.8V</text>
+  <!-- ADP7154 → 3V (tap at x=610) -->
+  <line
+     x1="610"
+     y1="562"
+     x2="610"
+     y2="610"
+     stroke="#c0392b"
+     stroke-width="1.5"
+     marker-end="url(#arrR)"
+     id="line102" />
+  <rect
+     x="554"
+     y="610"
+     width="112"
+     height="28"
+     rx="3"
+     fill="#fff5f5"
+     stroke="#c92a2a"
+     stroke-width="1.5"
+     id="rect102" />
+  <text
+     x="610"
+     y="624"
+     text-anchor="middle"
+     font-size="10px"
+     font-weight="bold"
+     fill="#c92a2a"
+     id="text103">ADP7156ACPZ-3.0</text>
+  <text
+     x="610"
+     y="634"
+     text-anchor="middle"
+     font-size="8"
+     fill="#2b8a3e"
+     id="text104">MAX2831 supply rails</text>
+  <!-- 3V line going up to MAX2831 group -->
+  <line
+     x1="610"
+     y1="610"
+     x2="610"
+     y2="400"
+     stroke="#2b8a3e"
+     stroke-width="1"
+     stroke-dasharray="3,3"
+     marker-end="url(#arrO)"
+     id="line104" />
+  <text
+     x="617"
+     y="510"
+     font-size="8"
+     fill="#2b8a3e"
+     id="text105">3V</text>
+  <!-- RASBB 3V3 supply — arrow points LEFT into the rail (RASBB is the source) -->
+  <rect
+     x="796"
+     y="548"
+     width="160"
+     height="28"
+     rx="4"
+     fill="#f3f0ff"
+     stroke="#6741d9"
+     stroke-width="1.5"
+     id="rect105" />
+  <text
+     x="876"
+     y="561"
+     text-anchor="middle"
+     font-size="10"
+     font-weight="bold"
+     fill="#3b0764"
+     id="text106">RASBB</text>
+  <text
+     x="876"
+     y="572"
+     text-anchor="middle"
+     font-size="8.5"
+     fill="#6741d9"
+     id="text107">3V3 via PCIe</text>
+  <line
+     x1="796"
+     y1="562"
+     x2="746.29175"
+     y2="562"
+     stroke="#c0392b"
+     stroke-width="2.65722"
+     marker-end="url(#arrR)"
+     id="line107" />
+  <!-- ════════════════════════════════════════════════════════
+       LEGEND
+  ════════════════════════════════════════════════════════ -->
+  <rect
+     x="796"
+     y="415"
+     width="162"
+     height="132"
+     rx="4"
+     fill="#f8f9fa"
+     stroke="#dee2e6"
+     stroke-width="1"
+     id="rect107" />
+  <text
+     x="877"
+     y="432"
+     text-anchor="middle"
+     font-size="10"
+     font-weight="bold"
+     fill="#212529"
+     id="text108">Legend</text>
+  <rect
+     x="804"
+     y="440"
+     width="11"
+     height="9"
+     rx="2"
+     fill="#d3f9d8"
+     stroke="#2f9e44"
+     stroke-width="1"
+     id="rect108" />
+  <text
+     x="820"
+     y="449"
+     font-size="8.5"
+     fill="#2b8a3e"
+     id="text109">RF transceiver (MAX2831)</text>
+  <rect
+     x="804"
+     y="456"
+     width="11"
+     height="9"
+     rx="2"
+     fill="#d0ebff"
+     stroke="#1971c2"
+     stroke-width="1"
+     id="rect109" />
+  <text
+     x="820"
+     y="465"
+     font-size="8.5"
+     fill="#1864ab"
+     id="text110">ADC (ADC3424)</text>
+  <rect
+     x="804"
+     y="472"
+     width="11"
+     height="9"
+     rx="2"
+     fill="#fff9db"
+     stroke="#f59f00"
+     stroke-width="1"
+     id="rect110" />
+  <text
+     x="820"
+     y="481"
+     font-size="8.5"
+     fill="#835900"
+     id="text111">Clock distribution</text>
+  <rect
+     x="804"
+     y="488"
+     width="11"
+     height="9"
+     rx="2"
+     fill="#fff0f6"
+     stroke="#c2255c"
+     stroke-width="1"
+     id="rect111" />
+  <text
+     x="820"
+     y="497"
+     font-size="8.5"
+     fill="#c2255c"
+     id="text112">Housekeeping MCU</text>
+  <rect
+     x="804"
+     y="504"
+     width="11"
+     height="9"
+     rx="2"
+     fill="#ffe8f7"
+     stroke="#9c36b5"
+     stroke-width="1"
+     id="rect112" />
+  <text
+     x="820"
+     y="513"
+     font-size="8.5"
+     fill="#9c36b5"
+     id="text113">Level shifter (3V3↔1.8V)</text>
+  <rect
+     x="804"
+     y="520"
+     width="11"
+     height="9"
+     rx="2"
+     fill="#f8d7da"
+     stroke="#c0392b"
+     stroke-width="1"
+     id="rect113" />
+  <text
+     x="820"
+     y="529"
+     font-size="8.5"
+     fill="#c0392b"
+     id="text114">Power rail / regulators</text>
+  <line
+     x1="804"
+     y1="540"
+     x2="815"
+     y2="540"
+     stroke="#c2255c"
+     stroke-width="1"
+     stroke-dasharray="4,3"
+     id="line114" />
+  <text
+     x="820"
+     y="544"
+     font-size="8.5"
+     fill="#c2255c"
+     id="text115">SPI / I²C control</text>
+</svg>

@@ -1,0 +1,206 @@
+(footprint "4-SMD_NoLead_Oscillator"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.052219 -1.95 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f9dba4bc-5148-4d07-ad60-a6ae574a9995")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "7L-40.000MBS-T"
+		(at 0 5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7234d9f9-c497-4649-bc35-dac330292f2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "757589a6-590a-483d-a5c3-b538d4e50241")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "OSC, TCXO, 40MHz, 3.3V, ±2ppm, Clipped Sine, SMD 2.5x2mm, 4-Pin"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01630034-ea01-49e0-bc4b-5d930c8a7cc4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "TXC Corporation"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dacb9873-0423-4961-9735-d6eb4db71225")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "7L-40.000MBS-T"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa0f9e99-40c0-493f-8731-2ed7682b07b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.35 -1.15)
+		(end 0.25 -1.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7646987d-77bb-477b-b900-26a504563202")
+	)
+	(fp_line
+		(start -0.3 1.15)
+		(end 0.3 1.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "50ad64d5-0c0c-43c1-94ba-b89a1a113b63")
+	)
+	(fp_circle
+		(center -1.68 1.395563)
+		(end -1.524437 1.395563)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e3e058fd-ae4f-4547-bad9-c9bcd79d6eaf")
+	)
+	(fp_rect
+		(start -1.4 1.075)
+		(end 1.4 -1.075)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "cc9ff5f3-39cf-43a6-ac90-8f271270b4cb")
+	)
+	(fp_line
+		(start -1.4 -1.15)
+		(end -1.4 1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "775f6f53-054f-4c0a-840f-40a1e1751dd9")
+	)
+	(fp_line
+		(start 1.4 -1.15)
+		(end -1.4 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "75c9738f-320e-446b-9c1f-f011329ff6cb")
+	)
+	(fp_line
+		(start 1.4 -1.15)
+		(end 1.4 1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "968a3d1d-3d6c-4620-8e87-a47ae16dbefc")
+	)
+	(fp_line
+		(start 1.4 1.15)
+		(end -1.4 1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c3f6c3c-a6aa-4586-95a2-58d043724d96")
+	)
+	(fp_text user "U**"
+		(at 0.9 1.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "54e69bd4-6d91-444f-a624-40ddf632e2a2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.15 0.7375)
+		(size 0.5 0.825)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "9112fba3-a107-4840-9300-29b6d7f2e6d5")
+	)
+	(pad "2" smd rect
+		(at 1.15 0.7375)
+		(size 0.5 0.825)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "685e14ec-5ce9-4758-9779-1f5093a02e8b")
+	)
+	(pad "3" smd rect
+		(at 1.15 -0.7375)
+		(size 0.5 0.825)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "c754e9b4-e397-48f1-8278-8e7841822431")
+	)
+	(pad "4" smd rect
+		(at -1.15 -0.7375)
+		(size 0.5 0.825)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "c39283a1-989b-4e35-b144-5bacdac3491f")
+	)
+	(embedded_fonts no)
+)
