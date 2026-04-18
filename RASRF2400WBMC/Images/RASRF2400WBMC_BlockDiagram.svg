@@ -19,9 +19,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.91171875"
-     inkscape:cx="347.69494"
-     inkscape:cy="404.18166"
+     inkscape:zoom="1.289365"
+     inkscape:cx="441.69028"
+     inkscape:cy="371.88848"
      inkscape:window-width="1920"
      inkscape:window-height="1111"
      inkscape:window-x="-9"
@@ -137,10 +137,10 @@
      x="490"
      y="22"
      text-anchor="middle"
-     font-size="14"
+     font-size="14px"
      font-weight="bold"
      fill="#ffffff"
-     id="text8">RASRF2400WBMC — Hardware Block Diagram</text>
+     id="text8">RASRF2400WBMC Block Diagram</text>
   <text
      x="490"
      y="38"
@@ -1247,10 +1247,10 @@
      x="610"
      y="624"
      text-anchor="middle"
-     font-size="10"
+     font-size="10px"
      font-weight="bold"
      fill="#c92a2a"
-     id="text103">ADP7154 → 3 V</text>
+     id="text103">ADP7156ACPZ-3.0</text>
   <text
      x="610"
      y="634"
