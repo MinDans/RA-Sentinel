@@ -54,7 +54,7 @@ The board takes 3.3 V from the PCIe connector and generates the additional rails
 | STM32C031K6U6 | Housekeeping MCU - SPI config, I2C to RASBB |
 | SN74AXC4T774RSVR | 4-bit dual-supply level shifter (3.3 V <-> 1.8 V) |
 | HHM1902B1 x4 | 2.4 GHz balun, single-ended to differential conversion at antenna input |
-| LD1117DT33TR | 1.8 V LDO regulator |
+| LD1117DT18  | 1.8 V LDO regulator |
 | ADP7156ACPZ-3.0-R7 | Adjustable LDO, set to 3V |
 
 ---
