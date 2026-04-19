@@ -9393,7 +9393,7 @@
 				)
 			)
 		)
-		(property "Value" "LD1117DT33TR"
+		(property "Value" "LD1117DT18"
 			(at 75.438 58.42 0)
 			(effects
 				(font
@@ -9420,7 +9420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "IC, LDO Regulator, 3.3V, 800mA, Fixed, DPAK (TO-252), T&R"
+		(property "Description" "IC, LDO Regulator, 1.8V, 800mA, Fixed, DPAK (TO-252), T&R"
 			(at 72.39 49.53 0)
 			(effects
 				(font
@@ -9468,7 +9468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LD1117DT33TR"
+		(property "Manufacturer_Part_Number" "LD1117DT18CTR, LD1117DT18TR"
 			(at 72.39 49.53 0)
 			(effects
 				(font
