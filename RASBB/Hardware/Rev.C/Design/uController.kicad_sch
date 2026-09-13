@@ -2041,25 +2041,23 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -3791,6 +3789,234 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RASBB_Library:SMAJ33A"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 10.16 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SMAJ33A"
+				(at 10.16 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "DIOM5026X229N"
+				(at 10.16 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 10.16 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description_1" "Littelfuse SMAJ33A Uni-Directional TVS Diode, 400W peak, 2-Pin DO-214AC"
+				(at 10.16 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Height" "2.29"
+				(at 10.16 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Mouser Part Number" "576-SMAJ33A"
+				(at 10.16 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMAJ33A?qs=2VFNtWizgicTApVO2JetGQ%3D%3D"
+				(at 10.16 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer_Name" "LITTELFUSE"
+				(at 10.16 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SMAJ33A"
+				(at 10.16 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(symbol "SMAJ33A_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SMAJ33A_0_1"
+				(polyline
+					(pts
+						(xy 4.064 2.54) (xy 5.08 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.032) (xy 5.08 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.032) (xy 6.096 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RASBB_Library:STM32H743VGT6"
 			(pin_names
 				(offset 0.762)
@@ -3891,7 +4117,7 @@
 					(justify left)
 				)
 			)
-			(property "LCSC Part # " "C730183"
+			(property "LCSC Part # " ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5617,24 +5843,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 15.24 17.78 270)
-					(length 5.08)
-					(name "PE0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "97"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 12.7 17.78 270)
 					(length 5.08)
@@ -5734,6 +5942,24 @@
 						)
 					)
 					(number "89"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 17.78 270)
+					(length 5.08)
+					(name "PE0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "97"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6339,7 +6565,7 @@
 	)
 	(rectangle
 		(start 139.7 223.52)
-		(end 229.87 283.21)
+		(end 237.49 283.21)
 		(stroke
 			(width 0)
 			(type dash_dot_dot)
@@ -6422,7 +6648,7 @@
 	)
 	(text "ALARM OUTPUT\n"
 		(exclude_from_sim no)
-		(at 174.752 279.146 0)
+		(at 173.99 279.654 0)
 		(effects
 			(font
 				(size 6 6)
@@ -6443,6 +6669,12 @@
 			)
 		)
 		(uuid "f449f84c-f71d-4e73-b653-73b46d149d5a")
+	)
+	(junction
+		(at 176.53 247.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "014b012f-8d37-4025-b34f-2179455457cf")
 	)
 	(junction
 		(at 335.28 121.92)
@@ -6499,6 +6731,12 @@
 		(uuid "3f2294a9-9fcb-4717-8a5c-ad481d27a434")
 	)
 	(junction
+		(at 184.15 247.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "459f999f-3f64-48db-aa64-012064d11a09")
+	)
+	(junction
 		(at 335.28 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6521,6 +6759,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4cedc782-e59f-48f8-a233-8493f461cb42")
+	)
+	(junction
+		(at 176.53 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e24fe11-bda7-4cfc-84de-b115c282a070")
 	)
 	(junction
 		(at 158.75 128.27)
@@ -6553,12 +6797,6 @@
 		(uuid "628f45e5-121c-4667-b4d5-34f4b859039f")
 	)
 	(junction
-		(at 176.53 247.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69550f83-3826-46aa-8d81-098230596285")
-	)
-	(junction
 		(at 80.01 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6569,6 +6807,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78974416-4f3a-4d5f-9373-5943132d3fa8")
+	)
+	(junction
+		(at 166.37 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dac9f93-5df4-4559-9ce1-e9906fc42499")
 	)
 	(junction
 		(at 299.72 102.87)
@@ -6613,16 +6857,16 @@
 		(uuid "955f3705-d16d-4f98-b30c-a651219b8d2e")
 	)
 	(junction
+		(at 166.37 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "960016da-f007-4d29-89a3-60eb042da6ef")
+	)
+	(junction
 		(at 326.39 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f0603b8-bc5f-41d8-b88b-97c65434ee95")
-	)
-	(junction
-		(at 176.53 233.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a40e3783-3527-4e8a-90b3-1e0b1915b36c")
 	)
 	(junction
 		(at 361.95 21.59)
@@ -6733,10 +6977,14 @@
 		(uuid "f6092b80-0103-49a7-a581-67c7ae011d11")
 	)
 	(junction
-		(at 176.53 266.7)
+		(at 176.53 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe3900ff-e325-4ac6-8595-e109d3bfd813")
+	)
+	(no_connect
+		(at 241.3 69.85)
+		(uuid "8b6a06ae-948b-44e6-be00-281d0e78eb23")
 	)
 	(wire
 		(pts
@@ -6760,7 +7008,17 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 266.7) (xy 176.53 266.7)
+			(xy 184.15 270.51) (xy 176.53 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "036490d7-1596-4032-b9c1-b713dee30efa")
+	)
+	(wire
+		(pts
+			(xy 168.91 270.51) (xy 176.53 270.51)
 		)
 		(stroke
 			(width 0)
@@ -6807,6 +7065,16 @@
 			(type default)
 		)
 		(uuid "07704a4b-15ef-4122-809a-3c15bcc5c380")
+	)
+	(wire
+		(pts
+			(xy 176.53 247.65) (xy 184.15 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0773d34d-0a1d-4af6-8635-41631610e22a")
 	)
 	(wire
 		(pts
@@ -6920,6 +7188,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 137.16) (xy 162.56 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff6048b-2fff-45a3-91d3-594fb9d7f395")
+	)
+	(wire
+		(pts
 			(xy 24.13 128.27) (xy 44.45 128.27)
 		)
 		(stroke
@@ -6980,7 +7258,17 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 266.7) (xy 176.53 261.62)
+			(xy 176.53 243.84) (xy 176.53 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "146456b9-f771-4cb1-8e88-59ac0467ac48")
+	)
+	(wire
+		(pts
+			(xy 176.53 261.62) (xy 176.53 270.51)
 		)
 		(stroke
 			(width 0)
@@ -7020,7 +7308,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 60.96) (xy 213.36 69.85)
+			(xy 213.36 62.23) (xy 213.36 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7240,7 +7528,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 245.11) (xy 182.88 245.11)
+			(xy 209.55 245.11) (xy 189.23 245.11)
 		)
 		(stroke
 			(width 0)
@@ -7420,7 +7708,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 233.68) (xy 176.53 233.68)
+			(xy 189.23 233.68) (xy 176.53 233.68)
 		)
 		(stroke
 			(width 0)
@@ -7520,6 +7808,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 135.89) (xy 166.37 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb7bfbe-195a-4c73-8b4d-d6307c342f35")
+	)
+	(wire
+		(pts
 			(xy 269.24 166.37) (xy 269.24 179.07)
 		)
 		(stroke
@@ -7567,6 +7865,16 @@
 			(type default)
 		)
 		(uuid "44cbb21f-df4a-4896-b9b4-dfba0870cd5f")
+	)
+	(wire
+		(pts
+			(xy 21.59 157.48) (xy 43.18 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45351299-fd5f-4bea-aaa2-0dc2f674b446")
 	)
 	(wire
 		(pts
@@ -7627,6 +7935,16 @@
 			(type default)
 		)
 		(uuid "49660693-5097-49f8-a4d8-4ab78f2845bf")
+	)
+	(wire
+		(pts
+			(xy 184.15 247.65) (xy 195.58 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49f394d9-30fa-49df-8629-452db1fd17ec")
 	)
 	(wire
 		(pts
@@ -7717,6 +8035,16 @@
 			(type default)
 		)
 		(uuid "50a43213-ad53-4ce1-ae57-ae637fe0f51c")
+	)
+	(wire
+		(pts
+			(xy 215.9 62.23) (xy 215.9 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51516917-25af-46e8-b9f4-761f2ccf2097")
 	)
 	(wire
 		(pts
@@ -7870,6 +8198,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 262.89) (xy 168.91 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "609e6122-f4b7-442c-b21f-6220a0160eb6")
+	)
+	(wire
+		(pts
 			(xy 342.9 40.64) (xy 351.79 40.64)
 		)
 		(stroke
@@ -7877,6 +8215,16 @@
 			(type default)
 		)
 		(uuid "62b50096-5af1-4139-bfd5-c7dc4f3e89b6")
+	)
+	(wire
+		(pts
+			(xy 162.56 143.51) (xy 166.37 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "638a9e93-a2dd-462c-bd52-797bdd9eb96e")
 	)
 	(wire
 		(pts
@@ -7980,6 +8328,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 135.89) (xy 200.66 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73863d38-1446-483b-a110-e1a3ecb59d41")
+	)
+	(wire
+		(pts
 			(xy 383.54 120.65) (xy 401.32 120.65)
 		)
 		(stroke
@@ -8000,7 +8358,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 166.37) (xy 218.44 176.53)
+			(xy 218.44 166.37) (xy 218.44 179.07)
 		)
 		(stroke
 			(width 0)
@@ -8100,7 +8458,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 245.11) (xy 182.88 233.68)
+			(xy 189.23 245.11) (xy 189.23 233.68)
 		)
 		(stroke
 			(width 0)
@@ -8360,6 +8718,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 158.75) (xy 21.59 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94f1e62d-7ef4-49c0-a311-52e8482e299c")
+	)
+	(wire
+		(pts
 			(xy 274.32 218.44) (xy 292.1 218.44)
 		)
 		(stroke
@@ -8400,6 +8768,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 143.51) (xy 166.37 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99f68e4c-22c0-42fd-8e0a-2122de3dfa0e")
+	)
+	(wire
+		(pts
 			(xy 57.15 204.47) (xy 60.96 204.47)
 		)
 		(stroke
@@ -8427,6 +8805,26 @@
 			(type default)
 		)
 		(uuid "9aae8db6-aeef-4005-bb03-349fe6125f02")
+	)
+	(wire
+		(pts
+			(xy 184.15 267.97) (xy 184.15 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aafee90-c9be-4238-95ce-7e58ff7f95c5")
+	)
+	(wire
+		(pts
+			(xy 187.96 128.27) (xy 200.66 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ada9ba6-aee1-42e8-bf2d-534885d76962")
 	)
 	(wire
 		(pts
@@ -8510,16 +8908,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 262.89) (xy 168.91 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e344a61-f105-47d4-bc09-378da312f7e4")
-	)
-	(wire
-		(pts
 			(xy 227.33 203.2) (xy 226.06 203.2)
 		)
 		(stroke
@@ -8557,16 +8945,6 @@
 			(type default)
 		)
 		(uuid "9ff027f3-1df3-4ebd-8ac8-4a23501b93a7")
-	)
-	(wire
-		(pts
-			(xy 176.53 247.65) (xy 184.15 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a10e7e90-9ada-4cb6-8c2b-6bd798c7edad")
 	)
 	(wire
 		(pts
@@ -8670,6 +9048,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 135.89) (xy 166.37 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6c0cd86-b3ac-450f-af2d-0b83ab8995d0")
+	)
+	(wire
+		(pts
 			(xy 342.9 21.59) (xy 342.9 26.67)
 		)
 		(stroke
@@ -8677,16 +9065,6 @@
 			(type default)
 		)
 		(uuid "a6da79ed-5f04-432f-89d9-01ef9596fee0")
-	)
-	(wire
-		(pts
-			(xy 187.96 135.89) (xy 200.66 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a779c266-2de3-4ff6-8302-7afc7fccc9d9")
 	)
 	(wire
 		(pts
@@ -8770,7 +9148,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 133.35) (xy 290.83 133.35)
+			(xy 276.86 133.35) (xy 295.91 133.35)
 		)
 		(stroke
 			(width 0)
@@ -8900,7 +9278,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 247.65) (xy 193.04 247.65)
+			(xy 203.2 247.65) (xy 209.55 247.65)
 		)
 		(stroke
 			(width 0)
@@ -8997,6 +9375,16 @@
 			(type default)
 		)
 		(uuid "bfeda597-6fd7-4db1-ad70-f32e7d6f34d4")
+	)
+	(wire
+		(pts
+			(xy 184.15 247.65) (xy 184.15 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c04a5dcf-d795-479c-9d0f-aa93161fd798")
 	)
 	(wire
 		(pts
@@ -9250,7 +9638,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 233.68) (xy 176.53 240.03)
+			(xy 176.53 233.68) (xy 176.53 236.22)
 		)
 		(stroke
 			(width 0)
@@ -9350,6 +9738,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 144.78) (xy 166.37 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc3ef85e-10fe-46a4-a463-afd8ffc9a880")
+	)
+	(wire
+		(pts
 			(xy 203.2 41.91) (xy 212.09 41.91)
 		)
 		(stroke
@@ -9387,6 +9785,16 @@
 			(type default)
 		)
 		(uuid "e0fdd1ea-51e0-426a-ba5f-33df25602276")
+	)
+	(wire
+		(pts
+			(xy 187.96 140.97) (xy 200.66 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e19c2e81-88dd-4306-88c4-e663c5f86ef3")
 	)
 	(wire
 		(pts
@@ -9530,7 +9938,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 267.97) (xy 176.53 266.7)
+			(xy 176.53 273.05) (xy 176.53 270.51)
 		)
 		(stroke
 			(width 0)
@@ -9607,16 +10015,6 @@
 			(type default)
 		)
 		(uuid "f010883c-8fe6-47f9-95b0-d741f530f06b")
-	)
-	(wire
-		(pts
-			(xy 30.48 157.48) (xy 43.18 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1e5cc30-0d46-4973-85d1-6714cc4f7da6")
 	)
 	(wire
 		(pts
@@ -9710,7 +10108,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 256.54) (xy 156.21 256.54)
+			(xy 146.05 256.54) (xy 156.21 256.54)
 		)
 		(stroke
 			(width 0)
@@ -9767,6 +10165,16 @@
 			(type default)
 		)
 		(uuid "fc49b403-78e9-40f8-b81c-79d630b10e27")
+	)
+	(wire
+		(pts
+			(xy 162.56 142.24) (xy 162.56 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd0e0e6-94ad-4e86-b709-fce9777f8a83")
 	)
 	(wire
 		(pts
@@ -10039,7 +10447,7 @@
 		(uuid "33ea7ebf-a8d3-4b91-b53c-8ca998ca8bee")
 	)
 	(label "ALARM"
-		(at 140.97 256.54 0)
+		(at 146.05 256.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10057,16 +10465,6 @@
 			(justify right bottom)
 		)
 		(uuid "397ada50-3f48-451d-9378-d6784ae467ce")
-	)
-	(label "PD0_DEBUG"
-		(at 256.54 50.8 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3c6476af-a17d-4d83-b66d-87cf9ef7d3cc")
 	)
 	(label "uC_NRST"
 		(at 189.23 120.65 0)
@@ -10297,16 +10695,6 @@
 			(justify left bottom)
 		)
 		(uuid "7f1201e7-7f13-42f0-8d70-8fdb7cd5222d")
-	)
-	(label "PD10_DEBUG"
-		(at 290.83 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "81989233-ae0d-48ae-b028-d385c3a60f8f")
 	)
 	(label "uC_VDDA"
 		(at 77.47 45.72 180)
@@ -10782,7 +11170,7 @@
 	)
 	(hierarchical_label "uC_DCMI_PIXCLK"
 		(shape output)
-		(at 218.44 176.53 270)
+		(at 218.44 179.07 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10846,6 +11234,17 @@
 		)
 		(uuid "63eea4d6-467a-486d-adfe-44f51d892649")
 	)
+	(hierarchical_label "uC_PE0"
+		(shape output)
+		(at 215.9 62.23 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66ddecc3-42c8-4347-8553-c7985075ef5e")
+	)
 	(hierarchical_label "uC_PE2"
 		(shape bidirectional)
 		(at 190.5 87.63 180)
@@ -10903,7 +11302,7 @@
 	)
 	(hierarchical_label "FPGA1_DONE"
 		(shape input)
-		(at 187.96 135.89 180)
+		(at 187.96 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10980,7 +11379,7 @@
 	)
 	(hierarchical_label "DCMI_D3"
 		(shape input)
-		(at 213.36 60.96 90)
+		(at 213.36 62.23 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11054,6 +11453,17 @@
 			(justify right)
 		)
 		(uuid "d89f88a0-ce6a-4cf1-a731-f53d85b938fa")
+	)
+	(hierarchical_label "uC_PC2"
+		(shape output)
+		(at 187.96 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e98eaf27-3f66-4682-92a4-22da72f40507")
 	)
 	(hierarchical_label "uC_SPI3_NSS"
 		(shape output)
@@ -11154,7 +11564,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2309201533_Walsin-Tech-Corp-0402B103K100CT_C3840241.pdf"
+		(property "Datasheet" ""
 			(at 73.66 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11165,7 +11575,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 73.66 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11290,7 +11700,7 @@
 				)
 			)
 		)
-		(property "LCSC Part # " "C163826"
+		(property "LCSC Part # " ""
 			(at 391.16 26.67 90)
 			(hide yes)
 			(show_name no)
@@ -11415,7 +11825,7 @@
 				)
 			)
 		)
-		(property "LCSC Part # " "C163826"
+		(property "LCSC Part # " ""
 			(at 388.62 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -11586,7 +11996,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2309201533_Walsin-Tech-Corp-0402B103K100CT_C3840241.pdf"
+		(property "Datasheet" ""
 			(at 71.12 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -11597,7 +12007,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 71.12 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -12083,7 +12493,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2309201533_Walsin-Tech-Corp-0402B103K100CT_C3840241.pdf"
+		(property "Datasheet" ""
 			(at 64.77 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12094,7 +12504,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 64.77 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12222,6 +12632,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 21.59 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b0dd524-4dad-4dc5-aa53-039f0c76e356")
+		(property "Reference" "C323"
+			(at 27.686 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 29.21 162.306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 21.59 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 21.59 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #" "0402B104K500CT"
+			(at 21.59 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C152814"
+			(at 21.59 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68bbe2fb-ee06-4c9f-8a06-34070f7d210b")
+		)
+		(pin "2"
+			(uuid "f9a7078e-ba64-4532-911a-9069ab278657")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/4076aa04-90aa-440d-a5e6-7a7144feeeac"
+					(reference "C323")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 330.2 101.6 0)
 		(unit 1)
@@ -12334,7 +12847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 158.75 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -12468,7 +12981,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 306.07 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -12789,6 +13302,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 295.91 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "233be40d-4f06-48fe-a168-3815d92c2585")
+		(property "Reference" "TP25"
+			(at 295.656 124.206 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 293.37 128.7781 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 300.99 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 295.91 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "095fdbf3-0e8e-4851-8667-fccacdbfffb7")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/4076aa04-90aa-440d-a5e6-7a7144feeeac"
+					(reference "TP25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 336.55 30.48 180)
 		(unit 1)
@@ -12865,7 +13457,7 @@
 				)
 			)
 		)
-		(property "LCSC Part # " "C163826"
+		(property "LCSC Part # " ""
 			(at 336.55 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -13045,7 +13637,7 @@
 				)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 271.78 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -13276,7 +13868,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC Part # " "C710334"
+		(property "LCSC Part # " ""
 			(at 26.67 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -13523,7 +14115,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2201131300_Murata-Electronics-GRM188Z71A475KE15D_C913474.pdf"
+		(property "Datasheet" ""
 			(at 36.83 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -13534,7 +14126,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 4.7uF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "35V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 36.83 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -13545,7 +14137,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part #" "GRM188Z71A475KE15D"
+		(property "Mfr. Part #" "GMK107BBJ475KA-T"
 			(at 36.83 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -13556,7 +14148,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C913474"
+		(property "LCSC Part #" "C7281848"
 			(at 36.83 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -13684,7 +14276,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC Part # " "C730183"
+		(property "LCSC Part # " ""
 			(at 200.66 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -14185,19 +14777,29 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 176.53 267.97 0)
+		(lib_id "Connector:TestPoint")
+		(at 256.54 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46b64cae-e39f-4b84-92c5-2d4b5247d337")
-		(property "Reference" "#PWR0125"
-			(at 176.53 274.32 0)
+		(dnp yes)
+		(uuid "43ad4192-9623-4e90-a8e5-e2e9cdf31e26")
+		(property "Reference" "TP24"
+			(at 256.286 41.656 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 254 46.2281 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14205,21 +14807,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "GND"
-			(at 176.53 273.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 267.97 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 261.62 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14230,7 +14822,264 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 267.97 0)
+			(at 261.62 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 256.54 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "940b776e-41df-4d95-b71e-aa9c11e9fe36")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/4076aa04-90aa-440d-a5e6-7a7144feeeac"
+					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RASBB_Library:SMAJ33A")
+		(at 184.15 252.73 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "455b39ee-091b-4ac6-a08c-c6b55b20d1d0")
+		(property "Reference" "D27"
+			(at 187.96 258.5719 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ33A"
+			(at 187.96 261.1119 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DIOM5026X229N"
+			(at 187.96 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "33V 400W 53.3V 7.5A SMA(DO-214AC) Uni-Directional TVS Voltage Suppressors / Diodes ROHS"
+			(at 184.15 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "Littelfuse SMAJ33A Uni-Directional TVS Diode, 400W peak, 2-Pin DO-214AC"
+			(at 182.88 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Height" "2.29"
+			(at 180.34 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Part Number" "576-SMAJ33A"
+			(at 177.8 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMAJ33A?qs=2VFNtWizgicTApVO2JetGQ%3D%3D"
+			(at 175.26 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 172.72 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SMAJ33A"
+			(at 170.18 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "LCSC Part #" "C223988"
+			(at 184.15 252.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #" "SMAJ33A"
+			(at 184.15 252.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "41789032-d32d-42e4-8723-ad0f8612bde0")
+		)
+		(pin "1"
+			(uuid "a69b96f1-d5b4-40e9-bff0-2f781dd92600")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/4076aa04-90aa-440d-a5e6-7a7144feeeac"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 273.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46b64cae-e39f-4b84-92c5-2d4b5247d337")
+		(property "Reference" "#PWR0125"
+			(at 176.53 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14241,7 +15090,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 267.97 0)
+			(at 176.53 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14316,7 +15165,7 @@
 				)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 271.78 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -14359,6 +15208,212 @@
 			(project "RASBB"
 				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/4076aa04-90aa-440d-a5e6-7a7144feeeac"
 					(reference "R109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 162.56 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a6ff0fc-da21-4d27-940e-7f199a621633")
+		(property "Reference" "C279"
+			(at 155.194 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 154.686 141.224 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 162.56 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "35V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 162.56 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #" "GMK107BBJ475KA-T"
+			(at 162.56 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C7281848"
+			(at 162.56 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "94c29932-18a8-471b-b211-11a72de2043f")
+		)
+		(pin "1"
+			(uuid "d38862f5-0043-465d-8460-990d3683d558")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/4076aa04-90aa-440d-a5e6-7a7144feeeac"
+					(reference "C279")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 166.37 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b2bbb79-e521-4e73-b877-fe5cb9f81673")
+		(property "Reference" "C276"
+			(at 172.466 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 173.99 140.716 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 166.37 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 166.37 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #" "0402B104K500CT"
+			(at 166.37 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C152814"
+			(at 166.37 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60a27886-ab31-4f98-a6ce-f717be1bb5c7")
+		)
+		(pin "2"
+			(uuid "63434206-d11f-4a4f-ae27-db8a5e2ee4f1")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/4076aa04-90aa-440d-a5e6-7a7144feeeac"
+					(reference "C276")
 					(unit 1)
 				)
 			)
@@ -14417,7 +15472,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 223.52 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -14657,6 +15712,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 21.59 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "557432b8-6b1c-4424-957d-9b5dabba4aac")
+		(property "Reference" "#PWR0278"
+			(at 21.59 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.59 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 21.59 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a82eead-f107-40c5-ab7d-b8c6dcf45605")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/4076aa04-90aa-440d-a5e6-7a7144feeeac"
+					(reference "#PWR0278")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 217.17 43.18 0)
 		(unit 1)
@@ -14709,7 +15843,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 217.17 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15054,7 +16188,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC Part # " "C710334"
+		(property "LCSC Part # " ""
 			(at 304.8 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -15097,6 +16231,85 @@
 			(project "RASBB"
 				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/4076aa04-90aa-440d-a5e6-7a7144feeeac"
 					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "584adbef-fcd1-4484-9171-766a10f6656e")
+		(property "Reference" "#PWR0272"
+			(at 166.37 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "007a3b7b-02f1-4502-9efb-bebe39ba0c62")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/4076aa04-90aa-440d-a5e6-7a7144feeeac"
+					(reference "#PWR0272")
 					(unit 1)
 				)
 			)
@@ -15146,7 +16359,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2309201533_Walsin-Tech-Corp-0402B103K100CT_C3840241.pdf"
+		(property "Datasheet" ""
 			(at 55.88 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -15157,7 +16370,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 55.88 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -15453,7 +16666,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC Part # " "C41370773"
+		(property "LCSC Part # " ""
 			(at 351.79 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -15701,7 +16914,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 168.91 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -15984,7 +17197,7 @@
 				)
 			)
 		)
-		(property "LCSC Part # " "C163826"
+		(property "LCSC Part # " ""
 			(at 383.54 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -16034,7 +17247,7 @@
 	)
 	(symbol
 		(lib_id "RASBB_Library:691305140002")
-		(at 193.04 245.11 0)
+		(at 209.55 245.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16042,10 +17255,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7067c2e7-0481-487e-9057-25279a61ff2b")
 		(property "Reference" "J9"
-			(at 209.55 245.1099 0)
+			(at 215.138 252.222 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16056,7 +17268,7 @@
 			)
 		)
 		(property "Value" "KF2EDGR-3.5-2P"
-			(at 209.55 247.6499 0)
+			(at 214.884 254.508 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16067,7 +17279,7 @@
 			)
 		)
 		(property "Footprint" "RASBB:SHDRRA2W80P0X350_1X2_1050X920X750P"
-			(at 209.55 242.57 0)
+			(at 226.06 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16079,7 +17291,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303311930_Cixi-Kefa-Elec-KF2EDGR-3-5-2P_C441171.pdf"
-			(at 209.55 245.11 0)
+			(at 226.06 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16091,7 +17303,7 @@
 			)
 		)
 		(property "Description" "Bend -40℃~+105℃ 1 3.5mm 300V 10A 2 1x2P Green Receptacle-Close Push-Pull,P=3.5mm Pluggable System Terminal Block ROHS"
-			(at 193.04 245.11 0)
+			(at 209.55 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16102,7 +17314,7 @@
 			)
 		)
 		(property "Height" "7.5"
-			(at 209.55 250.19 0)
+			(at 226.06 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16114,7 +17326,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Cixi Kefa Elec"
-			(at 209.55 257.81 0)
+			(at 226.06 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16126,7 +17338,7 @@
 			)
 		)
 		(property "Mfr. Part #  " "KF2EDGR-3.5-2P"
-			(at 209.55 260.35 0)
+			(at 226.06 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16138,7 +17350,7 @@
 			)
 		)
 		(property "LCSC Part #  " "C441171"
-			(at 193.04 245.11 0)
+			(at 209.55 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16149,7 +17361,7 @@
 			)
 		)
 		(property "Mfr. Part #" "KF2EDGR-3.5-2P"
-			(at 193.04 245.11 0)
+			(at 209.55 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16160,7 +17372,7 @@
 			)
 		)
 		(property "LCSC Part #" "C441171"
-			(at 193.04 245.11 0)
+			(at 209.55 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16298,7 +17510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 134.62 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -16471,7 +17683,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC Part # " "C41370773"
+		(property "LCSC Part # " ""
 			(at 68.834 148.336 0)
 			(hide yes)
 			(show_name no)
@@ -16620,7 +17832,7 @@
 				)
 			)
 		)
-		(property "LCSC Part # " "C163826"
+		(property "LCSC Part # " ""
 			(at 391.16 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -16872,7 +18084,7 @@
 				)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 271.78 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -17043,7 +18255,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2309201533_Walsin-Tech-Corp-0402B103K100CT_C3840241.pdf"
+		(property "Datasheet" ""
 			(at 46.99 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -17054,7 +18266,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 46.99 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -17551,10 +18763,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9b6e4601-2ad1-4bb2-97c1-70acb501454e")
 		(property "Reference" "Q1"
-			(at 180.34 255.2699 0)
+			(at 177.8 261.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17565,7 +18776,8 @@
 			)
 		)
 		(property "Value" "DMN6075S"
-			(at 180.34 257.8099 0)
+			(at 177.546 263.398 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17726,7 +18938,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 100Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 158.75 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -17827,7 +19039,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 22Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 53.34 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -18055,7 +19267,7 @@
 				)
 			)
 		)
-		(property "LCSC Part # " "C163826"
+		(property "LCSC Part # " ""
 			(at 331.47 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -18156,7 +19368,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 24.13 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -18248,7 +19460,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2309201533_Walsin-Tech-Corp-0402B103K100CT_C3840241.pdf"
+		(property "Datasheet" ""
 			(at 91.44 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -18259,7 +19471,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 91.44 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -18351,7 +19563,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2309201533_Walsin-Tech-Corp-0402B103K100CT_C3840241.pdf"
+		(property "Datasheet" ""
 			(at 335.28 127 0)
 			(hide yes)
 			(show_name no)
@@ -18362,7 +19574,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 335.28 127 0)
 			(hide yes)
 			(show_name no)
@@ -18463,7 +19675,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 299.72 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -18758,7 +19970,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2201131300_Murata-Electronics-GRM188Z71A475KE15D_C913474.pdf"
+		(property "Datasheet" ""
 			(at 26.67 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -18769,7 +19981,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 4.7uF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "35V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 26.67 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -18780,7 +19992,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part #" "GRM188Z71A475KE15D"
+		(property "Mfr. Part #" "GMK107BBJ475KA-T"
 			(at 26.67 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -18791,7 +20003,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C913474"
+		(property "LCSC Part #" "C7281848"
 			(at 26.67 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -18984,7 +20196,7 @@
 				)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 163.83 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -19076,7 +20288,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2309201534_Walsin-Tech-Corp-0402X105M160CT_C3889771.pdf"
+		(property "Datasheet" ""
 			(at 55.88 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -19337,7 +20549,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2309201533_Walsin-Tech-Corp-0402B103K100CT_C3840241.pdf"
+		(property "Datasheet" ""
 			(at 81.28 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -19348,7 +20560,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 81.28 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -19982,7 +21194,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2309201533_Walsin-Tech-Corp-0402B103K100CT_C3840241.pdf"
+		(property "Datasheet" ""
 			(at 64.77 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -19993,7 +21205,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 64.77 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -20122,7 +21334,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 187.96 247.65 90)
+		(at 199.39 247.65 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20132,7 +21344,7 @@
 		(dnp no)
 		(uuid "de2b56bd-a5ee-43a0-a66b-e5abd4162652")
 		(property "Reference" "F1"
-			(at 187.452 252.476 90)
+			(at 198.882 252.476 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20142,7 +21354,7 @@
 			)
 		)
 		(property "Value" "Polyfuse 1.5A"
-			(at 184.15 250.19 90)
+			(at 195.58 250.19 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20152,7 +21364,7 @@
 			)
 		)
 		(property "Footprint" "RASBB:BSMD1812"
-			(at 193.04 246.38 0)
+			(at 204.47 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20164,7 +21376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 247.65 0)
+			(at 199.39 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20174,8 +21386,8 @@
 				)
 			)
 		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 187.96 247.65 0)
+		(property "Description" "PTC RESET FUSE 33V 1.5A 1812"
+			(at 199.39 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20186,7 +21398,18 @@
 			)
 		)
 		(property "LCSC Part #" "C883154"
-			(at 187.96 247.65 90)
+			(at 199.39 247.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #" "BSMD1812-150-33V"
+			(at 199.39 247.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20367,7 +21590,7 @@
 				)
 			)
 		)
-		(property "LCSC Part # " "C163826"
+		(property "LCSC Part # " ""
 			(at 110.49 237.49 90)
 			(hide yes)
 			(show_name no)
@@ -20571,7 +21794,7 @@
 				)
 			)
 		)
-		(property "LCSC Part # " "C163826"
+		(property "LCSC Part # " ""
 			(at 342.9 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -21172,7 +22395,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2309201533_Walsin-Tech-Corp-0402B103K100CT_C3840241.pdf"
+		(property "Datasheet" ""
 			(at 80.01 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -21183,7 +22406,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 80.01 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -21363,7 +22586,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 22Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 53.34 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -21413,7 +22636,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N5401")
-		(at 176.53 243.84 90)
+		(at 176.53 240.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21423,7 +22646,7 @@
 		(dnp no)
 		(uuid "fea6ec39-ccdf-4607-839c-05e9295e8814")
 		(property "Reference" "D6"
-			(at 173.99 245.1101 90)
+			(at 173.99 241.3001 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21434,7 +22657,7 @@
 			)
 		)
 		(property "Value" "S210_R1_00001"
-			(at 180.086 255.27 0)
+			(at 180.086 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21446,7 +22669,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 180.975 243.84 0)
+			(at 180.975 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21457,7 +22680,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2009121106_PANJIT-International-S210-R1-00001_C391676.pdf"
-			(at 176.53 243.84 0)
+			(at 176.53 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21468,7 +22691,7 @@
 			)
 		)
 		(property "Description" "2A Independent Type 100V 660mV@2A SMB(DO-214AA) Diodes - General Purpose ROHS"
-			(at 176.53 243.84 0)
+			(at 176.53 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21479,7 +22702,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 176.53 243.84 0)
+			(at 176.53 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21490,7 +22713,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 176.53 243.84 0)
+			(at 176.53 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21501,7 +22724,7 @@
 			)
 		)
 		(property "Mfr. Part #  " "S210_R1_00001"
-			(at 176.53 243.84 90)
+			(at 176.53 240.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21512,7 +22735,7 @@
 			)
 		)
 		(property "LCSC Part #" "C391676"
-			(at 176.53 243.84 90)
+			(at 176.53 240.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21523,7 +22746,7 @@
 			)
 		)
 		(property "Mfr. Part #" "S210_R1_00001"
-			(at 176.53 243.84 0)
+			(at 176.53 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21601,7 +22824,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 307.34 139.7 0)
 			(hide yes)
 			(show_name no)

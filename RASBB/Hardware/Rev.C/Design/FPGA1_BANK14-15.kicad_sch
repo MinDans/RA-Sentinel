@@ -371,25 +371,23 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -6953,6 +6951,154 @@
 		(color 0 0 0 0)
 		(uuid "fd2892cf-c692-4001-9568-c5477c2d5dde")
 	)
+	(no_connect
+		(at 205.74 172.72)
+		(uuid "0c120ee8-224c-4e67-8a7a-a21525fbe2a5")
+	)
+	(no_connect
+		(at 205.74 116.84)
+		(uuid "0ca59534-b450-45d9-aafd-f8ad9616a79f")
+	)
+	(no_connect
+		(at 205.74 220.98)
+		(uuid "0e56eba2-e746-49d7-8c1f-b511d0a3f018")
+	)
+	(no_connect
+		(at 205.74 127)
+		(uuid "1bb625ca-30b7-449f-99ae-d4ea9a703739")
+	)
+	(no_connect
+		(at 205.74 190.5)
+		(uuid "1dfa1bb0-8b1a-480d-b1c1-fde91a19b472")
+	)
+	(no_connect
+		(at 104.14 104.14)
+		(uuid "22dfc134-a537-433d-a423-96d65aed055d")
+	)
+	(no_connect
+		(at 205.74 165.1)
+		(uuid "2518f5a2-9619-4473-86bf-81f85a30844c")
+	)
+	(no_connect
+		(at 205.74 109.22)
+		(uuid "36a56b8b-3d3c-46d2-9a1f-6cdb33c5e7fe")
+	)
+	(no_connect
+		(at 205.74 185.42)
+		(uuid "3ad73ea6-1133-455f-bf06-29c460961c6f")
+	)
+	(no_connect
+		(at 104.14 111.76)
+		(uuid "44c7079b-ccde-4dad-abb3-3223e727598f")
+	)
+	(no_connect
+		(at 205.74 170.18)
+		(uuid "5d7f6775-7ebc-47e0-9cbf-ef647ffc4963")
+	)
+	(no_connect
+		(at 205.74 101.6)
+		(uuid "65dd40fc-4819-4ae7-a426-c3c2934d73d0")
+	)
+	(no_connect
+		(at 205.74 124.46)
+		(uuid "6d16cdfa-b97e-4419-a525-5ee74dbe864f")
+	)
+	(no_connect
+		(at 104.14 109.22)
+		(uuid "6e9e08ec-63ba-4896-b513-18e93ccd12f3")
+	)
+	(no_connect
+		(at 205.74 193.04)
+		(uuid "7083a2d3-3039-4178-bdc7-54ef4027f39d")
+	)
+	(no_connect
+		(at 205.74 187.96)
+		(uuid "7842a03a-75ed-482c-8a05-6806189391a0")
+	)
+	(no_connect
+		(at 205.74 160.02)
+		(uuid "7fb4f554-8b3e-4c62-9620-b3f7fb8e3684")
+	)
+	(no_connect
+		(at 205.74 119.38)
+		(uuid "81ad2f07-3071-4bc3-975f-a69138949832")
+	)
+	(no_connect
+		(at 205.74 114.3)
+		(uuid "8b951abe-b1fb-45d9-b5c0-33eaff4deccd")
+	)
+	(no_connect
+		(at 205.74 218.44)
+		(uuid "951cb27f-d379-4351-b272-d93e9b2d9b90")
+	)
+	(no_connect
+		(at 205.74 121.92)
+		(uuid "980ec089-aae9-4571-9c5d-b75e88003ab6")
+	)
+	(no_connect
+		(at 205.74 180.34)
+		(uuid "a0f628fd-676c-422d-bbec-f24648d8ea24")
+	)
+	(no_connect
+		(at 205.74 182.88)
+		(uuid "a5286e64-cb39-4dfc-ab3e-3e1e16afe8ff")
+	)
+	(no_connect
+		(at 205.74 96.52)
+		(uuid "a8e04e8f-8cc9-4893-a04f-46884564cf58")
+	)
+	(no_connect
+		(at 104.14 96.52)
+		(uuid "aee48716-f35f-40d9-8ff5-0b64270845f8")
+	)
+	(no_connect
+		(at 205.74 167.64)
+		(uuid "c658c4f6-5d92-4a71-9b33-16e0ee46cd35")
+	)
+	(no_connect
+		(at 205.74 215.9)
+		(uuid "e429dfd9-e844-4eda-a134-e4bc529bad28")
+	)
+	(no_connect
+		(at 205.74 210.82)
+		(uuid "e4c310b8-7c51-4845-ae48-f2e26e3ad6e2")
+	)
+	(no_connect
+		(at 104.14 220.98)
+		(uuid "e7512168-b3fd-4403-9ac5-ddc64db39dc0")
+	)
+	(no_connect
+		(at 205.74 195.58)
+		(uuid "e7f2d1bd-3b35-4872-a866-6a0c9475d9ea")
+	)
+	(no_connect
+		(at 205.74 162.56)
+		(uuid "ea080844-1ec9-458d-bb40-43383f711188")
+	)
+	(no_connect
+		(at 205.74 198.12)
+		(uuid "ea515696-8744-4baf-97b4-0027beea94f9")
+	)
+	(no_connect
+		(at 104.14 127)
+		(uuid "ece6598b-02e4-4c1b-a3ec-cee978bd9e46")
+	)
+	(no_connect
+		(at 205.74 111.76)
+		(uuid "ee711060-09fd-46c8-a945-3b7a4b56f60a")
+	)
+	(no_connect
+		(at 205.74 99.06)
+		(uuid "f0b3a006-c166-4454-8bef-51ee8c071208")
+	)
+	(no_connect
+		(at 205.74 213.36)
+		(uuid "f81edde5-ab4d-45e4-95d9-801aa393dd5b")
+	)
+	(no_connect
+		(at 104.14 215.9)
+		(uuid "f891d9f1-a3c8-4cca-82b2-08fa14819cb2")
+	)
 	(wire
 		(pts
 			(xy 331.47 137.16) (xy 331.47 154.94)
@@ -6982,6 +7128,16 @@
 			(type default)
 		)
 		(uuid "01e56455-95a2-4a1c-95c3-5c8ab49df9b5")
+	)
+	(wire
+		(pts
+			(xy 205.74 208.28) (xy 218.44 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0368233b-0b9e-4679-92c0-cda0609fa960")
 	)
 	(wire
 		(pts
@@ -7632,6 +7788,16 @@
 			(type default)
 		)
 		(uuid "62ee7fd8-9766-4ddd-ab23-c079a67c3b2c")
+	)
+	(wire
+		(pts
+			(xy 205.74 205.74) (xy 218.44 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6355726a-f918-4b03-96a8-c40fdc129bd7")
 	)
 	(wire
 		(pts
@@ -9942,6 +10108,17 @@
 		)
 		(uuid "ccbd4b33-ca9f-4fde-90c7-531eefda198c")
 	)
+	(hierarchical_label "F1_B15_F18"
+		(shape input)
+		(at 218.44 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d22df216-87ea-4a24-a6e2-6cf9f199621d")
+	)
 	(hierarchical_label "F1_B15_A13"
 		(shape bidirectional)
 		(at 218.44 139.7 0)
@@ -10029,6 +10206,17 @@
 			(justify right)
 		)
 		(uuid "ee95b5aa-81fa-41e1-ac40-66c851565502")
+	)
+	(hierarchical_label "F1_B15_G18"
+		(shape input)
+		(at 218.44 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3e5852a-1104-489f-934b-2797334b6f2b")
 	)
 	(hierarchical_label "F1_B14_P15"
 		(shape bidirectional)
@@ -10175,7 +10363,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206281830_Murata-Electronics-GRT155R71A474KE01D_C711087.pdf"
+		(property "Datasheet" ""
 			(at 255.27 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10186,7 +10374,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "16V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 255.27 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10278,7 +10466,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2201131300_Murata-Electronics-GRM188Z71A475KE15D_C913474.pdf"
+		(property "Datasheet" ""
 			(at 207.01 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10394,7 +10582,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206281830_Murata-Electronics-GRT155R71A474KE01D_C711087.pdf"
+		(property "Datasheet" ""
 			(at 83.82 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10405,7 +10593,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "16V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 83.82 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10497,7 +10685,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206281830_Murata-Electronics-GRT155R71A474KE01D_C711087.pdf"
+		(property "Datasheet" ""
 			(at 279.4 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10508,7 +10696,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "16V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 279.4 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10600,7 +10788,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081617_Murata-Electronics-GRM155R61A475KEAAD_C77004.pdf"
+		(property "Datasheet" ""
 			(at 107.95 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10715,7 +10903,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206281830_Murata-Electronics-GRT155R71A474KE01D_C711087.pdf"
+		(property "Datasheet" ""
 			(at 33.02 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10726,7 +10914,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "16V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 33.02 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10820,7 +11008,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206281830_Murata-Electronics-GRT155R71A474KE01D_C711087.pdf"
+		(property "Datasheet" ""
 			(at 92.71 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10831,7 +11019,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "16V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 92.71 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10924,7 +11112,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206281830_Murata-Electronics-GRT155R71A474KE01D_C711087.pdf"
+		(property "Datasheet" ""
 			(at 40.64 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10935,7 +11123,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "16V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 40.64 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11028,7 +11216,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206281830_Murata-Electronics-GRT155R71A474KE01D_C711087.pdf"
+		(property "Datasheet" ""
 			(at 236.22 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11039,7 +11227,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "16V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 236.22 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11289,7 +11477,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206281830_Murata-Electronics-GRT155R71A474KE01D_C711087.pdf"
+		(property "Datasheet" ""
 			(at 246.38 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11300,7 +11488,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "16V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 246.38 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11392,7 +11580,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206281830_Murata-Electronics-GRT155R71A474KE01D_C711087.pdf"
+		(property "Datasheet" ""
 			(at 262.89 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11403,7 +11591,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "16V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 262.89 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11495,7 +11683,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206281830_Murata-Electronics-GRT155R71A474KE01D_C711087.pdf"
+		(property "Datasheet" ""
 			(at 289.56 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11506,7 +11694,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "16V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 289.56 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11598,7 +11786,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081617_Murata-Electronics-GRM155R61A475KEAAD_C77004.pdf"
+		(property "Datasheet" ""
 			(at 217.17 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11714,7 +11902,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206281830_Murata-Electronics-GRT155R71A474KE01D_C711087.pdf"
+		(property "Datasheet" ""
 			(at 74.93 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11725,7 +11913,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "16V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 74.93 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11818,7 +12006,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206281830_Murata-Electronics-GRT155R71A474KE01D_C711087.pdf"
+		(property "Datasheet" ""
 			(at 271.78 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11829,7 +12017,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "16V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 271.78 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11922,7 +12110,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206281830_Murata-Electronics-GRT155R71A474KE01D_C711087.pdf"
+		(property "Datasheet" ""
 			(at 24.13 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11933,7 +12121,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "16V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 24.13 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -13114,7 +13302,7 @@
 				)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 331.47 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -13207,7 +13395,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206281830_Murata-Electronics-GRT155R71A474KE01D_C711087.pdf"
+		(property "Datasheet" ""
 			(at 49.53 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -13218,7 +13406,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "16V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 49.53 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -13442,7 +13630,7 @@
 				)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 320.04 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -13534,7 +13722,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081617_Murata-Electronics-GRM155R61A475KEAAD_C77004.pdf"
+		(property "Datasheet" ""
 			(at 227.33 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -13840,7 +14028,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081617_Murata-Electronics-GRM155R61A475KEAAD_C77004.pdf"
+		(property "Datasheet" ""
 			(at 100.33 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -13955,7 +14143,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206281830_Murata-Electronics-GRT155R71A474KE01D_C711087.pdf"
+		(property "Datasheet" ""
 			(at 57.15 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -13966,7 +14154,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "16V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 57.15 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -14181,7 +14369,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206281830_Murata-Electronics-GRT155R71A474KE01D_C711087.pdf"
+		(property "Datasheet" ""
 			(at 66.04 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -14192,7 +14380,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "16V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 66.04 80.01 0)
 			(hide yes)
 			(show_name no)

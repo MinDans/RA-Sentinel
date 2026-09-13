@@ -418,8 +418,30 @@
 					)
 				)
 			)
-			(property "LCSC Part # " "C5711253"
+			(property "LCSC Part # " ""
 				(at 0 66.04 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part #" "C5711253"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mfr. Part #" "X3157WS-98-9TV30"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -439,24 +461,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(pin no_connect line
-					(at -12.7 60.96 0)
-					(length 5.08)
-					(name "A01"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A01"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
 					)
 				)
 				(pin passive line
@@ -2117,7 +2121,25 @@
 				)
 			)
 			(symbol "X3126WS-98-9TV01_1_0"
-				(pin no_connect line
+				(pin power_out line
+					(at -12.7 60.96 0)
+					(length 5.08)
+					(name "A01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_out line
 					(at -12.7 58.42 0)
 					(length 5.08)
 					(name "A02"
@@ -2135,7 +2157,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin power_out line
 					(at -12.7 55.88 0)
 					(length 5.08)
 					(name "A03"
@@ -2153,7 +2175,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin power_out line
 					(at 12.7 60.96 180)
 					(length 5.08)
 					(name "B01"
@@ -2171,7 +2193,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin power_out line
 					(at 12.7 58.42 180)
 					(length 5.08)
 					(name "B02"
@@ -2189,7 +2211,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin power_out line
 					(at 12.7 55.88 180)
 					(length 5.08)
 					(name "B03"
@@ -2488,6 +2510,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -2605,16 +2766,46 @@
 		)
 	)
 	(junction
+		(at 118.11 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a51bb21-dc2d-4a2d-af47-ff91be4f6a18")
+	)
+	(junction
 		(at 147.32 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3307f6ce-faa9-459b-bbef-9046f6b9de90")
 	)
 	(junction
+		(at 83.82 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75eff697-9e22-4aaa-9cf9-663e93ac3adb")
+	)
+	(junction
+		(at 118.11 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3d94013-0f53-4fb7-b9e3-53e1699fab85")
+	)
+	(junction
 		(at 134.62 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5b9a193-fe0b-40d3-8a28-11d39e3e6c79")
+	)
+	(junction
+		(at 118.11 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfa9828f-dc48-451f-a333-e5d7fb2bbf4b")
+	)
+	(junction
+		(at 83.82 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8921c1b-8cb3-4991-acdc-bd75bfe15d90")
 	)
 	(wire
 		(pts
@@ -2658,6 +2849,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 41.91) (xy 125.73 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aeceb4c-3bbd-4685-bbd2-79775921caa4")
+	)
+	(wire
+		(pts
 			(xy 121.92 114.3) (xy 113.03 114.3)
 		)
 		(stroke
@@ -2675,6 +2876,16 @@
 			(type default)
 		)
 		(uuid "1085a283-10b7-4503-8b0a-8f3f4e99f473")
+	)
+	(wire
+		(pts
+			(xy 113.03 50.8) (xy 118.11 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12a257e7-bf71-400d-98d3-55b94fc78778")
 	)
 	(wire
 		(pts
@@ -2708,6 +2919,26 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 48.26) (xy 83.82 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d89a6b1-6238-4714-8940-10c87fcec7fa")
+	)
+	(wire
+		(pts
+			(xy 118.11 50.8) (xy 118.11 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d5cd47-8ad7-410e-a8f2-d414c28e8478")
+	)
+	(wire
+		(pts
 			(xy 78.74 111.76) (xy 87.63 111.76)
 		)
 		(stroke
@@ -2735,6 +2966,16 @@
 			(type default)
 		)
 		(uuid "2d6f28d1-2f47-4e63-b64e-af0e6ddc5dfe")
+	)
+	(wire
+		(pts
+			(xy 118.11 53.34) (xy 118.11 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3169b38d-9597-4f4b-a3c8-dd30a790a792")
 	)
 	(wire
 		(pts
@@ -2775,6 +3016,16 @@
 			(type default)
 		)
 		(uuid "3619392e-3222-4ea5-8569-40bb5a931f44")
+	)
+	(wire
+		(pts
+			(xy 118.11 41.91) (xy 118.11 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36387348-1e7f-4dd0-838f-ff4af1c590d5")
 	)
 	(wire
 		(pts
@@ -2868,6 +3119,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 41.91) (xy 139.7 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b679130-b9f4-48ab-9a57-b6f250d5ae4b")
+	)
+	(wire
+		(pts
 			(xy 121.92 106.68) (xy 113.03 106.68)
 		)
 		(stroke
@@ -2935,6 +3196,16 @@
 			(type default)
 		)
 		(uuid "5d86a500-f101-4d03-b0df-7eb1ec402b9c")
+	)
+	(wire
+		(pts
+			(xy 118.11 48.26) (xy 125.73 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64092d06-1726-43c5-b6ad-9d32d08bad52")
 	)
 	(wire
 		(pts
@@ -3018,6 +3289,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 53.34) (xy 118.11 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7399341c-16be-4335-95b7-f895f18788f0")
+	)
+	(wire
+		(pts
 			(xy 113.03 63.5) (xy 120.65 63.5)
 		)
 		(stroke
@@ -3045,6 +3326,16 @@
 			(type default)
 		)
 		(uuid "77307611-2486-4386-82b7-ef8180c6a54e")
+	)
+	(wire
+		(pts
+			(xy 83.82 41.91) (xy 118.11 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d460340-aca0-42c5-80cf-7daa9f2906e0")
 	)
 	(wire
 		(pts
@@ -3125,6 +3416,16 @@
 			(type default)
 		)
 		(uuid "8badf791-2860-4696-a3fa-b28860f4ed1b")
+	)
+	(wire
+		(pts
+			(xy 139.7 39.37) (xy 139.7 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bf27531-1f9c-4372-8e2a-0107ef0d6218")
 	)
 	(wire
 		(pts
@@ -3268,6 +3569,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 48.26) (xy 146.05 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b319c82f-6d72-4a01-b177-49538914924a")
+	)
+	(wire
+		(pts
 			(xy 121.92 129.54) (xy 113.03 129.54)
 		)
 		(stroke
@@ -3285,6 +3596,16 @@
 			(type default)
 		)
 		(uuid "b53c173a-5a25-4aaf-ae81-5a43509a3845")
+	)
+	(wire
+		(pts
+			(xy 83.82 48.26) (xy 87.63 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8584322-af8c-4523-9312-b7f63c9c8792")
 	)
 	(wire
 		(pts
@@ -3358,6 +3679,36 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 53.34) (xy 83.82 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca3fbe54-e6c2-4406-ba4d-5980300af2a7")
+	)
+	(wire
+		(pts
+			(xy 87.63 53.34) (xy 83.82 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc073556-385a-40d2-bf43-a369b3d8c155")
+	)
+	(wire
+		(pts
+			(xy 146.05 39.37) (xy 146.05 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd43b1f5-ffb8-4afc-8cd5-c96417b818e0")
+	)
+	(wire
+		(pts
 			(xy 78.74 81.28) (xy 87.63 81.28)
 		)
 		(stroke
@@ -3375,6 +3726,16 @@
 			(type default)
 		)
 		(uuid "cf2235ae-745c-4d81-8e60-8c88c1eccc5e")
+	)
+	(wire
+		(pts
+			(xy 83.82 50.8) (xy 83.82 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d403ba71-eb64-43cd-8b98-318a5f8bddab")
 	)
 	(wire
 		(pts
@@ -3478,6 +3839,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 50.8) (xy 87.63 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f67605-e059-4830-9c93-69d3d467ed7c")
+	)
+	(wire
+		(pts
 			(xy 78.74 83.82) (xy 87.63 83.82)
 		)
 		(stroke
@@ -3545,6 +3916,16 @@
 			(type default)
 		)
 		(uuid "f9a6a2b0-6aa3-4ee9-a5ac-54a739d26edd")
+	)
+	(wire
+		(pts
+			(xy 113.03 48.26) (xy 118.11 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff7c4c16-1fbf-4249-8539-1c46b7707bb4")
 	)
 	(label "3V3"
 		(at 207.01 63.5 0)
@@ -4767,6 +5148,120 @@
 		(uuid "fe59cbc9-d9cc-4ca2-9339-7151dfc0719f")
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 129.54 48.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "35a4ab42-8a3e-4a06-af9f-cb7c541c6e20")
+		(property "Reference" "R208"
+			(at 131.826 45.974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 130.302 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 129.54 50.038 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "250mW Thick Film Resistors 200V 0Ω 1206 Chip Resistor - Surface Mount ROHS"
+			(at 129.54 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #  " "1206W4F0000T5E "
+			(at 129.54 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C17888 "
+			(at 129.54 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #" "1206W4F0000T5E"
+			(at 129.54 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "819b2771-3ebf-46e5-8327-d112ad272b2a")
+		)
+		(pin "2"
+			(uuid "610a2832-44c2-45c8-884d-c6bbc58edddf")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/0df6d93c-801c-4070-ba40-80b3fddbebe0"
+					(reference "R208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 242.57 66.04 0)
 		(unit 1)
@@ -4911,6 +5406,28 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C492401"
+			(at 142.24 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #" "PZ254V-11-02P"
+			(at 142.24 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8ebeaa7f-ebfa-4fee-8fa6-5a94fe4206d3")
 		)
@@ -5000,6 +5517,198 @@
 			(project "RASBB"
 				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/0df6d93c-801c-4070-ba40-80b3fddbebe0"
 					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 41.91 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "73a88947-4848-46ff-8e27-75afbe4c5106")
+		(property "Reference" "R209"
+			(at 131.826 39.624 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 130.302 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 129.54 43.688 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "250mW Thick Film Resistors 200V 0Ω 1206 Chip Resistor - Surface Mount ROHS"
+			(at 129.54 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #  " "1206W4F0000T5E "
+			(at 129.54 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C17888 "
+			(at 129.54 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #" "1206W4F0000T5E"
+			(at 129.54 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dfd9f709-cba5-4837-a499-7cd7d53b0cc0")
+		)
+		(pin "2"
+			(uuid "310a2317-67a6-4a1d-8578-53aad9e0b0e3")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/0df6d93c-801c-4070-ba40-80b3fddbebe0"
+					(reference "R209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 146.05 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a4c3955-d632-4eee-9fc4-43622bd29890")
+		(property "Reference" "#PWR0275"
+			(at 146.05 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 146.05 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 146.05 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "106cff92-3c20-44a6-9fe0-d86083fe5c02")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/0df6d93c-801c-4070-ba40-80b3fddbebe0"
+					(reference "#PWR0275")
 					(unit 1)
 				)
 			)
@@ -5171,7 +5880,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part #" ""
+		(property "Mfr. Part #" "1206W4F0000T5E"
 			(at 140.97 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5285,7 +5994,7 @@
 				)
 			)
 		)
-		(property "LCSC Part # " "C5711253"
+		(property "LCSC Part # " ""
 			(at 100.33 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5616,6 +6325,84 @@
 			(project "RASBB"
 				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/0df6d93c-801c-4070-ba40-80b3fddbebe0"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 139.7 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3b5345b-1dc4-4693-bfb8-dc4f272903eb")
+		(property "Reference" "#PWR0276"
+			(at 139.7 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 139.7 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 139.7 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f37dae0-8266-4dad-a1af-ebfdb5e21f75")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/0df6d93c-801c-4070-ba40-80b3fddbebe0"
+					(reference "#PWR0276")
 					(unit 1)
 				)
 			)

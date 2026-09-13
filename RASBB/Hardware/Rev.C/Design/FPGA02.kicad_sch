@@ -830,16 +830,6 @@
 	)
 	(wire
 		(pts
-			(xy 471.17 220.98) (xy 482.6 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ee5457f-f908-41c7-9f62-4e692e9d6864")
-	)
-	(wire
-		(pts
 			(xy 471.17 200.66) (xy 482.6 200.66)
 		)
 		(stroke
@@ -980,16 +970,6 @@
 	)
 	(wire
 		(pts
-			(xy 471.17 223.52) (xy 482.6 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b37a9ec-86f5-4493-9245-ba3566f1fca9")
-	)
-	(wire
-		(pts
 			(xy 374.65 160.02) (xy 382.27 160.02)
 		)
 		(stroke
@@ -1110,6 +1090,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 217.17) (xy 191.77 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6680da27-03d2-47f4-b52a-3018d9539c49")
+	)
+	(wire
+		(pts
 			(xy 374.65 170.18) (xy 382.27 170.18)
 		)
 		(stroke
@@ -1157,6 +1147,16 @@
 			(type default)
 		)
 		(uuid "700d882b-3e5e-407e-8f75-b7997e9c418c")
+	)
+	(wire
+		(pts
+			(xy 543.56 173.99) (xy 524.51 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711dec50-9d3b-4770-8320-259c1ea67477")
 	)
 	(wire
 		(pts
@@ -3271,17 +3271,6 @@
 		)
 		(uuid "1eeb6719-646a-437c-8c1a-c93bba836d7c")
 	)
-	(hierarchical_label "F2_B15_K13"
-		(shape bidirectional)
-		(at 471.17 220.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "21e41c05-9a07-495e-a41a-35699265b233")
-	)
 	(hierarchical_label "F2_B15_E18"
 		(shape bidirectional)
 		(at 471.17 198.12 180)
@@ -3351,7 +3340,7 @@
 		(uuid "32dc124e-38ef-4ba4-97d9-8cad04642857")
 	)
 	(hierarchical_label "F2_B15_C17"
-		(shape bidirectional)
+		(shape input)
 		(at 471.17 152.4 180)
 		(effects
 			(font
@@ -3704,17 +3693,6 @@
 		)
 		(uuid "6e7f2b80-86cf-4c03-8317-f50f18dd50c9")
 	)
-	(hierarchical_label "F2_B15_K15"
-		(shape bidirectional)
-		(at 471.17 223.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6fe7526b-de84-4adc-97c5-c4783dd5e34a")
-	)
 	(hierarchical_label "F2_B34_L6"
 		(shape bidirectional)
 		(at 382.27 149.86 0)
@@ -4054,6 +4032,19 @@
 			(justify left)
 		)
 		(uuid "ab1bfb9e-b4c7-40a1-8393-35e5969f7612")
+	)
+	(hierarchical_label "F2_B35_J2"
+		(shape output)
+		(at 181.61 217.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "ada5e5ac-9d43-463f-9235-04c6e120c8bc")
 	)
 	(hierarchical_label "F2_B34_T3"
 		(shape bidirectional)
@@ -4414,6 +4405,17 @@
 			(justify left)
 		)
 		(uuid "eb99a03f-f34c-410a-87a8-339cc2e4fc01")
+	)
+	(hierarchical_label "F2_B14_L16"
+		(shape output)
+		(at 543.56 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f135a933-75d0-4163-ba13-31bd58f81ff1")
 	)
 	(hierarchical_label "F2_B34_N1"
 		(shape output)
@@ -5344,7 +5346,7 @@
 				(justify left)
 			)
 		)
-		(pin "F2_B35_E1" input
+		(pin "F2_B35_E1" output
 			(at 191.77 213.36 180)
 			(uuid "b217b333-3d56-446d-a80f-2496b729bc7b")
 			(effects
@@ -5387,6 +5389,16 @@
 		(pin "F2_B35_B3" input
 			(at 191.77 113.03 180)
 			(uuid "d9c2dd48-cfff-4104-8957-57ac0555e554")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "F2_B35_J2" output
+			(at 191.77 217.17 180)
+			(uuid "7c68c4a2-5750-4309-9493-f8cf268b20f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6458,7 +6470,7 @@
 				(justify left)
 			)
 		)
-		(pin "F2_B15_C17" bidirectional
+		(pin "F2_B15_C17" input
 			(at 482.6 152.4 180)
 			(uuid "a03a7cba-ab87-4b7e-81e4-44ef729500bd")
 			(effects
@@ -6738,26 +6750,6 @@
 				(justify left)
 			)
 		)
-		(pin "F2_B15_K13" bidirectional
-			(at 482.6 220.98 180)
-			(uuid "f14da7f9-c266-406c-a675-5924bd575460")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "F2_B15_K15" bidirectional
-			(at 482.6 223.52 180)
-			(uuid "bcc71c2a-5602-4a5e-803e-4fc4e3c54829")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "F2_B15_K16" bidirectional
 			(at 482.6 226.06 180)
 			(uuid "5e13ef99-455f-4432-ad73-67dd339b7ce6")
@@ -6786,6 +6778,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "FPGA2_B14_L16" output
+			(at 524.51 173.99 0)
+			(uuid "4008bbec-3558-4771-a727-8f74bd28a864")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

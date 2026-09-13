@@ -181,25 +181,23 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -6109,7 +6107,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KEMET-C0402C473J8RAC7867_C2178375.pdf"
+		(property "Datasheet" ""
 			(at 232.41 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -6466,7 +6464,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KEMET-C0402C473J8RAC7867_C2178375.pdf"
+		(property "Datasheet" ""
 			(at 214.63 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -6584,7 +6582,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 167.64 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6681,7 +6679,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KEMET-C0402C473J8RAC7867_C2178375.pdf"
+		(property "Datasheet" ""
 			(at 267.97 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6872,7 +6870,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KEMET-C0402C473J8RAC7867_C2178375.pdf"
+		(property "Datasheet" ""
 			(at 267.97 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -6980,7 +6978,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KEMET-C0402C473J8RAC7867_C2178375.pdf"
+		(property "Datasheet" ""
 			(at 276.86 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -7170,7 +7168,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206281830_Murata-Electronics-GRT155R71A474KE01D_C711087.pdf"
+		(property "Datasheet" ""
 			(at 237.49 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7181,7 +7179,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "16V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 237.49 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7361,7 +7359,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KEMET-C0402C473J8RAC7867_C2178375.pdf"
+		(property "Datasheet" ""
 			(at 241.3 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7469,7 +7467,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KEMET-C0402C473J8RAC7867_C2178375.pdf"
+		(property "Datasheet" ""
 			(at 259.08 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -7576,7 +7574,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2309201533_Walsin-Tech-Corp-0402B103K100CT_C3840241.pdf"
+		(property "Datasheet" ""
 			(at 185.42 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7587,7 +7585,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 185.42 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7683,7 +7681,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2201131300_Murata-Electronics-GRM188Z71A475KE15D_C913474.pdf"
+		(property "Datasheet" ""
 			(at 267.97 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7694,7 +7692,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 4.7uF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "35V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 267.97 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7705,7 +7703,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part #" "GRM188Z71A475KE15D"
+		(property "Mfr. Part #" "GMK107BBJ475KA-T"
 			(at 267.97 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7716,7 +7714,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C913474"
+		(property "LCSC Part #" "C7281848"
 			(at 267.97 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7791,7 +7789,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KEMET-C0402C473J8RAC7867_C2178375.pdf"
+		(property "Datasheet" ""
 			(at 241.3 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -7907,7 +7905,7 @@
 				)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 247.65 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -8004,7 +8002,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KEMET-C0402C473J8RAC7867_C2178375.pdf"
+		(property "Datasheet" ""
 			(at 223.52 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -8194,7 +8192,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2201131300_Murata-Electronics-GRM188Z71A475KE15D_C913474.pdf"
+		(property "Datasheet" ""
 			(at 276.86 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8205,7 +8203,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 4.7uF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "35V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 276.86 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8216,7 +8214,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part #" "GRM188Z71A475KE15D"
+		(property "Mfr. Part #" "GMK107BBJ475KA-T"
 			(at 276.86 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8227,7 +8225,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C913474"
+		(property "LCSC Part #" "C7281848"
 			(at 276.86 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8301,7 +8299,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2201131300_Murata-Electronics-GRM188Z71A475KE15D_C913474.pdf"
+		(property "Datasheet" ""
 			(at 257.81 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8312,7 +8310,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 4.7uF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "35V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 257.81 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8323,7 +8321,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part #" "GRM188Z71A475KE15D"
+		(property "Mfr. Part #" "GMK107BBJ475KA-T"
 			(at 257.81 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8334,7 +8332,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C913474"
+		(property "LCSC Part #" "C7281848"
 			(at 257.81 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8417,7 +8415,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 100Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 196.85 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8514,7 +8512,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KEMET-C0402C473J8RAC7867_C2178375.pdf"
+		(property "Datasheet" ""
 			(at 214.63 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8712,7 +8710,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thin Film Resistor 50V ±50ppm/℃ ±0.1% 240Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 166.37 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8808,7 +8806,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2309201533_Walsin-Tech-Corp-0402B103K100CT_C3840241.pdf"
+		(property "Datasheet" ""
 			(at 43.18 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8819,7 +8817,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 43.18 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8915,7 +8913,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2309201533_Walsin-Tech-Corp-0402B103K100CT_C3840241.pdf"
+		(property "Datasheet" ""
 			(at 269.24 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8926,7 +8924,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 269.24 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9022,7 +9020,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206281830_Murata-Electronics-GRT155R71A474KE01D_C711087.pdf"
+		(property "Datasheet" ""
 			(at 247.65 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -9033,7 +9031,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "16V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 247.65 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -9129,7 +9127,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2309201533_Walsin-Tech-Corp-0402B103K100CT_C3840241.pdf"
+		(property "Datasheet" ""
 			(at 238.76 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9140,7 +9138,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 238.76 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9237,7 +9235,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KEMET-C0402C473J8RAC7867_C2178375.pdf"
+		(property "Datasheet" ""
 			(at 276.86 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9345,7 +9343,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KEMET-C0402C473J8RAC7867_C2178375.pdf"
+		(property "Datasheet" ""
 			(at 250.19 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -9453,7 +9451,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KEMET-C0402C473J8RAC7867_C2178375.pdf"
+		(property "Datasheet" ""
 			(at 223.52 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9561,7 +9559,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KEMET-C0402C473J8RAC7867_C2178375.pdf"
+		(property "Datasheet" ""
 			(at 232.41 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9677,7 +9675,7 @@
 				)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 247.65 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -9750,7 +9748,7 @@
 				)
 			)
 		)
-		(property "Value" "MT41K256M16TW-107_P"
+		(property "Value" "MT41K128M16JT-107:K"
 			(at 115.57 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9772,7 +9770,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS42/DSANUWW0045409.pdf"
+		(property "Datasheet" ""
 			(at 134.62 28.194 0)
 			(hide yes)
 			(show_name no)
@@ -9784,7 +9782,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "MICRON - MT41K256M16TW-107:P - SDRAM, 256M X 16BIT, 0 TO 95DEG C"
+		(property "Description" "IC DRAM 2GBIT PAR 96FBGA"
 			(at 94.488 17.018 0)
 			(hide yes)
 			(show_name no)
@@ -9819,7 +9817,7 @@
 				(justify left)
 			)
 		)
-		(property "Mfr. Part #" "MT41K256M16TW-107:P"
+		(property "Mfr. Part #" "MT41K128M16JT-107:K"
 			(at 153.416 30.988 0)
 			(hide yes)
 			(show_name no)
@@ -9829,6 +9827,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC Part #" "C2841151"
+			(at 97.79 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "F3"
@@ -10187,7 +10196,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "Resistor, small symbol"
 			(at 176.53 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10284,7 +10293,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KEMET-C0402C473J8RAC7867_C2178375.pdf"
+		(property "Datasheet" ""
 			(at 259.08 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -10392,7 +10401,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KEMET-C0402C473J8RAC7867_C2178375.pdf"
+		(property "Datasheet" ""
 			(at 250.19 39.37 0)
 			(hide yes)
 			(show_name no)

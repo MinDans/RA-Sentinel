@@ -1320,6 +1320,16 @@
 	)
 	(wire
 		(pts
+			(xy 462.28 184.15) (xy 477.52 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8547e9b1-4a30-4610-bcaf-cabaf1afc238")
+	)
+	(wire
+		(pts
 			(xy 41.91 190.5) (xy 49.53 190.5)
 		)
 		(stroke
@@ -1687,6 +1697,16 @@
 			(type default)
 		)
 		(uuid "aecd624e-e386-4d49-9a7e-9ab8b8810492")
+	)
+	(wire
+		(pts
+			(xy 462.28 187.96) (xy 477.52 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af36f2ca-ac89-4cc6-be70-101d4505d86d")
 	)
 	(wire
 		(pts
@@ -3421,6 +3441,17 @@
 		)
 		(uuid "1e78e064-5660-4449-872f-fe982acbcc7d")
 	)
+	(hierarchical_label "F1_B15_F18"
+		(shape input)
+		(at 462.28 184.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1fa37626-9264-44fe-bca2-a6df8024e60e")
+	)
 	(hierarchical_label "DDR301_BA2"
 		(shape output)
 		(at 377.19 93.98 0)
@@ -3680,7 +3711,7 @@
 		(uuid "45ae5410-a6e9-4d16-bae9-ec95a8cdf050")
 	)
 	(hierarchical_label "F1_B15_E18"
-		(shape output)
+		(shape input)
 		(at 466.09 139.7 180)
 		(effects
 			(font
@@ -4269,6 +4300,17 @@
 		)
 		(uuid "a3708f25-441a-42fe-bafe-5d895723a8d6")
 	)
+	(hierarchical_label "F1_B15_G18"
+		(shape input)
+		(at 462.28 187.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5d63c56-21ba-443a-a60d-a1153333f2ee")
+	)
 	(hierarchical_label "F1_B14_U17"
 		(shape bidirectional)
 		(at 537.21 144.78 0)
@@ -4339,7 +4381,7 @@
 		)
 		(uuid "a8f275a2-f786-47e3-82b4-90d7d242a32e")
 	)
-	(hierarchical_label "DDR301_UDQS_P"
+	(hierarchical_label "DDR301_UDQS_N"
 		(shape output)
 		(at 377.19 186.69 0)
 		(effects
@@ -4718,7 +4760,7 @@
 		)
 		(uuid "e58b205d-c77e-4cad-87b2-fba0f0264277")
 	)
-	(hierarchical_label "DDR301_UDQS_N"
+	(hierarchical_label "DDR301_UDQS_P"
 		(shape output)
 		(at 377.19 184.15 0)
 		(effects
@@ -6239,6 +6281,26 @@
 				(justify right)
 			)
 		)
+		(pin "F1_B15_F18" input
+			(at 477.52 184.15 180)
+			(uuid "9d0a9dd2-937b-4a65-910d-2bc66af7269c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "F1_B15_G18" input
+			(at 477.52 187.96 180)
+			(uuid "28d5349c-17ee-45c6-96d3-69cc2781c914")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "RASBB"
 				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/1efd7ecd-e12c-405e-abb8-3a24a5e37beb"
@@ -6428,16 +6490,6 @@
 		(pin "DDR301_DQ10" bidirectional
 			(at 369.57 148.59 0)
 			(uuid "e6eb9685-c947-4141-b3d4-735bfbe5f7bd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DDR301_UQDS_P" output
-			(at 369.57 184.15 0)
-			(uuid "c46cd91d-5916-476c-bd79-db0de5715789")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6788,6 +6840,16 @@
 		(pin "DDR301_A14" output
 			(at 369.57 86.36 0)
 			(uuid "047b7cd0-7a24-44f9-b784-b89bb47fdd38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DDR301_UDQS_P" output
+			(at 369.57 184.15 0)
+			(uuid "03a9c02b-ee8c-4f45-acbb-a4297b5d0094")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -3125,7 +3125,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2309201533_Walsin-Tech-Corp-0402B103K100CT_C3840241.pdf"
+		(property "Datasheet" ""
 			(at 119.38 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3136,7 +3136,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 119.38 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3307,7 +3307,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2309201533_Walsin-Tech-Corp-0402B103K100CT_C3840241.pdf"
+		(property "Datasheet" ""
 			(at 149.86 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3318,7 +3318,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 149.86 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3419,7 +3419,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "3nH 800mA ±0.1nH 0402 High Frequency / RF Inductors - Surface Mount ROHS"
 			(at 157.48 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3441,7 +3441,7 @@
 				)
 			)
 		)
-		(property "LCSC Part # " "C433005"
+		(property "LCSC Part # " ""
 			(at 157.48 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -3692,7 +3692,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409272300_YAGEO-CC0402KRX7R6BB103_C541371.pdf"
+		(property "Datasheet" ""
 			(at 95.25 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3703,7 +3703,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 10nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 10nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 95.25 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3714,7 +3714,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part #" "0402B103K100CT"
+		(property "Mfr. Part #" "0402B103K500CT"
 			(at 95.25 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3725,7 +3725,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C3840241"
+		(property "LCSC Part #" "C301927"
 			(at 95.25 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3796,7 +3796,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206281830_Murata-Electronics-GRT155R71A474KE01D_C711087.pdf"
+		(property "Datasheet" ""
 			(at 135.89 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -3807,7 +3807,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "16V 470nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 135.89 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5216,7 +5216,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409272300_YAGEO-CC0402KRX7R6BB103_C541371.pdf"
+		(property "Datasheet" ""
 			(at 86.36 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5227,7 +5227,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 10nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 10nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 86.36 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5238,7 +5238,7 @@
 				)
 			)
 		)
-		(property "Mfr. Part #" "0402B103K100CT"
+		(property "Mfr. Part #" "0402B103K500CT"
 			(at 86.36 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5249,7 +5249,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C3840241"
+		(property "LCSC Part #" "C301927"
 			(at 86.36 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5477,7 +5477,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2309201533_Walsin-Tech-Corp-0402B103K100CT_C3840241.pdf"
+		(property "Datasheet" ""
 			(at 68.58 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5488,7 +5488,7 @@
 				)
 			)
 		)
-		(property "Description" "10V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 68.58 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -6107,7 +6107,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC Part # " "C710334"
+		(property "LCSC Part # " ""
 			(at 25.4 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -6744,7 +6744,7 @@
 				)
 			)
 		)
-		(property "LCSC Part # " "C317668"
+		(property "LCSC Part # " ""
 			(at 173.99 53.34 90)
 			(hide yes)
 			(show_name no)
