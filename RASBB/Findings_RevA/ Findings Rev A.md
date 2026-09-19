@@ -28,6 +28,7 @@
 | 24	| closed  | Pin out of ethernet jacks are wrong. | Pins 17-20 are mixed with 13-16 |
 | 25	| closed  | DDR3 RAM A14 not connected | wire to free pin on same bank as A13 |
 | 26  | closed (Rev C) | Add 40MHz and 1MHz sync clock over Ethernet. One pair of the 100MBit connection to the STM32 receives 40MHz and 1MHz clock via line receivers and send it (unbalanced is good enogh) into the U10 FPGA 1 and 2 (1MHz) and the 40MHz shall be provided via SMA/SMB jack via coax wire to the FE. Do not popuilate the jack, i will solder by hand.
+| 27  | open | Add another shunt resistor at the 12V entry of the 1V DC DC converter |
 | 28  | closed  (Rev C) | Connect an output pin of FPGA2 to a RC low pas filter (mimics a PWM DAC)
 | 29  | closed  | Add shunt resistor (0805) and 2 pin header paralell in front of PCIE connector to be able to measure front end power consumption.
 | 30  | closed (Rev C)  | WP# and #RESET of FPGA config flashes is unconnected | Add 10 kΩ pull-up to VCC3V3 
