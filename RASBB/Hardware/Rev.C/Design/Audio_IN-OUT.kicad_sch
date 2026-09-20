@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RASBB")
-		(date "2026-07-25")
+		(date "2026-09-20")
 		(rev "C")
 		(company "Mina Daneshpajouh")
 	)
@@ -3239,7 +3239,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "3242a65f-1ac9-4d6a-92b5-0ba936d8aaf0")
 		(property "Reference" "R126"
 			(at 154.686 122.682 90)
@@ -5637,7 +5637,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "dac8f69f-ee34-414f-ab39-fd89f308ed45")
 		(property "Reference" "R125"
 			(at 160.02 109.474 90)

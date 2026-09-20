@@ -6,7 +6,7 @@
 	(paper "A0")
 	(title_block
 		(title "RASBB")
-		(date "2026-07-25")
+		(date "2026-09-20")
 		(rev "C")
 		(company "Mina Daneshpajouh")
 	)
@@ -2641,16 +2641,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 506.73) (xy 334.01 506.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0355a9b7-cfdf-4ff3-8fb8-914ab5cfe62b")
-	)
-	(wire
-		(pts
 			(xy 476.25 417.83) (xy 490.22 417.83)
 		)
 		(stroke
@@ -2698,6 +2688,16 @@
 			(type default)
 		)
 		(uuid "04847a84-9b67-4e21-abab-4377e3f9f951")
+	)
+	(wire
+		(pts
+			(xy 306.07 485.14) (xy 349.25 485.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04994bc7-ca42-4c50-b030-11fd0287f606")
 	)
 	(wire
 		(pts
@@ -2861,16 +2861,6 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 481.33) (xy 334.01 481.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b5d239a-cac4-4bc0-aff9-99cd542b47eb")
-	)
-	(wire
-		(pts
 			(xy 789.94 469.9) (xy 806.45 469.9)
 		)
 		(stroke
@@ -2928,6 +2918,16 @@
 			(type default)
 		)
 		(uuid "0f0168d0-3e87-4aa8-b19a-504a18a50d29")
+	)
+	(wire
+		(pts
+			(xy 306.07 494.03) (xy 349.25 494.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "100134ec-da54-475e-88a5-72906bf9ed30")
 	)
 	(wire
 		(pts
@@ -3218,16 +3218,6 @@
 			(type default)
 		)
 		(uuid "1e2e586d-5227-4878-b414-6b5614bf75e0")
-	)
-	(wire
-		(pts
-			(xy 306.07 514.35) (xy 317.5 514.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ebd8ba6-01bf-4597-8954-c60599151f87")
 	)
 	(wire
 		(pts
@@ -3748,16 +3738,6 @@
 			(type default)
 		)
 		(uuid "3257bd08-f140-4100-94e9-530c6098099e")
-	)
-	(wire
-		(pts
-			(xy 306.07 494.03) (xy 317.5 494.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "329ee6c8-f730-48a3-a511-1d4f6b0a0838")
 	)
 	(wire
 		(pts
@@ -4441,6 +4421,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 478.79) (xy 349.25 478.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4afdd768-106b-4856-b738-15c6a9e27fa1")
+	)
+	(wire
+		(pts
 			(xy 474.98 527.05) (xy 490.22 527.05)
 		)
 		(stroke
@@ -4458,6 +4448,16 @@
 			(type default)
 		)
 		(uuid "4b5716d9-757b-4adb-a27e-0dcd8fc5e7b6")
+	)
+	(wire
+		(pts
+			(xy 306.07 511.81) (xy 349.25 511.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bcfde0a-9bff-4a7d-92a6-cfd7974468de")
 	)
 	(wire
 		(pts
@@ -4658,16 +4658,6 @@
 			(type default)
 		)
 		(uuid "5248b0b9-c934-499f-829b-e9488e936768")
-	)
-	(wire
-		(pts
-			(xy 306.07 485.14) (xy 334.01 485.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "526cded2-1574-4286-9c4b-c6a2e672d892")
 	)
 	(wire
 		(pts
@@ -5051,16 +5041,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 497.84) (xy 334.01 497.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e8a4243-98f4-4f7a-86e8-ed385d379fd5")
-	)
-	(wire
-		(pts
 			(xy 641.35 455.93) (xy 643.89 455.93)
 		)
 		(stroke
@@ -5068,16 +5048,6 @@
 			(type default)
 		)
 		(uuid "5e924bb8-d9f6-4374-9183-acd961a18ef4")
-	)
-	(wire
-		(pts
-			(xy 322.58 491.49) (xy 334.01 491.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ea1077f-e8b4-4fef-8f75-cc89afb3e73e")
 	)
 	(wire
 		(pts
@@ -5138,6 +5108,16 @@
 			(type default)
 		)
 		(uuid "623697b1-03c5-41cb-9811-3cef80742b32")
+	)
+	(wire
+		(pts
+			(xy 306.07 506.73) (xy 349.25 506.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "628ac718-8f49-4712-b8d3-4b1fe970a87e")
 	)
 	(wire
 		(pts
@@ -5251,6 +5231,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 491.49) (xy 349.25 491.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67f05c68-a649-4ebf-a374-f074a547eefe")
+	)
+	(wire
+		(pts
 			(xy 481.33 508) (xy 481.33 509.27)
 		)
 		(stroke
@@ -5318,6 +5308,16 @@
 			(type default)
 		)
 		(uuid "6a7d36f7-198b-4e38-aee4-071852b027e3")
+	)
+	(wire
+		(pts
+			(xy 306.07 487.68) (xy 349.25 487.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6abd0770-b138-4b8c-aa99-811956812513")
 	)
 	(wire
 		(pts
@@ -5631,13 +5631,13 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 497.84) (xy 317.5 497.84)
+			(xy 306.07 504.19) (xy 349.25 504.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7502fd2b-4310-4980-bdf6-ef7690ced01b")
+		(uuid "74e7a0be-1cd8-49d1-922a-08a036dd1cc1")
 	)
 	(wire
 		(pts
@@ -5871,13 +5871,13 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 511.81) (xy 334.01 511.81)
+			(xy 306.07 514.35) (xy 349.25 514.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f1077ab-0688-4fe7-b7fd-bd16b050a36b")
+		(uuid "7f2fc374-42d7-42b6-b82a-3324bd44b45e")
 	)
 	(wire
 		(pts
@@ -6341,6 +6341,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 481.33) (xy 349.25 481.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ddd4fe5-c7b2-4e52-93d4-55f55cc8d7cf")
+	)
+	(wire
+		(pts
 			(xy 306.07 231.14) (xy 351.79 231.14)
 		)
 		(stroke
@@ -6481,16 +6491,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 514.35) (xy 334.01 514.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9175c080-0456-4d5a-a707-438cdf2a5f7f")
-	)
-	(wire
-		(pts
 			(xy 476.25 417.83) (xy 406.4 417.83)
 		)
 		(stroke
@@ -6518,16 +6518,6 @@
 			(type default)
 		)
 		(uuid "92a157d7-83f0-417f-932b-66b661f5c4e1")
-	)
-	(wire
-		(pts
-			(xy 322.58 500.38) (xy 334.01 500.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92eebd98-b6d9-4100-b03f-150bcfe16c8c")
 	)
 	(wire
 		(pts
@@ -6678,16 +6668,6 @@
 			(type default)
 		)
 		(uuid "971e8723-0563-462b-a52f-cdb2831057c0")
-	)
-	(wire
-		(pts
-			(xy 306.07 491.49) (xy 317.5 491.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97366e2b-0e03-4627-afcb-80b97e9a6c78")
 	)
 	(wire
 		(pts
@@ -7071,16 +7051,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 504.19) (xy 334.01 504.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2848d67-c355-43f9-a0e2-b7a6bbf1110c")
-	)
-	(wire
-		(pts
 			(xy 887.73 311.15) (xy 933.45 311.15)
 		)
 		(stroke
@@ -7148,6 +7118,16 @@
 			(type default)
 		)
 		(uuid "a4b1f130-80f4-4a3e-9083-142c5508c758")
+	)
+	(wire
+		(pts
+			(xy 306.07 500.38) (xy 349.25 500.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5869083-c811-40f3-8389-2eac19d3f924")
 	)
 	(wire
 		(pts
@@ -7588,16 +7568,6 @@
 			(type default)
 		)
 		(uuid "afb93373-ff0b-418a-929a-38106ebbaefa")
-	)
-	(wire
-		(pts
-			(xy 306.07 487.68) (xy 334.01 487.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b08265aa-1337-49c5-847c-c6ae158ce662")
 	)
 	(wire
 		(pts
@@ -8201,16 +8171,6 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 500.38) (xy 317.5 500.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca6849b0-6dd2-4879-a222-e6f48bbde999")
-	)
-	(wire
-		(pts
 			(xy 648.97 455.93) (xy 659.13 455.93)
 		)
 		(stroke
@@ -8238,6 +8198,16 @@
 			(type default)
 		)
 		(uuid "cc8e323c-3362-4090-83ee-abec3a59709c")
+	)
+	(wire
+		(pts
+			(xy 306.07 497.84) (xy 349.25 497.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca27e1a-6479-4d40-92d9-f85d251b252e")
 	)
 	(wire
 		(pts
@@ -8338,16 +8308,6 @@
 			(type default)
 		)
 		(uuid "cef12bd5-1191-4ba1-8989-b80c515a63a0")
-	)
-	(wire
-		(pts
-			(xy 306.07 504.19) (xy 317.5 504.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfa1fedd-4d3b-4d5a-a0a6-7ff2230f26ea")
 	)
 	(wire
 		(pts
@@ -8478,16 +8438,6 @@
 			(type default)
 		)
 		(uuid "d50a385c-6138-4d25-aa80-f8f4ed0175e5")
-	)
-	(wire
-		(pts
-			(xy 306.07 511.81) (xy 317.5 511.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5ebc195-a226-413d-8ecb-b2072e4ed10d")
 	)
 	(wire
 		(pts
@@ -8891,16 +8841,6 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 506.73) (xy 317.5 506.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e72d6291-c170-40a0-be50-6233bee1978b")
-	)
-	(wire
-		(pts
 			(xy 474.98 515.62) (xy 474.98 508)
 		)
 		(stroke
@@ -9101,16 +9041,6 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 478.79) (xy 334.01 478.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edf5ad78-93ee-4daa-a344-4240cfa1c24e")
-	)
-	(wire
-		(pts
 			(xy 334.01 614.68) (xy 318.77 614.68)
 		)
 		(stroke
@@ -9198,16 +9128,6 @@
 			(type default)
 		)
 		(uuid "f1b5ba71-a311-4ded-bf7c-e54ba07d0774")
-	)
-	(wire
-		(pts
-			(xy 322.58 494.03) (xy 334.01 494.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f203ebd2-488f-4fdf-a6a6-77ea30402671")
 	)
 	(wire
 		(pts
@@ -11961,212 +11881,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 320.04 504.19 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "197e6fef-06a5-4424-834d-326f794eec34")
-		(property "Reference" "C288"
-			(at 311.404 504.19 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 324.104 503.682 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 320.04 504.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 504.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 320.04 504.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr. Part #" "0402B104K500CT"
-			(at 320.04 504.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C152814"
-			(at 320.04 504.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0d015edc-2cca-40a3-a567-f8c130e2ee68")
-		)
-		(pin "2"
-			(uuid "e25d0a9f-e6a9-4d54-9208-6e2eb86aebbf")
-		)
-		(instances
-			(project "RASBB"
-				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347"
-					(reference "C288")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 320.04 500.38 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1f5eb8b8-3cbd-4b73-8eed-7fa8ede56acf")
-		(property "Reference" "C286"
-			(at 311.404 500.38 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 323.85 499.618 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 320.04 500.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 500.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 320.04 500.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr. Part #" "0402B104K500CT"
-			(at 320.04 500.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C152814"
-			(at 320.04 500.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "507d9c0e-8816-4267-891b-1bb6262fe49a")
-		)
-		(pin "2"
-			(uuid "b8a5b713-ed52-4fbc-b5e4-35c08bd5b8a5")
-		)
-		(instances
-			(project "RASBB"
-				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347"
-					(reference "C286")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 372.11 454.66 90)
 		(unit 1)
@@ -12442,109 +12156,6 @@
 			(project "RASBB"
 				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347"
 					(reference "TP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 320.04 514.35 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "260f7565-1f40-42c6-9234-5220dbb7f9ca")
-		(property "Reference" "C319"
-			(at 311.404 514.096 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 324.104 514.096 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 320.04 514.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 514.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 320.04 514.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr. Part #" "0402B104K500CT"
-			(at 320.04 514.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C152814"
-			(at 320.04 514.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "12545dca-e02c-48b7-b06a-ac6e87a3384c")
-		)
-		(pin "2"
-			(uuid "92ef133b-9a14-4b2a-a320-928488a08c81")
-		)
-		(instances
-			(project "RASBB"
-				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347"
-					(reference "C319")
 					(unit 1)
 				)
 			)
@@ -13796,109 +13407,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 320.04 511.81 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "451ed133-38a8-4eb1-8c79-268962f4779c")
-		(property "Reference" "C318"
-			(at 311.658 511.81 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 324.104 511.556 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 320.04 511.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 511.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 320.04 511.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr. Part #" "0402B104K500CT"
-			(at 320.04 511.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C152814"
-			(at 320.04 511.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fe123666-35ad-4999-ab8d-71684df97e8f")
-		)
-		(pin "2"
-			(uuid "65a947e1-f454-44e1-90e8-b928ba99cf9d")
-		)
-		(instances
-			(project "RASBB"
-				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347"
-					(reference "C318")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 313.69 635 180)
 		(unit 1)
@@ -14562,109 +14070,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 320.04 506.73 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "58c3fa60-a710-4022-a617-4f8742685724")
-		(property "Reference" "C309"
-			(at 311.658 506.73 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 324.104 506.222 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 320.04 506.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 506.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 320.04 506.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr. Part #" "0402B104K500CT"
-			(at 320.04 506.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C152814"
-			(at 320.04 506.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0ffabefc-baef-4434-b5bb-d2214dcf9168")
-		)
-		(pin "2"
-			(uuid "91abc819-8bb1-4b6b-a8c6-11862ac106f8")
-		)
-		(instances
-			(project "RASBB"
-				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347"
-					(reference "C309")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 313.69 576.58 180)
 		(unit 1)
@@ -14861,109 +14266,6 @@
 			(project "RASBB"
 				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347"
 					(reference "R173")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 320.04 497.84 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "63de955f-aaf9-4670-b432-867b50f682cc")
-		(property "Reference" "C240"
-			(at 311.404 497.84 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 323.85 497.078 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 320.04 497.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 497.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 320.04 497.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr. Part #" "0402B104K500CT"
-			(at 320.04 497.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C152814"
-			(at 320.04 497.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5ee8f545-5ce1-4cad-9f1a-6b469c37306f")
-		)
-		(pin "2"
-			(uuid "fae5372a-9887-4d1b-89e1-8fa1b6597829")
-		)
-		(instances
-			(project "RASBB"
-				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347"
-					(reference "C240")
 					(unit 1)
 				)
 			)
@@ -17442,109 +16744,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 320.04 491.49 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a908e6e4-b272-43ca-aaa7-8b7f742e3437")
-		(property "Reference" "C320"
-			(at 311.404 491.236 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 324.104 491.236 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 320.04 491.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 491.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 320.04 491.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr. Part #" "0402B104K500CT"
-			(at 320.04 491.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C152814"
-			(at 320.04 491.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2005ffb7-9325-4526-8e50-994662885a22")
-		)
-		(pin "2"
-			(uuid "16afa505-9772-4e33-ae62-a9687be4ea57")
-		)
-		(instances
-			(project "RASBB"
-				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347"
-					(reference "C320")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 473.71 457.2 180)
 		(unit 1)
@@ -17812,7 +17011,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "b2f91c3e-2128-48ba-baf7-a1cb8e298d81")
 		(property "Reference" "R150"
 			(at 976.63 458.47 90)
@@ -18303,109 +17502,6 @@
 			(project "RASBB"
 				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347"
 					(reference "R175")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 320.04 494.03 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c2eda891-f0ce-414e-9f87-19bb863d8cc5")
-		(property "Reference" "C321"
-			(at 311.404 493.776 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 324.104 493.776 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 320.04 494.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 494.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 320.04 494.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mfr. Part #" "0402B104K500CT"
-			(at 320.04 494.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C152814"
-			(at 320.04 494.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b266d7e-6b9f-48b8-a8ec-f8487043ff48")
-		)
-		(pin "2"
-			(uuid "ab5960bd-9a47-45b0-82d3-b9ccebeb8c69")
-		)
-		(instances
-			(project "RASBB"
-				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347"
-					(reference "C321")
 					(unit 1)
 				)
 			)
@@ -22562,7 +21658,7 @@
 		)
 	)
 	(sheet
-		(at 334.01 476.25)
+		(at 349.25 476.25)
 		(size 26.67 45.72)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22577,7 +21673,7 @@
 		)
 		(uuid "114f4449-7a7f-4a1e-8370-bbfc1bb84ce8")
 		(property "Sheetname" "HDMI"
-			(at 363.728 473.964 0)
+			(at 378.714 476.758 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22590,7 +21686,7 @@
 			)
 		)
 		(property "Sheetfile" "HDMI.kicad_sch"
-			(at 334.01 522.5546 0)
+			(at 349.25 522.5546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22601,7 +21697,7 @@
 			)
 		)
 		(pin "HDMI_HPD" output
-			(at 334.01 478.79 180)
+			(at 349.25 478.79 180)
 			(uuid "75750e7c-030e-4ade-b49c-f1ba4e95595f")
 			(effects
 				(font
@@ -22611,7 +21707,7 @@
 			)
 		)
 		(pin "HDMI_CEC" output
-			(at 334.01 481.33 180)
+			(at 349.25 481.33 180)
 			(uuid "84c49886-8db2-4548-9fba-7ac8d9a7f461")
 			(effects
 				(font
@@ -22621,7 +21717,7 @@
 			)
 		)
 		(pin "HDMI_SDA" bidirectional
-			(at 334.01 487.68 180)
+			(at 349.25 487.68 180)
 			(uuid "e665f08d-9d4a-40e7-a247-e1e6621ea57e")
 			(effects
 				(font
@@ -22631,7 +21727,7 @@
 			)
 		)
 		(pin "HDMI_SCL" input
-			(at 334.01 485.14 180)
+			(at 349.25 485.14 180)
 			(uuid "6dca9c5d-64ed-4832-a3e1-e460d50b9a32")
 			(effects
 				(font
@@ -22641,7 +21737,7 @@
 			)
 		)
 		(pin "HDMI_D1_P" output
-			(at 334.01 504.19 180)
+			(at 349.25 504.19 180)
 			(uuid "e38541a5-3558-49c3-ad3a-0edafd77977a")
 			(effects
 				(font
@@ -22651,7 +21747,7 @@
 			)
 		)
 		(pin "HDMI_D1_N" output
-			(at 334.01 506.73 180)
+			(at 349.25 506.73 180)
 			(uuid "33e820b0-d28b-4c5e-b809-999659ff6bca")
 			(effects
 				(font
@@ -22661,7 +21757,7 @@
 			)
 		)
 		(pin "HDMI_CLK_P" output
-			(at 334.01 491.49 180)
+			(at 349.25 491.49 180)
 			(uuid "82532fe7-45ef-4402-86c6-4a34b9624533")
 			(effects
 				(font
@@ -22671,7 +21767,7 @@
 			)
 		)
 		(pin "HDMI_CLK_N" output
-			(at 334.01 494.03 180)
+			(at 349.25 494.03 180)
 			(uuid "48d1469f-bbab-4bb3-8949-e34c27aaa9f4")
 			(effects
 				(font
@@ -22681,7 +21777,7 @@
 			)
 		)
 		(pin "HDMI_D2_P" output
-			(at 334.01 497.84 180)
+			(at 349.25 497.84 180)
 			(uuid "02686c56-a9c3-4074-924d-3f08cae0c53b")
 			(effects
 				(font
@@ -22691,7 +21787,7 @@
 			)
 		)
 		(pin "HDMI_D2_N" output
-			(at 334.01 500.38 180)
+			(at 349.25 500.38 180)
 			(uuid "0c8425eb-ccec-4a33-bbe3-6d03112f9975")
 			(effects
 				(font
@@ -22701,7 +21797,7 @@
 			)
 		)
 		(pin "HDMI_D0_N" output
-			(at 334.01 514.35 180)
+			(at 349.25 514.35 180)
 			(uuid "2c65d33b-a0af-4eea-811a-0c85327db0d0")
 			(effects
 				(font
@@ -22711,7 +21807,7 @@
 			)
 		)
 		(pin "HDMI_D0_P" output
-			(at 334.01 511.81 180)
+			(at 349.25 511.81 180)
 			(uuid "5d77368b-5e5c-4d27-b507-89ae6c7bbd72")
 			(effects
 				(font
@@ -26299,7 +25395,7 @@
 			(color 194 194 194 1)
 		)
 		(uuid "b61e5587-9e9e-46ae-ba64-07a8572f9f48")
-		(property "Sheetname" "Inteconnect"
+		(property "Sheetname" "Interconnect (page 11)"
 			(at 679.45 302.006 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RASBB")
-		(date "2026-07-25")
+		(date "2026-09-20")
 		(rev "C")
 		(company "Mina Daneshpajouh")
 	)
@@ -709,6 +709,146 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -1732,10 +1872,34 @@
 		(uuid "8bd08f9d-c4b8-4881-a5ca-02759aad35df")
 	)
 	(junction
-		(at 215.9 100.33)
+		(at 243.84 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d4124f6-c689-4420-b0df-e0e5696ce5c2")
+	)
+	(junction
+		(at 161.29 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e1b26f7-9e9b-4bd3-86c3-feff1c504af6")
+	)
+	(junction
+		(at 180.34 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1dd5fa14-4ef5-4da8-b375-ef146924535c")
+	)
+	(junction
+		(at 187.96 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f65a11c-a2f7-49ab-a7b7-8ae67e402338")
+	)
+	(junction
+		(at 180.34 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ace9f7f-ed65-48d2-9ad3-07e09bfb868b")
 	)
 	(junction
 		(at 64.77 45.72)
@@ -1744,10 +1908,34 @@
 		(uuid "364d457d-6acd-4355-a3ef-a1a70017455f")
 	)
 	(junction
+		(at 165.1 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e0d7808-b7c5-4aeb-ac80-3ab40f26421d")
+	)
+	(junction
+		(at 172.72 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "500b0428-d38f-442e-9835-1818b646cf1c")
+	)
+	(junction
 		(at 62.23 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "634ec256-1ec3-4b76-92ec-8bf5c4e8c547")
+	)
+	(junction
+		(at 172.72 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c1ae469-877f-4b34-80ab-ffb52bb3b0d1")
+	)
+	(junction
+		(at 176.53 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c8eb183-b2f3-4412-af8b-acde1acf550d")
 	)
 	(junction
 		(at 27.94 96.52)
@@ -1756,19 +1944,43 @@
 		(uuid "7ede9764-45dc-462e-a3fe-81dbf01df3fe")
 	)
 	(junction
-		(at 210.82 100.33)
+		(at 184.15 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f140d05-8346-4b11-98f6-27bf742f920e")
+	)
+	(junction
+		(at 238.76 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8333ea7b-1ad0-43a6-b0ad-73e6afe28c63")
 	)
 	(junction
-		(at 209.55 100.33)
+		(at 237.49 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d05409d-4edd-4dea-ac56-a638ba798fc7")
 	)
 	(junction
-		(at 209.55 104.14)
+		(at 168.91 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95fac6df-1c93-44b5-9fc1-14904c884014")
+	)
+	(junction
+		(at 168.91 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99017b6f-8963-4c68-a131-e71548e77921")
+	)
+	(junction
+		(at 176.53 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6fa931d-8ad0-45f8-a851-02391a565a3a")
+	)
+	(junction
+		(at 237.49 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b76d4849-eb52-4ff4-9997-fb679ee97791")
@@ -1780,16 +1992,48 @@
 		(uuid "be0f212e-31cc-4f0f-a752-bee3e42f0153")
 	)
 	(junction
-		(at 213.36 100.33)
+		(at 241.3 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfffe26e-91e5-4e11-afd1-7f09e6dbe9ed")
+	)
+	(junction
+		(at 165.1 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7788a28-ea9f-43c0-8dac-4e2d27b38ed4")
+	)
+	(junction
+		(at 184.15 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea3eaeb5-088c-49c8-88c5-2e3e6066fdc0")
 	)
 	(junction
 		(at 83.82 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9d8b6df-8a4a-4fa9-a37b-1547c5a14c3b")
+	)
+	(wire
+		(pts
+			(xy 161.29 45.72) (xy 190.5 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01105494-6fc8-4069-b2e1-8396b20a25c5")
+	)
+	(wire
+		(pts
+			(xy 148.59 54.61) (xy 172.72 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "032d630e-84e0-4535-a5c1-cff2811a5c37")
 	)
 	(wire
 		(pts
@@ -1803,6 +2047,26 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 54.61) (xy 190.5 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a6de671-ab36-4638-b884-c126795982eb")
+	)
+	(wire
+		(pts
+			(xy 217.17 45.72) (xy 217.17 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b4285e6-935c-4438-a27f-85cdfb5a9baf")
+	)
+	(wire
+		(pts
 			(xy 83.82 115.57) (xy 80.01 115.57)
 		)
 		(stroke
@@ -1810,6 +2074,16 @@
 			(type default)
 		)
 		(uuid "0bfc64b8-08ef-433c-9f28-1dd83f677d15")
+	)
+	(wire
+		(pts
+			(xy 172.72 17.78) (xy 172.72 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df1faec-bd04-4110-a214-bb613d9432cf")
 	)
 	(wire
 		(pts
@@ -1830,16 +2104,6 @@
 			(type default)
 		)
 		(uuid "10739978-e5ed-41fe-a063-8ed403fac9c6")
-	)
-	(wire
-		(pts
-			(xy 125.73 49.53) (xy 203.2 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13ac38f4-b7fa-4676-b3c7-8164d6512f65")
 	)
 	(wire
 		(pts
@@ -1873,7 +2137,27 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 95.25) (xy 208.28 100.33)
+			(xy 195.58 54.61) (xy 231.14 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17b59f64-b64d-4847-99fd-22875744adb3")
+	)
+	(wire
+		(pts
+			(xy 176.53 58.42) (xy 190.5 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d2f97c-363a-4b3e-99d0-5334787dfbde")
+	)
+	(wire
+		(pts
+			(xy 236.22 95.25) (xy 236.22 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1893,13 +2177,43 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 85.09) (xy 175.26 85.09)
+			(xy 231.14 85.09) (xy 203.2 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "19d5bc4a-9ce0-4525-9b15-70a3408cb33b")
+	)
+	(wire
+		(pts
+			(xy 215.9 66.04) (xy 215.9 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1abca96b-3c0f-4d1c-ab64-77e8b39cf0d8")
+	)
+	(wire
+		(pts
+			(xy 195.58 68.58) (xy 218.44 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b743d2b-e453-447c-ad0b-ea720e6aa119")
+	)
+	(wire
+		(pts
+			(xy 195.58 45.72) (xy 217.17 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b9acc89-54cc-48ca-bbdd-a8e2e272796b")
 	)
 	(wire
 		(pts
@@ -1913,13 +2227,33 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 77.47) (xy 171.45 85.09)
+			(xy 168.91 20.32) (xy 168.91 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c1a388a-447a-48fa-a467-d77055b6abf3")
+	)
+	(wire
+		(pts
+			(xy 199.39 77.47) (xy 199.39 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1ce31b7d-75ed-4e6f-a4cc-893b9854bf65")
+	)
+	(wire
+		(pts
+			(xy 180.34 27.94) (xy 180.34 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ceddc03-db20-4126-97d0-5e54c7007a5d")
 	)
 	(wire
 		(pts
@@ -1933,7 +2267,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 100.33) (xy 210.82 100.33)
+			(xy 236.22 100.33) (xy 238.76 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1943,13 +2277,23 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 104.14) (xy 209.55 104.14)
+			(xy 248.92 104.14) (xy 237.49 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1e6253fa-cacb-4d09-b01c-dff60ad295b6")
+	)
+	(wire
+		(pts
+			(xy 215.9 59.69) (xy 231.14 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc05aef-2ead-4edf-ad24-786253097ce7")
 	)
 	(wire
 		(pts
@@ -1973,7 +2317,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 85.09) (xy 175.26 88.9)
+			(xy 203.2 85.09) (xy 203.2 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1983,7 +2327,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 100.33) (xy 209.55 104.14)
+			(xy 237.49 100.33) (xy 237.49 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2003,7 +2347,17 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 92.71) (xy 179.07 92.71)
+			(xy 148.59 52.07) (xy 168.91 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a7484b2-275c-42c4-8925-8eb84d13dceb")
+	)
+	(wire
+		(pts
+			(xy 100.33 92.71) (xy 207.01 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2023,23 +2377,23 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 81.28) (xy 167.64 81.28)
+			(xy 195.58 60.96) (xy 215.9 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3045544f-ef5c-4838-9516-cd957051bc07")
+	)
+	(wire
+		(pts
+			(xy 100.33 81.28) (xy 195.58 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "31bc01cf-e232-4186-acb6-f22177ff7573")
-	)
-	(wire
-		(pts
-			(xy 125.73 46.99) (xy 203.2 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35714bd2-257a-476f-aed9-a07128cba29b")
 	)
 	(wire
 		(pts
@@ -2053,6 +2407,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 17.78) (xy 180.34 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373067d6-a593-4205-b598-a77a49c20fe3")
+	)
+	(wire
+		(pts
 			(xy 62.23 64.77) (xy 62.23 45.72)
 		)
 		(stroke
@@ -2060,6 +2424,36 @@
 			(type default)
 		)
 		(uuid "3c24fed5-e1f8-4d2b-948b-56537bbf0654")
+	)
+	(wire
+		(pts
+			(xy 215.9 60.96) (xy 215.9 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40dc42ac-e7d0-478f-bbd1-71c79eb246a0")
+	)
+	(wire
+		(pts
+			(xy 165.1 27.94) (xy 165.1 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4111c098-e55c-41b9-9923-40f02603f2db")
+	)
+	(wire
+		(pts
+			(xy 195.58 48.26) (xy 215.9 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "416bebd4-779f-44fd-8bdf-5ced319b3d78")
 	)
 	(wire
 		(pts
@@ -2073,7 +2467,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 69.85) (xy 179.07 92.71)
+			(xy 207.01 69.85) (xy 207.01 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2083,7 +2477,17 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 77.47) (xy 171.45 77.47)
+			(xy 176.53 17.78) (xy 180.34 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f963d6-8b93-43ab-8276-752c6e7d1a95")
+	)
+	(wire
+		(pts
+			(xy 231.14 77.47) (xy 199.39 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2103,17 +2507,27 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 57.15) (xy 203.2 57.15)
+			(xy 184.15 17.78) (xy 187.96 17.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "565def8e-681a-424b-8128-85a7d1d10db3")
+		(uuid "4ff98804-ae6b-4b99-a89d-a771c0afafaa")
 	)
 	(wire
 		(pts
-			(xy 167.64 74.93) (xy 203.2 74.93)
+			(xy 218.44 68.58) (xy 218.44 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5751c034-ac3e-4be8-8346-3312f8c779d7")
+	)
+	(wire
+		(pts
+			(xy 195.58 74.93) (xy 231.14 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2123,7 +2537,17 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 39.37) (xy 213.36 35.56)
+			(xy 195.58 66.04) (xy 215.9 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59da5d5c-999f-43e3-adb6-03339eaa1591")
+	)
+	(wire
+		(pts
+			(xy 241.3 39.37) (xy 241.3 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2133,13 +2557,43 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 95.25) (xy 218.44 100.33)
+			(xy 165.1 48.26) (xy 190.5 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f790e49-a112-4aad-aec1-1610c50ef4f1")
+	)
+	(wire
+		(pts
+			(xy 215.9 49.53) (xy 231.14 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fbc0930-946e-4ec2-8615-089a6b23e03b")
+	)
+	(wire
+		(pts
+			(xy 246.38 95.25) (xy 246.38 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "609771f1-2296-4af3-914f-0afc8d7cdd9a")
+	)
+	(wire
+		(pts
+			(xy 195.58 52.07) (xy 231.14 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6115b69f-0c45-46f2-b0aa-f7ce9949a507")
 	)
 	(wire
 		(pts
@@ -2153,7 +2607,17 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 100.33) (xy 210.82 100.33)
+			(xy 148.59 48.26) (xy 165.1 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "626509b5-8a77-4888-ac16-4ce18a7b5ccb")
+	)
+	(wire
+		(pts
+			(xy 241.3 100.33) (xy 238.76 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2163,7 +2627,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 95.25) (xy 215.9 100.33)
+			(xy 243.84 95.25) (xy 243.84 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2173,13 +2637,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 52.07) (xy 203.2 52.07)
+			(xy 161.29 27.94) (xy 161.29 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74e59cdd-f891-49d8-8e17-532426924122")
+		(uuid "706df578-4183-4fd8-9613-2f3f565cca6d")
 	)
 	(wire
 		(pts
@@ -2193,13 +2657,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 54.61) (xy 203.2 54.61)
+			(xy 195.58 58.42) (xy 215.9 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77d2fa65-a2a3-41e2-9c83-1d19a68a3245")
+		(uuid "78206544-2542-4ec5-bb18-76e1de310b8f")
+	)
+	(wire
+		(pts
+			(xy 180.34 17.78) (xy 184.15 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e82399-3a51-4404-9927-0b5dd2a01257")
 	)
 	(wire
 		(pts
@@ -2213,13 +2687,73 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 85.09) (xy 171.45 85.09)
+			(xy 148.59 45.72) (xy 161.29 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c34b0db-4ae9-4f78-8618-217384e52009")
+	)
+	(wire
+		(pts
+			(xy 100.33 85.09) (xy 199.39 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7e9e884d-3d84-43b2-b910-05002ac2a977")
+	)
+	(wire
+		(pts
+			(xy 184.15 66.04) (xy 190.5 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fe2ae5d-9c4e-47e6-95b6-1d71968f7784")
+	)
+	(wire
+		(pts
+			(xy 217.17 46.99) (xy 231.14 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8031193e-b88f-4855-80e5-5fe26f338031")
+	)
+	(wire
+		(pts
+			(xy 168.91 27.94) (xy 168.91 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "807afddc-e974-4fce-bf7b-d487302da747")
+	)
+	(wire
+		(pts
+			(xy 165.1 17.78) (xy 165.1 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82451e35-c703-49e8-b623-29f4f19a1e1a")
+	)
+	(wire
+		(pts
+			(xy 180.34 60.96) (xy 190.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82ded44c-eaca-4941-a472-d2dd705e5b3b")
 	)
 	(wire
 		(pts
@@ -2243,7 +2777,27 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 100.33) (xy 210.82 95.25)
+			(xy 172.72 17.78) (xy 176.53 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88749791-44fd-4201-83fb-47be48b67753")
+	)
+	(wire
+		(pts
+			(xy 165.1 17.78) (xy 161.29 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "888b0867-f976-4a7d-9f15-c934ec37cbfa")
+	)
+	(wire
+		(pts
+			(xy 238.76 100.33) (xy 238.76 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2253,7 +2807,17 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 35.56) (xy 213.36 35.56)
+			(xy 165.1 17.78) (xy 168.91 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c77e1c0-77c9-440f-bec1-2c861918f938")
+	)
+	(wire
+		(pts
+			(xy 222.25 35.56) (xy 241.3 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2263,13 +2827,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 64.77) (xy 203.2 64.77)
+			(xy 184.15 27.94) (xy 184.15 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a08e84a5-3a70-416b-aac0-cbbfc71ac0ba")
+		(uuid "9c6cb581-f4a9-4f97-b3ef-0dac9ad638f1")
 	)
 	(wire
 		(pts
@@ -2283,7 +2847,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 100.33) (xy 213.36 100.33)
+			(xy 243.84 100.33) (xy 241.3 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2293,23 +2857,43 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 59.69) (xy 203.2 59.69)
+			(xy 148.59 58.42) (xy 176.53 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa0047b0-f159-4724-8fb8-71648140337a")
+		(uuid "a42740c9-af30-4419-9a09-6348b1f9c769")
 	)
 	(wire
 		(pts
-			(xy 218.44 100.33) (xy 215.9 100.33)
+			(xy 172.72 27.94) (xy 172.72 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a284e5-9b94-4b18-9415-252060e346c5")
+	)
+	(wire
+		(pts
+			(xy 246.38 100.33) (xy 243.84 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aa329bec-5658-4877-a33a-00138f690d22")
+	)
+	(wire
+		(pts
+			(xy 215.9 48.26) (xy 215.9 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac82d290-3cab-4367-8b25-7d612f78e152")
 	)
 	(wire
 		(pts
@@ -2323,7 +2907,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 104.14) (xy 209.55 105.41)
+			(xy 237.49 104.14) (xy 237.49 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2333,7 +2917,27 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 95.25) (xy 220.98 104.14)
+			(xy 168.91 17.78) (xy 172.72 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4f6eb2d-84ea-49c3-bcc2-6dd465d70767")
+	)
+	(wire
+		(pts
+			(xy 168.91 52.07) (xy 190.5 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baedaf8a-65d0-463d-93e6-2bf2842421c9")
+	)
+	(wire
+		(pts
+			(xy 248.92 95.25) (xy 248.92 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2343,7 +2947,17 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 74.93) (xy 167.64 81.28)
+			(xy 187.96 20.32) (xy 187.96 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d9440d-d779-4a7d-b56d-afacdd3465ec")
+	)
+	(wire
+		(pts
+			(xy 195.58 74.93) (xy 195.58 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2360,16 +2974,6 @@
 			(type default)
 		)
 		(uuid "c21240a3-24e2-4c86-979d-c168077a032f")
-	)
-	(wire
-		(pts
-			(xy 125.73 62.23) (xy 203.2 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c23731ff-efd6-45c4-9976-488936f6945e")
 	)
 	(wire
 		(pts
@@ -2393,6 +2997,26 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 58.42) (xy 215.9 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc19a7b8-4cf0-4af4-b046-eeaae118e0f8")
+	)
+	(wire
+		(pts
+			(xy 176.53 27.94) (xy 176.53 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cec56952-6937-4435-a6ac-1efb27e2b40e")
+	)
+	(wire
+		(pts
 			(xy 27.94 96.52) (xy 27.94 97.79)
 		)
 		(stroke
@@ -2400,6 +3024,36 @@
 			(type default)
 		)
 		(uuid "d0deff50-7da2-4a88-8566-e61bac982057")
+	)
+	(wire
+		(pts
+			(xy 148.59 66.04) (xy 184.15 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0f59741-6a3c-4590-9263-fcb2ec02b337")
+	)
+	(wire
+		(pts
+			(xy 215.9 57.15) (xy 231.14 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4e32b93-b69b-42cc-995e-127db8e55a77")
+	)
+	(wire
+		(pts
+			(xy 176.53 17.78) (xy 176.53 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ce2386-abc8-4f88-8239-68e4976a501f")
 	)
 	(wire
 		(pts
@@ -2413,13 +3067,73 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 88.9) (xy 175.26 88.9)
+			(xy 172.72 16.51) (xy 172.72 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d952dc81-d815-47ce-808c-f68237e8f375")
+	)
+	(wire
+		(pts
+			(xy 148.59 68.58) (xy 187.96 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9617a75-f8d7-41d1-99d8-f134962dec33")
+	)
+	(wire
+		(pts
+			(xy 187.96 27.94) (xy 187.96 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c3a56f-603e-404e-878d-b04ce825f6b0")
+	)
+	(wire
+		(pts
+			(xy 100.33 88.9) (xy 203.2 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dae34592-e55e-4d42-9b94-11ec5699be5f")
+	)
+	(wire
+		(pts
+			(xy 218.44 64.77) (xy 231.14 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db2a3993-0515-4cbc-9416-b10e1ca49cf7")
+	)
+	(wire
+		(pts
+			(xy 148.59 60.96) (xy 180.34 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df22a0ee-b86c-4989-98bd-c5402d2e9e0b")
+	)
+	(wire
+		(pts
+			(xy 215.9 62.23) (xy 231.14 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e04ef79d-0e95-47f3-999d-a097dcec8c7a")
 	)
 	(wire
 		(pts
@@ -2433,13 +3147,33 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 69.85) (xy 179.07 69.85)
+			(xy 231.14 69.85) (xy 207.01 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e7167c7a-8ea4-4428-b190-5aeaaf6cd3b0")
+	)
+	(wire
+		(pts
+			(xy 161.29 17.78) (xy 161.29 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8e09ca1-6e1a-42db-90f4-7cbe3d1f95e9")
+	)
+	(wire
+		(pts
+			(xy 184.15 17.78) (xy 184.15 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f27ed44e-583f-444b-beb2-5184ae8379ac")
 	)
 	(wire
 		(pts
@@ -2453,6 +3187,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 68.58) (xy 190.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2fd9d63-6e55-484e-8360-31c6bfed7d64")
+	)
+	(wire
+		(pts
 			(xy 50.8 45.72) (xy 50.8 46.99)
 		)
 		(stroke
@@ -2463,7 +3207,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 95.25) (xy 213.36 100.33)
+			(xy 241.3 95.25) (xy 241.3 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2502,7 +3246,7 @@
 		(uuid "27756e8e-a5bb-4fbd-af01-de86d5a8cce9")
 	)
 	(label "HDMI_5V"
-		(at 194.31 35.56 180)
+		(at 222.25 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2522,7 +3266,7 @@
 		(uuid "2fcf7d10-28b0-47fb-babf-f4d85001308d")
 	)
 	(label "HDMI_D0_N"
-		(at 125.73 59.69 0)
+		(at 148.59 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2532,7 +3276,7 @@
 		(uuid "404633c7-7d16-4c5a-9cc6-88caec414e70")
 	)
 	(label "TMDS_CK_P"
-		(at 187.96 62.23 0)
+		(at 218.44 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2552,7 +3296,7 @@
 		(uuid "565b0629-8bd5-49f4-9d98-e85a136d118e")
 	)
 	(label "TMDS_D0_N"
-		(at 187.96 59.69 0)
+		(at 218.44 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2562,7 +3306,7 @@
 		(uuid "59db8303-16fc-40ba-800e-73f758f5fd12")
 	)
 	(label "HDMI_D2_N"
-		(at 125.73 49.53 0)
+		(at 148.59 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2582,7 +3326,7 @@
 		(uuid "85754bc6-5469-46f5-9f39-f14b6399b796")
 	)
 	(label "TMDS_D0_P"
-		(at 187.96 57.15 0)
+		(at 218.44 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2592,7 +3336,7 @@
 		(uuid "85c169ff-4c1d-47cb-aa3d-b5b074c41b0d")
 	)
 	(label "HDMI_D2_P"
-		(at 125.73 46.99 0)
+		(at 148.59 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2602,7 +3346,7 @@
 		(uuid "88a88f35-d2af-4563-9182-74881b5405a8")
 	)
 	(label "HDMI_D1_N"
-		(at 125.73 54.61 0)
+		(at 148.59 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2622,7 +3366,7 @@
 		(uuid "8ce1ceef-baac-445e-b423-2cfd667d35b7")
 	)
 	(label "HDMI_CLK_P"
-		(at 125.73 62.23 0)
+		(at 148.59 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2652,7 +3396,7 @@
 		(uuid "b1ac49bb-884d-4a8f-ba0a-03517131d608")
 	)
 	(label "TMDS_D2_P"
-		(at 187.96 46.99 0)
+		(at 218.44 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2662,7 +3406,7 @@
 		(uuid "b3d99aea-23dd-4047-8c23-b8f86d5b9f2a")
 	)
 	(label "HDMI_D1_P"
-		(at 125.73 52.07 0)
+		(at 148.59 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2672,7 +3416,7 @@
 		(uuid "b83f66bd-e174-42ff-9383-ff010e47f622")
 	)
 	(label "TMDS_CK_N"
-		(at 187.96 64.77 0)
+		(at 218.44 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2682,7 +3426,7 @@
 		(uuid "bba3e2a2-0332-4775-9df9-00863e2cceb1")
 	)
 	(label "HDMI_CLK_N"
-		(at 125.73 64.77 0)
+		(at 148.59 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2692,7 +3436,7 @@
 		(uuid "d95be8d3-7829-4611-8ead-a64182797ee3")
 	)
 	(label "TMDS_D2_N"
-		(at 187.96 49.53 0)
+		(at 218.44 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2712,7 +3456,7 @@
 		(uuid "e3115362-0578-487e-a825-5400e154f625")
 	)
 	(label "TMDS_D1_P"
-		(at 187.96 52.07 0)
+		(at 218.44 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2752,7 +3496,7 @@
 		(uuid "f1ccab73-0ca2-4951-bdda-414083687013")
 	)
 	(label "TMDS_D1_N"
-		(at 187.96 54.61 0)
+		(at 218.44 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2762,7 +3506,7 @@
 		(uuid "f3a225fc-f1bb-4db2-83c2-b5b73359c3c6")
 	)
 	(label "HDMI_D0_P"
-		(at 125.73 57.15 0)
+		(at 148.59 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3008,6 +3752,131 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 168.91 24.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a2f6e68-29e7-4842-ab19-f9261caf916d")
+		(property "Reference" "R214"
+			(at 167.132 22.606 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270"
+			(at 169.164 22.352 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 170.688 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "62.5mW ±100ppm/℃ ±5% 270Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 168.91 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #  " "SR04X271JTL"
+			(at 168.91 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #  " "C880838"
+			(at 168.91 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C880838"
+			(at 168.91 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #" "SR04X271JTL"
+			(at 168.91 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ecac6b1a-8db4-46b3-af20-21f4c4a064c2")
+		)
+		(pin "2"
+			(uuid "f29fee8f-f32c-4f24-b336-5f4e62849840")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/114f4449-7a7f-4a1e-8370-bbfc1bb84ce8"
+					(reference "R214")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 50.8 54.61 0)
 		(unit 1)
@@ -3080,6 +3949,337 @@
 			(project "RASBB"
 				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/114f4449-7a7f-4a1e-8370-bbfc1bb84ce8"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 180.34 24.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "13939080-b46a-4295-a8f7-fc40af12f4d3")
+		(property "Reference" "R217"
+			(at 178.562 22.606 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270"
+			(at 180.594 22.352 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 182.118 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "62.5mW ±100ppm/℃ ±5% 270Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 180.34 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #  " "SR04X271JTL"
+			(at 180.34 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #  " "C880838"
+			(at 180.34 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C880838"
+			(at 180.34 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #" "SR04X271JTL"
+			(at 180.34 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9847550-8b0d-4b94-8973-4998faee60ab")
+		)
+		(pin "2"
+			(uuid "039d86b4-a624-400a-9bfe-5544bdd66a4b")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/114f4449-7a7f-4a1e-8370-bbfc1bb84ce8"
+					(reference "R217")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 193.04 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "24104201-6d3b-41e4-995d-a879aa6018fe")
+		(property "Reference" "C288"
+			(at 187.452 57.404 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 194.056 57.404 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 193.04 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 193.04 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #" "0402B104K500CT"
+			(at 193.04 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C152814"
+			(at 193.04 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da35c76e-bdda-4006-9ad4-944698f7b100")
+		)
+		(pin "2"
+			(uuid "030bb477-b33b-4ebb-95a0-afdfa752996d")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/114f4449-7a7f-4a1e-8370-bbfc1bb84ce8"
+					(reference "C288")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 193.04 54.61 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "26e35fb8-6038-4c24-8c32-45a5771249eb")
+		(property "Reference" "C286"
+			(at 187.452 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 193.802 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 193.04 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 193.04 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #" "0402B104K500CT"
+			(at 193.04 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C152814"
+			(at 193.04 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4fd89a3-b35d-464b-bfd3-897c71c1d913")
+		)
+		(pin "2"
+			(uuid "03c6507b-b5b8-4f7b-b808-7134bb228528")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/114f4449-7a7f-4a1e-8370-bbfc1bb84ce8"
+					(reference "C286")
 					(unit 1)
 				)
 			)
@@ -3165,7 +4365,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 105.41 0)
+		(at 237.49 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3176,7 +4376,7 @@
 		(fields_autoplaced yes)
 		(uuid "2bc972a7-0150-47bb-8ce5-63d1174855ee")
 		(property "Reference" "#PWR091"
-			(at 209.55 111.76 0)
+			(at 237.49 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3187,7 +4387,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 110.49 0)
+			(at 237.49 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3197,7 +4397,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 105.41 0)
+			(at 237.49 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3208,7 +4408,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 105.41 0)
+			(at 237.49 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3219,7 +4419,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 105.41 0)
+			(at 237.49 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3236,6 +4436,212 @@
 			(project "RASBB"
 				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/114f4449-7a7f-4a1e-8370-bbfc1bb84ce8"
 					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 193.04 52.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2f3e67c1-362f-40d3-9780-534d42033fa0")
+		(property "Reference" "C240"
+			(at 187.452 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 193.802 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 193.04 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 193.04 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #" "0402B104K500CT"
+			(at 193.04 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C152814"
+			(at 193.04 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eeb92081-f0b5-4a0b-9a16-b737b72f5826")
+		)
+		(pin "2"
+			(uuid "c50e6009-a3c2-4de2-9429-16a31dbb6eaf")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/114f4449-7a7f-4a1e-8370-bbfc1bb84ce8"
+					(reference "C240")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 193.04 45.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "303f7f9e-3d17-4c7f-8b65-6d116f3f013d")
+		(property "Reference" "C320"
+			(at 187.706 44.958 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 194.056 44.958 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 193.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 193.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #" "0402B104K500CT"
+			(at 193.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C152814"
+			(at 193.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38ff8066-3e2f-4736-836f-c55a5aa8ab66")
+		)
+		(pin "2"
+			(uuid "53869f89-c960-4a7c-873e-da2ba755474e")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/114f4449-7a7f-4a1e-8370-bbfc1bb84ce8"
+					(reference "C320")
 					(unit 1)
 				)
 			)
@@ -3693,6 +5099,438 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 165.1 24.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d4cd4dc-b277-4a3a-b19b-c66deeb0fc1e")
+		(property "Reference" "R213"
+			(at 163.322 22.606 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270"
+			(at 165.354 22.606 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 166.878 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "62.5mW ±100ppm/℃ ±5% 270Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 165.1 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #  " "SR04X271JTL"
+			(at 165.1 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #  " "C880838"
+			(at 165.1 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C880838"
+			(at 165.1 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #" "SR04X271JTL"
+			(at 165.1 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b54ee4c6-c236-4abe-856b-714c3b83b921")
+		)
+		(pin "2"
+			(uuid "02fef247-9f2a-4142-8b55-56e65a2a96d2")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/114f4449-7a7f-4a1e-8370-bbfc1bb84ce8"
+					(reference "R213")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 193.04 68.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "80276956-411f-4358-af09-0814e122ea2c")
+		(property "Reference" "C319"
+			(at 187.452 67.818 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 194.056 67.818 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 193.04 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 193.04 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #" "0402B104K500CT"
+			(at 193.04 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C152814"
+			(at 193.04 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c59ea9da-7ead-4810-95ad-7703a0198d7f")
+		)
+		(pin "2"
+			(uuid "4a0a57b4-4324-4b33-9d38-336a52860b98")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/114f4449-7a7f-4a1e-8370-bbfc1bb84ce8"
+					(reference "C319")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 184.15 24.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c01812a-67db-4586-9531-a77cbb607adb")
+		(property "Reference" "R218"
+			(at 182.372 22.606 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270"
+			(at 184.404 22.606 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 185.928 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "62.5mW ±100ppm/℃ ±5% 270Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 184.15 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #  " "SR04X271JTL"
+			(at 184.15 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #  " "C880838"
+			(at 184.15 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C880838"
+			(at 184.15 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #" "SR04X271JTL"
+			(at 184.15 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41bbbe1a-bc1d-46f4-ac28-d26f9e51dcac")
+		)
+		(pin "2"
+			(uuid "ca77ab23-4dbf-425e-ac5e-10f735dbcb5b")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/114f4449-7a7f-4a1e-8370-bbfc1bb84ce8"
+					(reference "R218")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 172.72 16.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e4ba38f-2341-42fc-a3e5-4b4b1ddd6d35")
+		(property "Reference" "#PWR0134"
+			(at 172.72 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 175.26 15.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 172.72 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29da7015-a50f-4fe4-a121-b2bbcd042fdd")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/114f4449-7a7f-4a1e-8370-bbfc1bb84ce8"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 50.8 38.1 0)
 		(unit 1)
@@ -3772,8 +5610,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 193.04 66.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "909ed824-9e8d-46c8-bf98-925970db0447")
+		(property "Reference" "C318"
+			(at 187.198 65.024 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 194.056 65.278 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 193.04 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 193.04 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #" "0402B104K500CT"
+			(at 193.04 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C152814"
+			(at 193.04 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0bbd4768-841a-46d6-9de5-d5568c8fd4f7")
+		)
+		(pin "2"
+			(uuid "d2cfad9a-3e98-4c59-8b2c-dd533610c133")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/114f4449-7a7f-4a1e-8370-bbfc1bb84ce8"
+					(reference "C318")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:HDMI_A")
-		(at 213.36 67.31 0)
+		(at 241.3 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3783,7 +5724,7 @@
 		(dnp no)
 		(uuid "9440bb99-b76b-4d3d-8beb-5c4900aeea35")
 		(property "Reference" "J3"
-			(at 223.266 96.266 0)
+			(at 251.206 96.266 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3794,7 +5735,7 @@
 			)
 		)
 		(property "Value" "HDMI-001A"
-			(at 224.79 68.5799 0)
+			(at 252.73 68.5799 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3806,7 +5747,7 @@
 			)
 		)
 		(property "Footprint" "RASBB:HDMI-001A"
-			(at 213.995 67.31 0)
+			(at 241.935 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3817,7 +5758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.995 67.31 0)
+			(at 241.935 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3828,7 +5769,7 @@
 			)
 		)
 		(property "Description" "Push-Pull HDMI Connectors ROHS"
-			(at 213.36 67.31 0)
+			(at 241.3 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3839,7 +5780,7 @@
 			)
 		)
 		(property "Mfr. Part # " "HDMI-001A"
-			(at 213.36 67.31 0)
+			(at 241.3 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3850,7 +5791,7 @@
 			)
 		)
 		(property "LCSC Part # " ""
-			(at 225.044 46.99 90)
+			(at 252.984 46.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3861,7 +5802,7 @@
 			)
 		)
 		(property "LCSC Part #" "C41347845"
-			(at 213.36 67.31 0)
+			(at 241.3 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3872,7 +5813,7 @@
 			)
 		)
 		(property "Mfr. Part #" "HDMI-001A"
-			(at 213.36 67.31 0)
+			(at 241.3 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3946,6 +5887,484 @@
 			(project "RASBB"
 				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/114f4449-7a7f-4a1e-8370-bbfc1bb84ce8"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 161.29 24.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a945f59b-fb35-4dfb-ba77-4ac4052ff7bb")
+		(property "Reference" "R212"
+			(at 159.512 22.606 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270"
+			(at 161.544 22.606 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 163.068 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "62.5mW ±100ppm/℃ ±5% 270Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 161.29 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #  " "SR04X271JTL"
+			(at 161.29 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #  " "C880838"
+			(at 161.29 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C880838"
+			(at 161.29 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #" "SR04X271JTL"
+			(at 161.29 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ce81ed8-c642-40d1-bd46-b4633250f6b0")
+		)
+		(pin "2"
+			(uuid "91af1049-9273-423a-a776-df963bcfb7a3")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/114f4449-7a7f-4a1e-8370-bbfc1bb84ce8"
+					(reference "R212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 176.53 24.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aef2722b-55fc-4a6f-9b34-eb3105845fa6")
+		(property "Reference" "R216"
+			(at 174.752 22.606 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270"
+			(at 176.784 22.606 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 178.308 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "62.5mW ±100ppm/℃ ±5% 270Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 176.53 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #  " "SR04X271JTL"
+			(at 176.53 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #  " "C880838"
+			(at 176.53 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C880838"
+			(at 176.53 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #" "SR04X271JTL"
+			(at 176.53 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c8334870-b73b-4faa-bcd2-cf98538811bb")
+		)
+		(pin "2"
+			(uuid "2bd35690-b8a8-4f99-a0b8-cd1c88822668")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/114f4449-7a7f-4a1e-8370-bbfc1bb84ce8"
+					(reference "R216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 187.96 24.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b4c66785-18b4-4185-89c3-d7fe7a622394")
+		(property "Reference" "R219"
+			(at 186.182 22.606 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270"
+			(at 188.214 22.352 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 189.738 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "62.5mW ±100ppm/℃ ±5% 270Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 187.96 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #  " "SR04X271JTL"
+			(at 187.96 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #  " "C880838"
+			(at 187.96 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C880838"
+			(at 187.96 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #" "SR04X271JTL"
+			(at 187.96 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00a1b8a3-8109-4662-ad51-d5d2f0731005")
+		)
+		(pin "2"
+			(uuid "9aea8f82-a10e-4bd1-850c-6bf9fbec25d3")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/114f4449-7a7f-4a1e-8370-bbfc1bb84ce8"
+					(reference "R219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 193.04 48.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bc88ca2d-7eb7-4844-b312-501d5ca16b2a")
+		(property "Reference" "C321"
+			(at 187.706 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 194.056 47.498 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 193.04 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 193.04 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #" "0402B104K500CT"
+			(at 193.04 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C152814"
+			(at 193.04 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99f9e14a-2506-445b-b970-3d099b224de8")
+		)
+		(pin "2"
+			(uuid "079db102-94f7-409b-811a-6f3bc4cbd25d")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/114f4449-7a7f-4a1e-8370-bbfc1bb84ce8"
+					(reference "C321")
 					(unit 1)
 				)
 			)
@@ -4056,6 +6475,109 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 193.04 60.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "daa568a5-f9f6-4edd-9f2b-80bcb7ea32e2")
+		(property "Reference" "C309"
+			(at 187.452 59.944 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 194.056 59.944 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 193.04 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 193.04 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #" "0402B104K500CT"
+			(at 193.04 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C152814"
+			(at 193.04 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2f0de5f-1c87-46a3-9933-6f63e1b87479")
+		)
+		(pin "2"
+			(uuid "89e63f1e-1bb6-42bf-b844-9a29903b3b0e")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/114f4449-7a7f-4a1e-8370-bbfc1bb84ce8"
+					(reference "C309")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 133.35 102.87 0)
 		(mirror y)
 		(unit 1)
@@ -4153,6 +6675,131 @@
 			(project "RASBB"
 				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/114f4449-7a7f-4a1e-8370-bbfc1bb84ce8"
 					(reference "C124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 172.72 24.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fe79bc07-da58-4667-a132-001e173cf87d")
+		(property "Reference" "R215"
+			(at 170.942 22.606 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270"
+			(at 172.974 22.606 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 174.498 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "62.5mW ±100ppm/℃ ±5% 270Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 172.72 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #  " "SR04X271JTL"
+			(at 172.72 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #  " "C880838"
+			(at 172.72 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C880838"
+			(at 172.72 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfr. Part #" "SR04X271JTL"
+			(at 172.72 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d3b30d6-9035-4237-b94f-c5b2b0bcd0ed")
+		)
+		(pin "2"
+			(uuid "87ff0f67-725c-4e32-b8bd-4efd42507041")
+		)
+		(instances
+			(project "RASBB"
+				(path "/f6a5c334-5ee5-4dc9-84f1-7866383a3347/114f4449-7a7f-4a1e-8370-bbfc1bb84ce8"
+					(reference "R215")
 					(unit 1)
 				)
 			)

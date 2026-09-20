@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RASBB")
-		(date "2026-07-25")
+		(date "2026-09-20")
 		(rev "C")
 		(company "Mina Daneshpajouh")
 	)
@@ -12162,7 +12162,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b2dadc6-4aa3-4450-aa3f-b66b4ccabcd2")
 		(property "Reference" "C219"

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RASBB")
-		(date "2026-07-25")
+		(date "2026-09-20")
 		(rev "C")
 		(company "Mina Daneshpajouh")
 	)
@@ -342,7 +342,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J4"
-				(at -0.508 -67.818 0)
+				(at 0 -66.04 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -352,7 +352,7 @@
 				)
 			)
 			(property "Value" "X3157WS-98-9TV30"
-				(at -0.508 -70.358 0)
+				(at 0 -68.58 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -967,60 +967,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -12.7 -17.78 0)
-					(length 5.08)
-					(name "A32"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A32"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -12.7 -20.32 0)
-					(length 5.08)
-					(name "A33"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A33"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -12.7 -22.86 0)
-					(length 5.08)
-					(name "A34"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A34"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at -12.7 -25.4 0)
 					(length 5.08)
@@ -1400,42 +1346,6 @@
 					)
 				)
 				(pin no_connect line
-					(at 12.7 38.1 180)
-					(length 5.08)
-					(name "B10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 12.7 35.56 180)
-					(length 5.08)
-					(name "B11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin no_connect line
 					(at 12.7 33.02 180)
 					(length 5.08)
 					(name "B12"
@@ -1446,24 +1356,6 @@
 						)
 					)
 					(number "B12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 12.7 30.48 180)
-					(length 5.08)
-					(name "B13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B13"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1752,60 +1644,6 @@
 						)
 					)
 					(number "B29"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 12.7 -12.7 180)
-					(length 5.08)
-					(name "B30"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B30"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 12.7 -15.24 180)
-					(length 5.08)
-					(name "B31"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B31"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 12.7 -17.78 180)
-					(length 5.08)
-					(name "B32"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B32"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2175,6 +2013,60 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -12.7 -17.78 0)
+					(length 5.08)
+					(name "A32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -20.32 0)
+					(length 5.08)
+					(name "A33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -22.86 0)
+					(length 5.08)
+					(name "A34"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A34"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 				(pin power_out line
 					(at 12.7 60.96 180)
 					(length 5.08)
@@ -2222,6 +2114,114 @@
 						)
 					)
 					(number "B03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 38.1 180)
+					(length 5.08)
+					(name "B10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 35.56 180)
+					(length 5.08)
+					(name "B11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 30.48 180)
+					(length 5.08)
+					(name "B13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -12.7 180)
+					(length 5.08)
+					(name "B30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -15.24 180)
+					(length 5.08)
+					(name "B31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -17.78 180)
+					(length 5.08)
+					(name "B32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B32"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2829,6 +2829,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 71.12) (xy 121.92 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08774136-0af8-4cd0-840c-cb1b14a5ff65")
+	)
+	(wire
+		(pts
 			(xy 121.92 142.24) (xy 113.03 142.24)
 		)
 		(stroke
@@ -2899,6 +2909,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 129.54) (xy 87.63 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1831ac27-11a6-487b-abf5-caa2991f7b0c")
+	)
+	(wire
+		(pts
 			(xy 113.03 78.74) (xy 121.92 78.74)
 		)
 		(stroke
@@ -2956,6 +2976,16 @@
 			(type default)
 		)
 		(uuid "2c400edf-561d-439d-a8a9-ac5e627b578a")
+	)
+	(wire
+		(pts
+			(xy 78.74 127) (xy 87.63 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d2a2d5f-5e28-4c48-b244-2f2ccc477f2d")
 	)
 	(wire
 		(pts
@@ -3386,6 +3416,16 @@
 			(type default)
 		)
 		(uuid "8a150eb0-e1c3-46da-bd0c-9707fe931b8f")
+	)
+	(wire
+		(pts
+			(xy 113.03 73.66) (xy 121.92 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a75eb0e-ebff-4ec7-825b-58db99897217")
 	)
 	(wire
 		(pts
@@ -4268,6 +4308,16 @@
 		(uuid "61835fbf-2a4e-4a7b-882c-b407e48ed841")
 	)
 	(label "GND"
+		(at 78.74 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63d2ce69-48a5-4d2a-af6e-dd3451d8ddf4")
+	)
+	(label "GND"
 		(at 121.92 165.1 180)
 		(effects
 			(font
@@ -4326,6 +4376,16 @@
 			(justify left bottom)
 		)
 		(uuid "6ab1113b-a82b-448f-9983-36aef46f2728")
+	)
+	(label "GND"
+		(at 121.92 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b51e8d5-f697-4ed5-88d1-33750549edb9")
 	)
 	(label "RX7_N"
 		(at 121.92 116.84 180)
@@ -4468,6 +4528,16 @@
 		(uuid "ad1a3403-5052-42bc-aa78-160bf0e1f271")
 	)
 	(label "GND"
+		(at 78.74 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad2141e6-b04e-4487-8992-d6239a8c1355")
+	)
+	(label "GND"
 		(at 121.92 127 180)
 		(effects
 			(font
@@ -4566,6 +4636,16 @@
 			(justify right bottom)
 		)
 		(uuid "d79aa395-55ec-4b4b-b17a-248a15406977")
+	)
+	(label "GND"
+		(at 121.92 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9783bb3-4092-4752-9ffb-3bcdf4445807")
 	)
 	(label "RX15_N"
 		(at 120.65 160.02 180)
@@ -5156,7 +5236,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "35a4ab42-8a3e-4a06-af9f-cb7c541c6e20")
 		(property "Reference" "R208"
 			(at 131.826 45.974 90)
@@ -5916,9 +5996,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c4cdd8ef-88c5-4c23-93f5-df646910bba9")
 		(property "Reference" "J4"
-			(at 99.822 177.038 0)
+			(at 100.33 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5928,7 +6009,7 @@
 			)
 		)
 		(property "Value" "X3157WS-98-9TV30"
-			(at 99.822 179.578 0)
+			(at 100.33 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

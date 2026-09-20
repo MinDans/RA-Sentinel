@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RASBB")
-		(date "2026-07-25")
+		(date "2026-09-20")
 		(rev "C")
 		(company "Mina Daneshpajouh")
 	)
@@ -8716,7 +8716,7 @@
 		(uuid "46a4c3de-de0e-40f3-adaf-905e671b57b3")
 	)
 	(label "JTAG1_TMS"
-		(at 130.81 41.91 180)
+		(at 132.08 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8746,7 +8746,7 @@
 		(uuid "75dbc1b7-093a-42c6-bb0b-675b0023eacb")
 	)
 	(label "FPGA1_TDO"
-		(at 130.81 46.99 180)
+		(at 132.08 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
